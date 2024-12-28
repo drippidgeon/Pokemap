@@ -16,8 +16,7 @@ function App() {
                     <Link to="/page2">Page 2</Link>
                     <Link to="/page3">Page 3</Link>
                 </nav>
-                <Routes>
-                    <Route path="/" element={<Home />} />
+                <Routes>                    
                     <Route path="/page1" element={<Page1 />} />
                     <Route path="/page2" element={<Page2 />} />
                     <Route path="/page3" element={<Page3 />} />
