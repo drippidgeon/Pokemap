@@ -1,6 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import "leaflet/dist/leaflet.css";
 import Home from "./Home";
 import Page1 from "./Page1";
 import Page2 from "./Page2";
@@ -17,6 +17,7 @@ function App() {
                     <Link to="/page3">Page 3</Link>
                 </nav>
                 <Routes>                    
+                    <Route path="/" element=     {<Home  />} />
                     <Route path="/page1" element={<Page1 />} />
                     <Route path="/page2" element={<Page2 />} />
                     <Route path="/page3" element={<Page3 />} />
@@ -38,4 +39,4 @@ const navStyle = {
     gap: "10px",
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App;
