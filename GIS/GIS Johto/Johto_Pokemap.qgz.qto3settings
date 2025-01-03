@@ -1,0 +1,117 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "layers": {
+      "Routen_9a5e045f_fc1c_4379_9a68_5bd2870566b5": {
+        "enabled": true,
+        "groups": []
+      },
+      "Routen_a6c3fb80_55a7_486f_94ca_5640a1572f88": {
+        "enabled": true,
+        "groups": []
+      },
+      "Routen_dae62cdd_206a_4e7c_a2ad_221f95e47c2f": {
+        "enabled": true,
+        "groups": []
+      },
+      "Spezielle_Plaetze_b07018ee_0e3b_463e_97bf_a3e6e14d9e17": {
+        "enabled": true,
+        "groups": []
+      },
+      "St_dte_b4fc4e25_aedf_4f3c_91c3_479bb1dee3e8": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:da813ba1": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 1,
+      "layerId": "Spezielle_Plaetze_b07018ee_0e3b_463e_97bf_a3e6e14d9e17",
+      "name": "Spezielle Plätze",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Routen_a6c3fb80_55a7_486f_94ca_5640a1572f88",
+      "name": "Routen (Land)",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Routen_dae62cdd_206a_4e7c_a2ad_221f95e47c2f",
+      "name": "Routen (Wasser)",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Routen_9a5e045f_fc1c_4379_9a68_5bd2870566b5",
+      "name": "Routen",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "St_dte_b4fc4e25_aedf_4f3c_91c3_479bb1dee3e8",
+      "name": "Städte",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:da813ba1",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "eee5fe6a",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "eee5fe6a",
+        "spinBox_Size": 3
+      },
+      "visible": true
+    }
+  ],
+  "Version": 20800
+}
