@@ -5,17 +5,17 @@ const Home = () => {
     <div>
       <h1>Welcome to the Home Page</h1>
       <div>
-        <form action="Kanto_base.html">
+        <form action="GIS_Web_Kanto/index.html">
           <input type="submit" value="Kanto" />
         </form>
       </div>
       <div>
-        <form action="Johto_base.html">
+        <form action="GIS_Web_Johto/index.html">
           <input type="submit" value="Johto" />
         </form>
       </div>
       <div>
-        <form action="Einall_base.html">
+        <form action="GIS_Web_Einall/index.html">
           <input type="submit" value="Einall" />
         </form>
       </div>
@@ -23,4 +23,5 @@ const Home = () => {
 
   );
 };
+
 export default Home;
