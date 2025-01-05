@@ -1,0 +1,16 @@
+html, body, #map {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#icon {
+    position: absolute;
+    cursor: pointer;
+    bottom: 77vh;
+    left: 79vh;
+    z-index: 1000;
+    width: 30vh;
+    height: auto;
+}

@@ -6,23 +6,19 @@
         <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/Kanto.css">
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
         <link rel="stylesheet" href="css/qgis2web.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <style>
-        html, body, #map {
-            width: 100%;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-        }
-        </style>
         <title>Pokémap</title>
     </head>
     <body>
         <div id="map">
         </div>
+
+        <img id="icon" src="../assets/Pokemap_blank_cut_out.png" alt="Icon" onclick="onclickIcon()">
+
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script>
         <script src="js/L.Control.Layers.Tree.min.js"></script>
@@ -40,6 +36,11 @@
         <script src="data/Stdte_3.js"></script>
         <script src="data/SpeziellePltze_4.js"></script>
         <script>
+
+        function onclickIcon() {
+            window.location.href = '../index.html';
+        }
+
         var highlightLayer;
         function highlightFeature(e) {
             highlightLayer = e.target;
@@ -55,17 +56,37 @@
               });
             }
             highlightLayer.openPopup();
+
+            highlightLayer.on("click", function (e) {
+                window.location.href = '../Kanto_routes.html';
+            });
         }
-        var imageUrl = 'images/Kanto.png'; // Replace with the actual path to your image
-        var imageBounds = [[-51.20509090909216, -1.015636363640223], [1.85599999999873, 103.08436363635975]]; // Adjusted bounds to reduce the width of the image
+        var imageUrl = 'images/Kanto.png';
+        var imageBounds = [[-51.20509090909216, -1.015636363640223], [1.85599999999873, 103.08436363635975]];
 
         var map = L.map('map', {
-        zoomSnap: 0.25, // Set the zoomSnap option
+        zoomSnap: 0.25,
         zoomControl: false,
-        maxZoom: 6,
-        minZoom: 4
-    }).setView([-28.768, 51.878], 4.75);
+        maxZoom: 8,
+        minZoom: 4.5,
+        maxBounds: imageBounds,
+        maxBoundsViscosity: 1.0 
+    });
 
+    map.fitBounds(imageBounds);
+
+    var mapSize = map.getSize();
+    if(mapSize.x < 1500){
+        map.setZoom(4.5);
+    }else if(mapSize.x < 2000){
+        map.setZoom(4.75);
+        map.options.minZoom = 4.75;
+    }else if(mapSize.x > 2000){
+            map.setZoom(5.25);
+            map.options.minZoom = 5.25;
+    }else{
+        map.setZoom(5);
+    }
 
         map.createPane('backgroundImage')
         map.getPane('backgroundImage').style.zIndex = 399;
@@ -227,6 +248,7 @@
         bounds_group.addLayer(layer_RoutenWasser_1);
         map.addLayer(layer_RoutenWasser_1);
         function pop_RoutenLand_2(feature, layer) {
+            if(feature.properties.id !== null)
             layer.on({
                 mouseout: function(e) {
                     for (var i in e.target._eventParents) {

@@ -5,6 +5,9 @@ const Home = () => {
     <div>
       <h1>Welcome to the Home Page</h1>
       <div>
+            <img src= "assets/Pokemap_blank_cut_out.png" alt="Pokemap" />
+        </div>
+      <div>
         <form action="GIS_Web_Kanto/index.html">
           <input type="submit" value="Kanto" />
         </form>
@@ -19,6 +22,8 @@ const Home = () => {
           <input type="submit" value="Einall" />
         </form>
       </div>
+
+
     </div>
 
   );
