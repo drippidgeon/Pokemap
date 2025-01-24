@@ -44,7 +44,7 @@ body,
   width:20px;
   height:20px;
   margin:-10px;
-  background: url("./item.png");
+  background: url("./assets/item.png");
   background-size:100% 100%;
   transition:all .1s
 }
@@ -52,7 +52,7 @@ body,
   width:20px;
   height:20px;
   margin:-10px;
-  background-image: url("./hitem.png");
+  background-image: url("./assets/hitem.png");
   background-size:100% 100%;
   transition:all .1s
 }
@@ -68,7 +68,7 @@ body,
   width:20px;
   height:20px;
   margin:-10px;
-  background-image: url("./berry.png");
+  background-image: url("assets/berry.png");
   background-size:100% 100%;
   transition:all .1s
 }
@@ -76,7 +76,7 @@ body,
   width:20px;
   height:20px;
   margin:-10px;
-  background-image: url("./tm.png");
+  background-image: url("./assets/tm.png");
   background-size:100% 100%;
   transition:all .1s
 }
@@ -84,7 +84,7 @@ body,
   width:20px;
   height:20px;
   margin:-10px;
-  background-image: url("./entrance.png");
+  background-image: url("assets/entrance.png");
   background-size:100% 100%;
   transition:all .1s
 }
