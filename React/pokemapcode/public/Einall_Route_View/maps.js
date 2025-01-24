@@ -1,6 +1,6 @@
 var maps = {
     "Overworld": {
-        "shortname": "einhall-w2-v.10",
+        "shortname": "einall-w2-v.16",
         "zoom": 2,
         "minZoom": 2,
         "maxZoom": 7,
