@@ -26,8 +26,8 @@ var entranceIcon = L.divIcon({
 var currentMap = "Overworld";
 var tileSize = .25;
 function markerSet(lat, lng, description, iconImage, world, returnLoc) {
-    latf = lat * tileSize - (tileSize / 2);
-    lngf = lng * tileSize + (tileSize / 2);
+    let latf = lat * tileSize - (tileSize / 2);
+    let lngf = lng * tileSize + (tileSize / 2);
     var marker = L.marker([latf, lngf], {
         icon: iconImage,
         title: description
@@ -77,7 +77,7 @@ function markerSet(lat, lng, description, iconImage, world, returnLoc) {
 
 function onClickEvent(e) {
     console.log(e);
-    if (e.target.iconImage.options.className == "entrance") {
+    if (e.target.iconImage.options.className === "entrance") {
         if (e.target.returnLoc) {
             loadMap(e.target.name, e.target.returnLoc);
         } else {
