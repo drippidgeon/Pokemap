@@ -106,6 +106,8 @@ function pkmnListOutput(str, arr, title, perc) {
     return str;
 }
 
+
+
 function outpkmn(props) {
     const pokemonData = props.Pokémon;
     var str = '<div id="pkmn-list">';
