@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const proxyUrl = 'https://api.allorigins.win/get?url=';
-const targetUrl = 'https://www.pokewiki.de/Neuborkia';
+const targetUrl = 'https://www.pokewiki.de/See_des_Zorns';
 let routeName = targetUrl.split('/').pop();
 routeName = routeName.replace(/_/g, ' ');
 const routeNumber = routeName.match(/\d+/) ? routeName.match(/\d+/)[0] : null;
@@ -18,7 +18,7 @@ const fetchPokemonData = async () => {
     const html = response.data.contents;
     const $ = cheerio.load(html);
 
-    const startSpan = $('span#Pokémon');
+    const startSpan = $('span#Pokémon_HeartGold_und_SoulSilver');
     let nextElement = startSpan.parent();
 
     const extractedData = [];
@@ -177,7 +177,7 @@ async function updateOverworldRegionsFile() {
   data = changeDatatoJSONFormat(data);
 
   // Datei-Pfad für overworldRegions.js
-  const filePath = path.join(__dirname, '../Johto_Route_View/overworldRegions1.js');
+  const filePath = path.join(__dirname, '../Johto_Route_View/overworldRegions_prev.js');
 
   // Originaldaten einlesen
   let overworldData = require(filePath);

@@ -2,10 +2,10 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
-const overworldRegions = require('../Einall_Route_View/overworldRegions1.js');
+const overworldRegions = require('../Einall_Route_View/overworldRegions_prev.js');
 
 const proxyUrl = 'https://api.allorigins.win/get?url=';
-const targetUrl = 'https://www.pokewiki.de/Marea_City';
+const targetUrl = 'https://www.pokewiki.de/Eventura_City';
 let routeName = targetUrl.split('/').pop();
 routeName = routeName.replace(/_/g, ' ');
 const routeNumber = routeName.match(/\d+/) ? routeName.match(/\d+/)[0] : null;
@@ -178,8 +178,8 @@ function changeDatatoJSONFormat(data) {
   
     data = changeDatatoJSONFormat(data);
   
-    // Datei-Pfad für overworldRegions1.js
-    const filePath = path.join(__dirname, '../Einall_Route_View/overworldRegions1.js');
+    // Datei-Pfad für overworldRegions_prev.js
+    const filePath = path.join(__dirname, '../Einall_Route_View/overworldRegions_prev.js');
   
     // Originaldaten einlesen
     let overworldData = require(filePath);

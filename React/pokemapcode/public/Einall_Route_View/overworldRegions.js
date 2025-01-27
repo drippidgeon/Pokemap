@@ -2117,58 +2117,271 @@ var overworldRegions = {
                 "name": "Route 6",
                 "world": "Overworld",
                 "Pokémon": {
-                    "Surfing": [{
-                        "name": "Tentacool",
-                        "area": "Surfing",
-                        "levels": "20-30",
-                        "rate": '60%',
-                    }, {
-                        "name": "Tentacruel",
-                        "area": "Surfing",
-                        "levels": "20-40",
-                        "rate": '9%',
-                    }, {
-                        "name": "Shellos",
-                        "area": "Surfing",
-                        "levels": "20-30",
-                        "rate": '30%',
-                    }, {
-                        "name": "Gastrodon",
-                        "area": "Surfing",
-                        "levels": "20-40",
-                        "rate": '1%',
-                    }, ],
-                    "Fishing": [{
-                        "name": "Magikarp",
-                        "area": "Old Rod",
-                        "levels": "3-15",
-                        "rate": '100%',
-                    }, {
-                        "name": "Magikarp",
-                        "area": "Good Rod",
-                        "levels": "10-25",
-                        "rate": '55%',
-                    }, {
-                        "name": "Finneon",
-                        "area": "Good Rod",
-                        "levels": "10-25",
-                        "rate": '45%',
-                    }, {
-                        "name": "Staryu",
-                        "area": "Super Rod",
-                        "levels": "20-50",
-                        "rate": '15%',
-                    }, {
-                        "name": "Gyarados",
-                        "area": "Super Rod",
-                        "levels": "30-55",
-                        "rate": '40%',
-                    }, {
-                        "name": "Lumineon",
-                        "area": "Super Rod",
-                        "levels": "30-55",
-                        "rate": '45%',
-                    }, ]
+                    "Hohes Gras": [
+                        {
+                            "name": "Folikon",
+                            "area": "Hohes Gras",
+                            "levels": "23",
+                            "rate": "10 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Sesokitz",
+                            "area": "Hohes Gras",
+                            "levels": "22–24",
+                            "rate": "35 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Laukaps",
+                            "area": "Hohes Gras",
+                            "levels": "22–24",
+                            "rate": "25 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Tarnpignon",
+                            "area": "Hohes Gras",
+                            "levels": "23–25",
+                            "rate": "15 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Navitaub",
+                            "area": "Hohes Gras",
+                            "levels": "23–25",
+                            "rate": [
+                                "15 %",
+                                "15 %",
+                                "15 %",
+                                "—"
+                            ],
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Gelatini",
+                            "area": "Hohes Gras",
+                            "levels": "23–25",
+                            "rate": [
+                                "—",
+                                "—",
+                                "—",
+                                "15 %"
+                            ],
+                            "edition": "SW"
+                        }
+                    ],
+                    "Dunkles Gras": [
+                        {
+                            "name": "Folikon",
+                            "area": "Dunkles Gras",
+                            "levels": "27",
+                            "rate": "10 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Sesokitz",
+                            "area": "Dunkles Gras",
+                            "levels": "26–28",
+                            "rate": "35 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Laukaps",
+                            "area": "Dunkles Gras",
+                            "levels": "26–28",
+                            "rate": "25 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Tarnpignon",
+                            "area": "Dunkles Gras",
+                            "levels": "27–29",
+                            "rate": "15 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Navitaub",
+                            "area": "Dunkles Gras",
+                            "levels": "27–29",
+                            "rate": [
+                                "15 %",
+                                "15 %",
+                                "15 %",
+                                "—"
+                            ],
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Gelatini",
+                            "area": "Dunkles Gras",
+                            "levels": "27–29",
+                            "rate": [
+                                "—",
+                                "—",
+                                "—",
+                                "15 %"
+                            ],
+                            "edition": "SW"
+                        }
+                    ],
+                    "Raschelndes Gras": [
+                        {
+                            "name": "Emolga",
+                            "area": "Raschelndes Gras",
+                            "levels": "23–25",
+                            "rate": "20 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Matrifol",
+                            "area": "Raschelndes Gras",
+                            "levels": "25",
+                            "rate": "5 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Ohrdoch",
+                            "area": "Raschelndes Gras",
+                            "levels": "22–25",
+                            "rate": [
+                                "70 %",
+                                "70 %",
+                                "70 %",
+                                "75 %"
+                            ],
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Fasasnob",
+                            "area": "Raschelndes Gras",
+                            "levels": "25",
+                            "rate": [
+                                "5 %",
+                                "5 %",
+                                "5 %",
+                                "—"
+                            ],
+                            "edition": "SW"
+                        }
+                    ],
+                    "Surfen": [
+                        {
+                            "name": "Barschuft (Rotlinige Form)",
+                            "area": "Surfen",
+                            "levels": "10–25",
+                            "rate": "100 %",
+                            "edition": "S"
+                        },
+                        {
+                            "name": "Barschuft (Blaulinige Form)",
+                            "area": "Surfen",
+                            "levels": "10–25",
+                            "rate": "100 %",
+                            "edition": "W"
+                        }
+                    ],
+                    "Superangel": [
+                        {
+                            "name": "Quapsel",
+                            "area": "Superangel",
+                            "levels": "35–55",
+                            "rate": "65 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Barschuft (Rotlinige Form)",
+                            "area": "Superangel",
+                            "levels": "35–55",
+                            "rate": "30 %",
+                            "edition": "S"
+                        },
+                        {
+                            "name": "Barschuft (Blaulinige Form)",
+                            "area": "Superangel",
+                            "levels": "35–55",
+                            "rate": "30 %",
+                            "edition": "W"
+                        },
+                        {
+                            "name": "Quaputzi",
+                            "area": "Superangel",
+                            "levels": "35–55",
+                            "rate": "5 %",
+                            "edition": "SW"
+                        }
+                    ],
+                    "Surfen  Pokémon-Schatten": [
+                        {
+                            "name": "Barschuft (Rotlinige Form)",
+                            "area": "Surfen  Pokémon-Schatten",
+                            "levels": "10–30",
+                            "rate": "100 %",
+                            "edition": "W"
+                        },
+                        {
+                            "name": "Barschuft (Blaulinige Form)",
+                            "area": "Surfen  Pokémon-Schatten",
+                            "levels": "10–30",
+                            "rate": "100 %",
+                            "edition": "S"
+                        }
+                    ],
+                    "Pokémon-Schatten": [
+                        {
+                            "name": "Quaputzi",
+                            "area": "Pokémon-Schatten",
+                            "levels": "35–70",
+                            "rate": "65 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Barschuft (Rotlinige Form)",
+                            "area": "Pokémon-Schatten",
+                            "levels": "35–60",
+                            "rate": "30 %",
+                            "edition": "W"
+                        },
+                        {
+                            "name": "Barschuft (Blaulinige Form)",
+                            "area": "Pokémon-Schatten",
+                            "levels": "35–60",
+                            "rate": "30 %",
+                            "edition": "S"
+                        },
+                        {
+                            "name": "Quaxo",
+                            "area": "Pokémon-Schatten",
+                            "levels": "45–70",
+                            "rate": "5 %",
+                            "edition": "SW"
+                        }
+                    ],
+                    "Schwarm": [
+                        {
+                            "name": "Plusle",
+                            "area": "Schwarm",
+                            "levels": "15–55",
+                            "rate": "40 %",
+                            "edition": "S"
+                        },
+                        {
+                            "name": "Minun",
+                            "area": "Schwarm",
+                            "levels": "15–55",
+                            "rate": "40 %",
+                            "edition": "W"
+                        }
+                    ],
+                    "Als Item getarnt": [
+                        {
+                            "name": "Tarnpignon",
+                            "area": "Als Item getarnt",
+                            "levels": "20",
+                            "rate": "2×",
+                            "edition": "SW"
+                        }
+                    ]
                 }
             },
             "geometry": {
@@ -2180,60 +2393,7 @@ var overworldRegions = {
         "properties": {
             "name": "Elektrolithhöhle Zugang",
             "world": "Overworld",
-            "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
-            }
+            "Pokémon": {}
         },
         "geometry": {
             "type": "Polygon",
@@ -2244,60 +2404,7 @@ var overworldRegions = {
         "properties": {
             "name": "Panaero City",
             "world": "Overworld",
-            "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
-            }
+            "Pokémon": {}
         },
         "geometry": {
             "type": "Polygon",
@@ -2309,58 +2416,165 @@ var overworldRegions = {
             "name": "Route 7",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Hohes Gras": [
+                    {
+                        "name": "Kukmarda",
+                        "area": "Hohes Gras",
+                        "levels": "27–29",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Navitaub",
+                        "area": "Hohes Gras",
+                        "levels": "26–28",
+                        "rate": [
+                            "30 %",
+                            "30 %",
+                            "30 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Zebritz",
+                        "area": "Hohes Gras",
+                        "levels": "27–29",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sesokitz",
+                        "area": "Hohes Gras",
+                        "levels": "26",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Tarnpignon",
+                        "area": "Hohes Gras",
+                        "levels": "27–29",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Petznief",
+                        "area": "Hohes Gras",
+                        "levels": "26–28",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "30 %"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Kukmarda",
+                        "area": "Dunkles Gras",
+                        "levels": "31–33",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Navitaub",
+                        "area": "Dunkles Gras",
+                        "levels": "30–32",
+                        "rate": [
+                            "30 %",
+                            "30 %",
+                            "30 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Zebritz",
+                        "area": "Dunkles Gras",
+                        "levels": "31–33",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sesokitz",
+                        "area": "Dunkles Gras",
+                        "levels": "30",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Tarnpignon",
+                        "area": "Dunkles Gras",
+                        "levels": "30–33",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Petznief",
+                        "area": "Dunkles Gras",
+                        "levels": "30–32",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "30 %"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Fasasnob",
+                        "area": "Raschelndes Gras",
+                        "levels": "5",
+                        "rate": [
+                            "5 %",
+                            "5 %",
+                            "5 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "26–29",
+                        "rate": "85 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "27–29",
+                        "rate": [
+                            "10 %",
+                            "10 %",
+                            "10 %",
+                            "15 %"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Wiesor",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Tausch (Gegen Sedimantur)": [
+                    {
+                        "name": "Emolga",
+                        "area": "Tausch (Gegen Sedimantur)",
+                        "levels": "30",
+                        "rate": "Tausch",
+                        "edition": "SW"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -2372,60 +2586,7 @@ var overworldRegions = {
         "properties": {
             "name": "Wendelberg Eingang",
             "world": "Overworld",
-            "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
-            }
+            "Pokémon": {}
         },
         "geometry": {
             "type": "Polygon",
@@ -2437,58 +2598,13 @@ var overworldRegions = {
             "name": "Wendelberg",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
+                "Staubwolke": [{
+                    "name": "Stalabor",
+                    "area": "Staubwolke",
+                    "levels": "28-31",
                     "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                    "edition": "SW"
+                }]
             }
         },
         "geometry": {
@@ -2501,58 +2617,108 @@ var overworldRegions = {
             "name": "Nevaio City",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Sumpf": [
+                    {
+                        "name": "Mebrana",
+                        "area": "Sumpf",
+                        "levels": "30–33",
+                        "rate": [
+                            "40 %",
+                            "40 %",
+                            "40 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Schnuthelm",
+                        "area": "Sumpf",
+                        "levels": "30–33",
+                        "rate": [
+                            "40 %",
+                            "40 %",
+                            "40 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Flunschlik",
+                        "area": "Sumpf",
+                        "levels": "31–32",
+                        "rate": [
+                            "20 %",
+                            "20 %",
+                            "20 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Flunschlik",
+                        "area": "Surfen",
+                        "levels": "15–35",
+                        "rate": "100 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Schmerbe",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "70 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Flunschlik",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Branawarz",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Flunschlik",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "95 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Schmerbe",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Welsar",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Flunschlik",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -2565,58 +2731,121 @@ var overworldRegions = {
             "name": "Route 8",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Sumpf": [
+                    {
+                        "name": "Mebrana",
+                        "area": "Sumpf",
+                        "levels": "30–33",
+                        "rate": [
+                            "40 %",
+                            "40 %",
+                            "40 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Schnuthelm",
+                        "area": "Sumpf",
+                        "levels": "30–33",
+                        "rate": [
+                            "40 %",
+                            "40 %",
+                            "40 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Flunschlik",
+                        "area": "Sumpf",
+                        "levels": "31–32",
+                        "rate": [
+                            "20 %",
+                            "20 %",
+                            "20 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Flunschlik",
+                        "area": "Surfen",
+                        "levels": "15–35",
+                        "rate": "100 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Schmerbe",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "70 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Flunschlik",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Flunschlik",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "95 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Branawarz",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Schmerbe",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Welsar",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Flunschlik",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Glibunkel",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": [
+                            "40 %",
+                            "40 %",
+                            "40 %"
+                        ],
+                        "edition": "—"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -2629,58 +2858,108 @@ var overworldRegions = {
             "name": "Moor von Nevaio",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Sumpf": [
+                    {
+                        "name": "Mebrana",
+                        "area": "Sumpf",
+                        "levels": "30–33",
+                        "rate": [
+                            "40 %",
+                            "40 %",
+                            "40 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Schnuthelm",
+                        "area": "Sumpf",
+                        "levels": "30–33",
+                        "rate": [
+                            "40 %",
+                            "40 %",
+                            "40 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Flunschlik",
+                        "area": "Sumpf",
+                        "levels": "31–32",
+                        "rate": [
+                            "20 %",
+                            "20 %",
+                            "20 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Flunschlik",
+                        "area": "Surfen",
+                        "levels": "15–35",
+                        "rate": "100 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Schmerbe",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "70 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Flunschlik",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Flunschlik",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "95 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Branawarz",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Schmerbe",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Welsar",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Flunschlik",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -2693,58 +2972,265 @@ var overworldRegions = {
             "name": "Dragonspiral Tower Eingang",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Hohes Gras": [
+                    {
+                        "name": "Sesokitz",
+                        "area": "Hohes Gras",
+                        "levels": "31–32",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lin-Fu",
+                        "area": "Hohes Gras",
+                        "levels": "30–33",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Navitaub",
+                        "area": "Hohes Gras",
+                        "levels": "30, 32",
+                        "rate": [
+                            "30 %",
+                            "30 %",
+                            "30 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Shardrago",
+                        "area": "Hohes Gras",
+                        "levels": "31–33",
+                        "rate": [
+                            "10 %",
+                            "10 %",
+                            "10 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Gelatini",
+                        "area": "Hohes Gras",
+                        "levels": "31–33",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Petznief",
+                        "area": "Hohes Gras",
+                        "levels": "33",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "10 %"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Kronjuwild",
+                        "area": "Dunkles Gras",
+                        "levels": "34–36",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lin-Fu",
+                        "area": "Dunkles Gras",
+                        "levels": "33–36",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Navitaub",
+                        "area": "Dunkles Gras",
+                        "levels": "35–36",
+                        "rate": [
+                            "30 %",
+                            "30 %",
+                            "30 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Shardrago",
+                        "area": "Dunkles Gras",
+                        "levels": "31–33",
+                        "rate": [
+                            "10 %",
+                            "10 %",
+                            "10 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Gelatroppo",
+                        "area": "Dunkles Gras",
+                        "levels": "35–37",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "30 %"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Siberio",
+                        "area": "Dunkles Gras",
+                        "levels": "33, 37",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "10 %"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "31",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Fasasnob",
+                        "area": "Raschelndes Gras",
+                        "levels": "33",
+                        "rate": [
+                            "5 %",
+                            "5 %",
+                            "5 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "30–33",
+                        "rate": [
+                            "85 %",
+                            "85 %",
+                            "85 %",
+                            "90 %"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "15–35",
+                        "rate": "100 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "15–35",
+                        "rate": "100 %",
+                        "edition": "W"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Dratini",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "65 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Dragonir",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "100 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "100 %",
+                        "edition": "S"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Dratini",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Dragonir",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "9 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Dragoran",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "1 %",
+                        "edition": "SW"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -2757,58 +3243,153 @@ var overworldRegions = {
             "name": "Dragonspiral Tower Außen",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Hohes Gras": [
+                    {
+                        "name": "Sesokitz",
+                        "area": "Hohes Gras",
+                        "levels": "31–32",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lin-Fu",
+                        "area": "Hohes Gras",
+                        "levels": "30–33",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Navitaub",
+                        "area": "Hohes Gras",
+                        "levels": "30, 32",
+                        "rate": [
+                            "30 %",
+                            "30 %",
+                            "30 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Shardrago",
+                        "area": "Hohes Gras",
+                        "levels": "31–33",
+                        "rate": [
+                            "10 %",
+                            "10 %",
+                            "10 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Gelatini",
+                        "area": "Hohes Gras",
+                        "levels": "31–33",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "30 %"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Petznief",
+                        "area": "Hohes Gras",
+                        "levels": "33",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "10 %"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Gelatroppo",
+                        "area": "Dunkles Gras",
+                        "levels": "35–37",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "30 %"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Kronjuwild (Winterform)",
+                        "area": "Dunkles Gras",
+                        "levels": "34, 36",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "30 %"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lin-Fu",
+                        "area": "Dunkles Gras",
+                        "levels": "34–37",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "30 %"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Siberio",
+                        "area": "Dunkles Gras",
+                        "levels": "37",
+                        "rate": [
+                            "—",
+                            "—",
+                            "—",
+                            "10 %"
+                        ],
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "31",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "30–33",
+                        "rate": [
+                            "85 %",
+                            "85 %",
+                            "85 %",
+                            "90 %"
+                        ],
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Fasasnob",
+                        "area": "Raschelndes Gras",
+                        "levels": "35",
+                        "rate": [
+                            "5 %",
+                            "5 %",
+                            "5 %",
+                            "—"
+                        ],
+                        "edition": "SW"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -2820,60 +3401,7 @@ var overworldRegions = {
         "properties": {
             "name": "Zylinderbrücke",
             "world": "Overworld",
-            "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
-            }
+            "Pokémon": {}
         },
         "geometry": {
             "type": "Polygon",
@@ -2885,58 +3413,147 @@ var overworldRegions = {
             "name": "Route 9",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Hohes Gras": [
+                    {
+                        "name": "Kleoparda",
+                        "area": "Hohes Gras",
+                        "levels": "33",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Deponitox",
+                        "area": "Hohes Gras",
+                        "levels": "31–33",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Picochilla",
+                        "area": "Hohes Gras",
+                        "levels": "32",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Hypnomorba",
+                        "area": "Hohes Gras",
+                        "levels": "31–34",
+                        "rate": "30 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Mitodos",
+                        "area": "Hohes Gras",
+                        "levels": "31–34",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Gladiantri",
+                        "area": "Hohes Gras",
+                        "levels": "31–34",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Kleoparda",
+                        "area": "Dunkles Gras",
+                        "levels": "38",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Deponitox",
+                        "area": "Dunkles Gras",
+                        "levels": "36–38",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Picochilla",
+                        "area": "Dunkles Gras",
+                        "levels": "37",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Hypnomorba",
+                        "area": "Dunkles Gras",
+                        "levels": "36–39",
+                        "rate": "30 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Mitodos",
+                        "area": "Dunkles Gras",
+                        "levels": "36–39",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Gladiantri",
+                        "area": "Dunkles Gras",
+                        "levels": "31–39",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "31–34",
+                        "rate": "80 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Chillabell",
+                        "area": "Raschelndes Gras",
+                        "levels": "34",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Morbitesse",
+                        "area": "Raschelndes Gras",
+                        "levels": "34",
+                        "rate": "5 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Zytomega",
+                        "area": "Raschelndes Gras",
+                        "levels": "34",
+                        "rate": "5 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "32",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Hunduster",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Fiffyen",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "W"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -2948,60 +3565,7 @@ var overworldRegions = {
         "properties": {
             "name": "Twindrake City",
             "world": "Overworld",
-            "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
-            }
+            "Pokémon": {}
         },
         "geometry": {
             "type": "Polygon",
@@ -3013,58 +3577,281 @@ var overworldRegions = {
             "name": "Route 11",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Hohes Gras": [
+                    {
+                        "name": "Entoron",
+                        "area": "Hohes Gras",
+                        "levels": "47–48",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Skorgla",
+                        "area": "Hohes Gras",
+                        "levels": "47–50",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sengo",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Vipitis",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Laukaps",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Hutsassa",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Gladiantri",
+                        "area": "Hohes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Geronimatz",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "25 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Skallyk",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "25 %",
+                        "edition": "S"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Entoron",
+                        "area": "Dunkles Gras",
+                        "levels": "57–58",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Skorgla",
+                        "area": "Dunkles Gras",
+                        "levels": "57–60",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sengo",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Vipitis",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Laukaps",
+                        "area": "Dunkles Gras",
+                        "levels": "59",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Hutsassa",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Caesurio",
+                        "area": "Dunkles Gras",
+                        "levels": "60",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Washakwil",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "25 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Grypheldis",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "25 %",
+                        "edition": "S"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Skorgro",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47–50",
+                        "rate": "85 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Paras",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Knilz",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "S"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Bamelin",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "70 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "70 %",
+                        "edition": "W"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Bamelin",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Bojelin",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–60",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–60",
+                        "rate": "30 %",
+                        "edition": "S"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Goldini",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "70 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "W"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Goldini",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Golking",
+                        "area": "Pokémon-Schatten",
+                        "levels": "45–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "S"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -3077,58 +3864,202 @@ var overworldRegions = {
             "name": "Dorfbrücke",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Hohes Gras": [
+                    {
+                        "name": "Entoron",
+                        "area": "Hohes Gras",
+                        "levels": "47–49",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Bidifas",
+                        "area": "Hohes Gras",
+                        "levels": "47–49",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Skallyk",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "20 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Geronimatz",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "20 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Sengo",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Vipitis",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Entoron",
+                        "area": "Dunkles Gras",
+                        "levels": "57–59",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Bidifas",
+                        "area": "Dunkles Gras",
+                        "levels": "57–59",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Grypheldis",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "20 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Washakwil",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "20 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Sengo",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Vipitis",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47–50",
+                        "rate": "90 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Kanivanha",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "70 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "W"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "100 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "100 %",
+                        "edition": "W"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Kanivanha",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Tohaido",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "S"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–70",
+                        "rate": "95 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–70",
+                        "rate": "95 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Lapras",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -3141,58 +4072,210 @@ var overworldRegions = {
             "name": "Route 12",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Hohes Gras": [
+                    {
+                        "name": "Safcon",
+                        "area": "Hohes Gras",
+                        "levels": "48–49",
+                        "rate": "10 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Kokuna",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Gallopa",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Pinsir",
+                        "area": "Hohes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sonnkern",
+                        "area": "Hohes Gras",
+                        "levels": "47",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Dummisel",
+                        "area": "Hohes Gras",
+                        "levels": "48–49",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Skaraborn",
+                        "area": "Hohes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Wadribie",
+                        "area": "Hohes Gras",
+                        "levels": "47",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Kinoso",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Navitaub",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Safcon",
+                        "area": "Dunkles Gras",
+                        "levels": "58–59",
+                        "rate": "10 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Kokuna",
+                        "area": "Dunkles Gras",
+                        "levels": "58–59",
+                        "rate": "10 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Gallopa",
+                        "area": "Dunkles Gras",
+                        "levels": "59",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Pinsir",
+                        "area": "Dunkles Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sonnkern",
+                        "area": "Dunkles Gras",
+                        "levels": "57",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Dummisel",
+                        "area": "Dunkles Gras",
+                        "levels": "58–59",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Skaraborn",
+                        "area": "Dunkles Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Wadribie",
+                        "area": "Dunkles Gras",
+                        "levels": "57",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Kinoso",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Navitaub",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Smettbo",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Bibor",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Sonnflora",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Honweisel",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Fasasnob",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47–50",
+                        "rate": "70 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Dodu",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "SW"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -3204,60 +4287,7 @@ var overworldRegions = {
         "properties": {
             "name": "Tessera",
             "world": "Overworld",
-            "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
-            }
+            "Pokémon": {}
         },
         "geometry": {
             "type": "Polygon",
@@ -3269,58 +4299,246 @@ var overworldRegions = {
             "name": "Route 13 Nord",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Hohes Gras": [
+                    {
+                        "name": "Tangela",
+                        "area": "Hohes Gras",
+                        "levels": "47–49",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Schwalboss",
+                        "area": "Hohes Gras",
+                        "levels": "47",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Golbat",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lunastein",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sonnfel",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Absol",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Drifzepeli",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Tangela",
+                        "area": "Dunkles Gras",
+                        "levels": "57–59",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Schwalboss",
+                        "area": "Dunkles Gras",
+                        "levels": "57",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Golbat",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lunastein",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sonnfel",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Absol",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Drifzepeli",
+                        "area": "Dunkles Gras",
+                        "levels": "59",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47–50",
+                        "rate": "80 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "47–50",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Iksbat",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Tangoloss",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Wingull",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sterndu",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Pelipper",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Krabby",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "65 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Muschas",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Liebiskus",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Sterndu",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Corasonn",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–60",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Starmie",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Muschas",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Liebiskus",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Austos",
+                        "area": "Pokémon-Schatten",
+                        "levels": "45–70",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Kingler",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Shuppet",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "SW"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -3333,58 +4551,246 @@ var overworldRegions = {
             "name": "Route 13 Süd",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Hohes Gras": [
+                    {
+                        "name": "Tangela",
+                        "area": "Hohes Gras",
+                        "levels": "47–49",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Schwalboss",
+                        "area": "Hohes Gras",
+                        "levels": "47",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Golbat",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lunastein",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sonnfel",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Absol",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Drifzepeli",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Tangela",
+                        "area": "Dunkles Gras",
+                        "levels": "57–59",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Schwalboss",
+                        "area": "Dunkles Gras",
+                        "levels": "57",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Golbat",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lunastein",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sonnfel",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Absol",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Drifzepeli",
+                        "area": "Dunkles Gras",
+                        "levels": "59",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47–50",
+                        "rate": "80 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "47–50",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Iksbat",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Tangoloss",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Wingull",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sterndu",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Pelipper",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Krabby",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "65 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Muschas",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Liebiskus",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Sterndu",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Corasonn",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–60",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Starmie",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Muschas",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Liebiskus",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Austos",
+                        "area": "Pokémon-Schatten",
+                        "levels": "45–70",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Kingler",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Shuppet",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "SW"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -3397,58 +4803,114 @@ var overworldRegions = {
             "name": "Ondula",
             "world": "Overworld",
             "Pokémon": {
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Tentacruel",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '9%',
-                }, {
-                    "name": "Shellos",
-                    "area": "Surfing",
-                    "levels": "20-30",
-                    "rate": '30%',
-                }, {
-                    "name": "Gastrodon",
-                    "area": "Surfing",
-                    "levels": "20-40",
-                    "rate": '1%',
-                }, ],
-                "Fishing": [{
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "3-15",
-                    "rate": '100%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '55%',
-                }, {
-                    "name": "Finneon",
-                    "area": "Good Rod",
-                    "levels": "10-25",
-                    "rate": '45%',
-                }, {
-                    "name": "Staryu",
-                    "area": "Super Rod",
-                    "levels": "20-50",
-                    "rate": '15%',
-                }, {
-                    "name": "Gyarados",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '40%',
-                }, {
-                    "name": "Lumineon",
-                    "area": "Super Rod",
-                    "levels": "30-55",
-                    "rate": '45%',
-                }, ]
+                "Surfen": [
+                    {
+                        "name": "Wingull",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Pelipper",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Mantirps",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Muschas",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Remoraid",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "65 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Liebiskus",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Corasonn",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–60",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Mantax",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Wailmer",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Muschas",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Austos",
+                        "area": "Pokémon-Schatten",
+                        "levels": "45–70",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Octillery",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Liebiskus",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Tausch (ggn. Chillabell)": [
+                    {
+                        "name": "Mampfaxo",
+                        "area": "Tausch (ggn. Chillabell)",
+                        "levels": "60",
+                        "rate": "einmalig",
+                        "edition": "SW"
+                    }
+                ]
             }
         },
         "geometry": {
@@ -3460,7 +4922,262 @@ var overworldRegions = {
         "properties": {
             "name": "Route 14",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Pummeluff",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Entoron",
+                        "area": "Hohes Gras",
+                        "levels": "47",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Tropius",
+                        "area": "Hohes Gras",
+                        "levels": "48, 50",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Altaria",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Drifzepeli",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Megalon",
+                        "area": "Hohes Gras",
+                        "levels": "48, 50",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lin-Fu",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Pottrott",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Pummeluff",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Entoron",
+                        "area": "Dunkles Gras",
+                        "levels": "57",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Tropius",
+                        "area": "Dunkles Gras",
+                        "levels": "58, 60",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Altaria",
+                        "area": "Dunkles Gras",
+                        "levels": "59",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Drifzepeli",
+                        "area": "Dunkles Gras",
+                        "levels": "59",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Megalon",
+                        "area": "Dunkles Gras",
+                        "levels": "58, 60",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Wie-Shu",
+                        "area": "Dunkles Gras",
+                        "levels": "59",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Pottrott",
+                        "area": "Dunkles Gras",
+                        "levels": "59",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47–50",
+                        "rate": "85 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Knuddeluff",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Bamelin",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "70 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "25–55",
+                        "rate": "70 %",
+                        "edition": "W"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Goldini",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "70 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "35–55",
+                        "rate": "30 %",
+                        "edition": "W"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Bamelin",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Bojelin",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–55",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–55",
+                        "rate": "30 %",
+                        "edition": "S"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Goldini",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "60 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Golking",
+                        "area": "Pokémon-Schatten",
+                        "levels": "45–70",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "35–60",
+                        "rate": "30 %",
+                        "edition": "S"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Yanma",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "SW"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3482,7 +5199,179 @@ var overworldRegions = {
         "properties": {
             "name": "Route 15",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Ibitak",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Knogga",
+                        "area": "Hohes Gras",
+                        "levels": "47",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Skorgla",
+                        "area": "Hohes Gras",
+                        "levels": "47–49",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Karadonis",
+                        "area": "Hohes Gras",
+                        "levels": "48–49",
+                        "rate": "15 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Jiutesto",
+                        "area": "Hohes Gras",
+                        "levels": "48–49",
+                        "rate": "15 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Kangama",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Pupitar",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Ibitak",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Knogga",
+                        "area": "Dunkles Gras",
+                        "levels": "57",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Karadonis",
+                        "area": "Dunkles Gras",
+                        "levels": "58–59",
+                        "rate": "15 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Jiutesto",
+                        "area": "Dunkles Gras",
+                        "levels": "58–59",
+                        "rate": "15 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Kangama",
+                        "area": "Dunkles Gras",
+                        "levels": "59",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Skorgla",
+                        "area": "Dunkles Gras",
+                        "levels": "57–59",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Pupitar",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Kukmarda",
+                        "area": "Dunkles Gras",
+                        "levels": "60",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47–50",
+                        "rate": "75 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Despotar",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Skorgro",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Jiutesto",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Karadonis",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "W"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Menki",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Tausch (gegen Ditto)": [
+                    {
+                        "name": "Rotom",
+                        "area": "Tausch (gegen Ditto)",
+                        "levels": "60",
+                        "rate": "Einmalig",
+                        "edition": "SW"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3493,7 +5382,26 @@ var overworldRegions = {
         "properties": {
             "name": "Wunderbrücke",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Vogelschatten": [
+                    {
+                        "name": "Swaroness",
+                        "area": "Vogelschatten",
+                        "levels": "47–50",
+                        "rate": "100 %",
+                        "edition": "SW"
+                    }
+                ],
+                "für 500": [
+                    {
+                        "name": "Karpador",
+                        "area": "für 500",
+                        "levels": "5",
+                        "rate": "Einmalig",
+                        "edition": "SW"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3504,7 +5412,114 @@ var overworldRegions = {
         "properties": {
             "name": "Route 16",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Picochilla",
+                        "area": "Hohes Gras",
+                        "levels": "19–22",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Mollimorba",
+                        "area": "Hohes Gras",
+                        "levels": "19–22",
+                        "rate": "30 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Monozyto",
+                        "area": "Hohes Gras",
+                        "levels": "19–22",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Kleoparda",
+                        "area": "Hohes Gras",
+                        "levels": "20, 22, 24",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Unratütox",
+                        "area": "Hohes Gras",
+                        "levels": "19, 21",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Picochilla",
+                        "area": "Dunkles Gras",
+                        "levels": "22–25",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Mollimorba",
+                        "area": "Dunkles Gras",
+                        "levels": "22–25",
+                        "rate": "30 %",
+                        "edition": "S"
+                    },
+                    {
+                        "name": "Monozyto",
+                        "area": "Dunkles Gras",
+                        "levels": "22–25",
+                        "rate": "30 %",
+                        "edition": "W"
+                    },
+                    {
+                        "name": "Kleoparda",
+                        "area": "Dunkles Gras",
+                        "levels": "23, 25",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Unratütox",
+                        "area": "Dunkles Gras",
+                        "levels": "22, 24",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "19–22",
+                        "rate": "85 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "20",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Chillabell",
+                        "area": "Raschelndes Gras",
+                        "levels": "22",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Tannza",
+                        "area": "Schwarm",
+                        "levels": "15–55",
+                        "rate": "40 %",
+                        "edition": "SW"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3515,7 +5530,158 @@ var overworldRegions = {
             "properties": {
                 "name": "Bucht von Ondula",
                 "world": "Overworld",
-                "Pokémon": {}
+                "Pokémon": {
+                    "Surfen": [
+                        {
+                            "name": "Wingull",
+                            "area": "Surfen",
+                            "levels": "25–55",
+                            "rate": "60 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Pelipper",
+                            "area": "Surfen",
+                            "levels": "25–55",
+                            "rate": "10 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Mantirps",
+                            "area": "Surfen",
+                            "levels": "25–55",
+                            "rate": [
+                                "30 %",
+                                "30 %",
+                                "30 %",
+                                "—"
+                            ],
+                            "edition": "—"
+                        },
+                        {
+                            "name": "Seemops",
+                            "area": "Surfen",
+                            "levels": "25–55",
+                            "rate": [
+                                "—",
+                                "—",
+                                "—",
+                                "30 %"
+                            ],
+                            "edition": "SW"
+                        }
+                    ],
+                    "Superangel": [
+                        {
+                            "name": "Remoraid",
+                            "area": "Superangel",
+                            "levels": "35–55",
+                            "rate": "65 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Muschas",
+                            "area": "Superangel",
+                            "levels": "35–55",
+                            "rate": "30 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Liebiskus",
+                            "area": "Superangel",
+                            "levels": "35–55",
+                            "rate": "5 %",
+                            "edition": "SW"
+                        }
+                    ],
+                    "Surfen  Pokémon-Schatten": [
+                        {
+                            "name": "Wailord",
+                            "area": "Surfen  Pokémon-Schatten",
+                            "levels": "25–70",
+                            "rate": "5 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Wailmer",
+                            "area": "Surfen  Pokémon-Schatten",
+                            "levels": "25–60",
+                            "rate": [
+                                "90 %",
+                                "90 %",
+                                "90 %",
+                                "60 %"
+                            ],
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Mantax",
+                            "area": "Surfen  Pokémon-Schatten",
+                            "levels": "25–60",
+                            "rate": [
+                                "5 %",
+                                "5 %",
+                                "5 %",
+                                "—"
+                            ],
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Seejong",
+                            "area": "Surfen  Pokémon-Schatten",
+                            "levels": "25–60",
+                            "rate": [
+                                "—",
+                                "—",
+                                "—",
+                                "30 %"
+                            ],
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Walraisa",
+                            "area": "Surfen  Pokémon-Schatten",
+                            "levels": "25–70",
+                            "rate": [
+                                "—",
+                                "—",
+                                "—",
+                                "5 %"
+                            ],
+                            "edition": "SW"
+                        }
+                    ],
+                    "Pokémon-Schatten": [
+                        {
+                            "name": "Muschas",
+                            "area": "Pokémon-Schatten",
+                            "levels": "35–60",
+                            "rate": "60 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Liebiskus",
+                            "area": "Pokémon-Schatten",
+                            "levels": "35–60",
+                            "rate": "30 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Austos",
+                            "area": "Pokémon-Schatten",
+                            "levels": "35–70",
+                            "rate": "5 %",
+                            "edition": "SW"
+                        },
+                        {
+                            "name": "Octillery",
+                            "area": "Pokémon-Schatten",
+                            "levels": "35–70",
+                            "rate": "5 %",
+                            "edition": "SW"
+                        }
+                    ]
+                }
             },
             "geometry": {
                 "type": "Polygon",
@@ -3526,7 +5692,93 @@ var overworldRegions = {
         "properties": {
             "name": "Route 21",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Surfen": [
+                    {
+                        "name": "Quabbel",
+                        "area": "Surfen",
+                        "levels": "30–45",
+                        "rate": "65 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Mantirps",
+                        "area": "Surfen",
+                        "levels": "30–45",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Remoraid",
+                        "area": "Surfen",
+                        "levels": "35–45",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Remoraid",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Liebiskus",
+                        "area": "Superangel",
+                        "levels": "40–70",
+                        "rate": "70 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Apoquallyp",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "30–45",
+                        "rate": "60 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Mamolida",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "30–45",
+                        "rate": "35 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Mantax",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "30–45",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Remoraid",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–70",
+                        "rate": "65 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Octillery",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Liebiskus",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3537,7 +5789,123 @@ var overworldRegions = {
         "properties": {
             "name": "Abidaya City",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Surfen": [
+                    {
+                        "name": "Sterndu",
+                        "area": "Surfen",
+                        "levels": "30–45",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "30–45",
+                        "rate": "5 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "30–45",
+                        "rate": "5 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Quabbel",
+                        "area": "Surfen",
+                        "levels": "30–45",
+                        "rate": "65 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Starmie",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–45",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Corasonn",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–45",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–45",
+                        "rate": "5 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–45",
+                        "rate": "5 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Apoquallyp",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–45",
+                        "rate": "60 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Muschas",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Liebiskus",
+                        "area": "Superangel",
+                        "levels": "40–70",
+                        "rate": "70 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Muschas",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–70",
+                        "rate": "65 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Austos",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Liebiskus",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Tausch (gegen Mantax)": [
+                    {
+                        "name": "Tangoloss",
+                        "area": "Tausch (gegen Mantax)",
+                        "levels": "45",
+                        "rate": "einmalig",
+                        "edition": "S2W2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3548,7 +5916,276 @@ var overworldRegions = {
         "properties": {
             "name": "Route 22",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Lin-Fu",
+                        "area": "Hohes Gras",
+                        "levels": "39, 42",
+                        "rate": "25 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Hutsassa",
+                        "area": "Hohes Gras",
+                        "levels": "39",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Pelipper",
+                        "area": "Hohes Gras",
+                        "levels": "40",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Entoron",
+                        "area": "Hohes Gras",
+                        "levels": "40",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Lunastein",
+                        "area": "Hohes Gras",
+                        "levels": "41",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Sonnfel",
+                        "area": "Hohes Gras",
+                        "levels": "41",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Marill",
+                        "area": "Hohes Gras",
+                        "levels": "40, 42",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Botogel",
+                        "area": "Hohes Gras",
+                        "levels": "39",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Terrakium",
+                        "area": "Hohes Gras",
+                        "levels": "45/65",
+                        "rate": "Einmalig",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Lin-Fu",
+                        "area": "Dunkles Gras",
+                        "levels": "44, 47",
+                        "rate": "25 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Hutsassa",
+                        "area": "Dunkles Gras",
+                        "levels": "44",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Pelipper",
+                        "area": "Dunkles Gras",
+                        "levels": "45",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Entoron",
+                        "area": "Dunkles Gras",
+                        "levels": "45",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Lunastein",
+                        "area": "Dunkles Gras",
+                        "levels": "46",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Sonnfel",
+                        "area": "Dunkles Gras",
+                        "levels": "46",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Marill",
+                        "area": "Dunkles Gras",
+                        "levels": "45, 47",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Botogel",
+                        "area": "Dunkles Gras",
+                        "levels": "44",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "39–42",
+                        "rate": "85 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "40",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Azumarill",
+                        "area": "Raschelndes Gras",
+                        "levels": "42",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "15–40",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "15–40",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Marill",
+                        "area": "Surfen",
+                        "levels": "15–40",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Goldini",
+                        "area": "Superangel",
+                        "levels": "40–70",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "70 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "70 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "35 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "35 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Marill",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "15–40",
+                        "rate": "60 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Azumarill",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "25–45",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Goldini",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "60 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Golking",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Ariados",
+                        "area": "Schwarm",
+                        "levels": "40–55",
+                        "rate": "40 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Ledian",
+                        "area": "Schwarm",
+                        "levels": "40–55",
+                        "rate": "40 %",
+                        "edition": "W2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3559,7 +6196,140 @@ var overworldRegions = {
         "properties": {
             "name": "Eingangsbereich Krater",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Golbat",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Tangela",
+                        "area": "Hohes Gras",
+                        "levels": "47–49",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Schwalboss",
+                        "area": "Hohes Gras",
+                        "levels": "47",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lunastein",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sonnfel",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Absol",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Drifzepeli",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Golbat",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Tangela",
+                        "area": "Dunkles Gras",
+                        "levels": "57–59",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Schwalboss",
+                        "area": "Dunkles Gras",
+                        "levels": "57",
+                        "rate": "20 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lunastein",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sonnfel",
+                        "area": "Dunkles Gras",
+                        "levels": "58",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Absol",
+                        "area": "Dunkles Gras",
+                        "levels": "58–60",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Drifzepeli",
+                        "area": "Dunkles Gras",
+                        "levels": "59",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Iksbat",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Tangoloss",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47–50",
+                        "rate": "80 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "48",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3570,7 +6340,126 @@ var overworldRegions = {
         "properties": {
             "name": "Krater",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Piepi",
+                        "area": "Hohes Gras",
+                        "levels": "52-54",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Ditto",
+                        "area": "Hohes Gras",
+                        "levels": "53-55",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Keifel",
+                        "area": "Hohes Gras",
+                        "levels": "52-54",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lunastein",
+                        "area": "Hohes Gras",
+                        "levels": "55",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sonnfel",
+                        "area": "Hohes Gras",
+                        "levels": "55",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Metang",
+                        "area": "Hohes Gras",
+                        "levels": "53-55",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Piepi",
+                        "area": "Dunkles Gras",
+                        "levels": "62-64",
+                        "rate": "30 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Ditto",
+                        "area": "Dunkles Gras",
+                        "levels": "63-65",
+                        "rate": "15 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Keifel",
+                        "area": "Dunkles Gras",
+                        "levels": "62-64",
+                        "rate": "25 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Lunastein",
+                        "area": "Dunkles Gras",
+                        "levels": "64-65",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Sonnfel",
+                        "area": "Dunkles Gras",
+                        "levels": "64-65",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Metang",
+                        "area": "Dunkles Gras",
+                        "levels": "63-65",
+                        "rate": "10 %",
+                        "edition": "SW"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Pixi",
+                        "area": "Raschelndes Gras",
+                        "levels": "55",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Metagross",
+                        "area": "Raschelndes Gras",
+                        "levels": "55",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "52-55",
+                        "rate": "85 %",
+                        "edition": "SW"
+                    },
+                    {
+                        "name": "Mamutel",
+                        "area": "Raschelndes Gras",
+                        "levels": "55",
+                        "rate": "5 %",
+                        "edition": "SW"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3581,7 +6470,288 @@ var overworldRegions = {
         "properties": {
             "name": "Route 23",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Bisofank",
+                        "area": "Hohes Gras",
+                        "levels": "49, 51",
+                        "rate": "25 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Karadonis",
+                        "area": "Hohes Gras",
+                        "levels": "48–49",
+                        "rate": "25 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Jiutesto",
+                        "area": "Hohes Gras",
+                        "levels": "48–49",
+                        "rate": "25 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Lin-Fu",
+                        "area": "Hohes Gras",
+                        "levels": "48",
+                        "rate": "15 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Skorgla",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Hutsassa",
+                        "area": "Hohes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Entoron",
+                        "area": "Hohes Gras",
+                        "levels": "50",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Skallyk",
+                        "area": "Hohes Gras",
+                        "levels": "47",
+                        "rate": "5 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Geronimatz",
+                        "area": "Hohes Gras",
+                        "levels": "47",
+                        "rate": "5 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Tobutz",
+                        "area": "Hohes Gras",
+                        "levels": "65",
+                        "rate": "Einmalig",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Bisofank",
+                        "area": "Dunkles Gras",
+                        "levels": "54, 56",
+                        "rate": "25 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Karadonis",
+                        "area": "Dunkles Gras",
+                        "levels": "53–54",
+                        "rate": "25 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Jiutesto",
+                        "area": "Dunkles Gras",
+                        "levels": "53–54",
+                        "rate": "25 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Wie-Shu",
+                        "area": "Dunkles Gras",
+                        "levels": "53",
+                        "rate": "15 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Skorgla",
+                        "area": "Dunkles Gras",
+                        "levels": "54",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Hutsassa",
+                        "area": "Dunkles Gras",
+                        "levels": "54",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Entoron",
+                        "area": "Dunkles Gras",
+                        "levels": "55",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Skallyk",
+                        "area": "Dunkles Gras",
+                        "levels": "52",
+                        "rate": "5 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Geronimatz",
+                        "area": "Dunkles Gras",
+                        "levels": "52",
+                        "rate": "5 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "48–51",
+                        "rate": "80 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Emolga",
+                        "area": "Raschelndes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Skorgro",
+                        "area": "Raschelndes Gras",
+                        "levels": "51",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Jiutesto",
+                        "area": "Raschelndes Gras",
+                        "levels": "51",
+                        "rate": "5 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Karadonis",
+                        "area": "Raschelndes Gras",
+                        "levels": "51",
+                        "rate": "5 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "40–55",
+                        "rate": "70 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "40–55",
+                        "rate": "70 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Bamelin",
+                        "area": "Surfen",
+                        "levels": "40–55",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Quapsel",
+                        "area": "Superangel",
+                        "levels": "40–70",
+                        "rate": "70 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "40–55",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "40–55",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Bamelin",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "40–55",
+                        "rate": "60 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Bojelin",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "45–55",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Quaputzi",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–70",
+                        "rate": "65 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Quappo",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3603,7 +6773,185 @@ var overworldRegions = {
         "properties": {
             "name": "Siegesstraße unterer Außenbereich",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Altaria",
+                        "area": "Hohes Gras",
+                        "levels": "49-50",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Navitaub",
+                        "area": "Hohes Gras",
+                        "levels": "47-50",
+                        "rate": "80%",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Staubwolke": [
+                    {
+                        "name": "Onix",
+                        "area": "Staubwolke",
+                        "levels": "41–44, 47–50",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Stalobor",
+                        "area": "Staubwolke",
+                        "levels": "41, 47",
+                        "rate": "80%",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Altaria",
+                        "area": "Dunkles Gras",
+                        "levels": "54-55",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Navitaub",
+                        "area": "Dunkles Gras",
+                        "levels": "52-55",
+                        "rate": "80 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Dummisel",
+                        "area": "Raschelndes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Fasasnob",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47-50",
+                        "rate": "80 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "35–50",
+                        "rate": "70 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "35–50",
+                        "rate": "70 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Bamelin",
+                        "area": "Surfen",
+                        "levels": "35–50",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Quapsel",
+                        "area": "Superangel",
+                        "levels": "40–70",
+                        "rate": "70 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–50",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–50",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Bamelin",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "35–50",
+                        "rate": "60 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Bojelin",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "40–50",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Quaputzi",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–70",
+                        "rate": "65 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Quaxo",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3614,7 +6962,91 @@ var overworldRegions = {
         "properties": {
             "name": "Siegesstraße Waldgebiet",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Roselia",
+                        "area": "Hohes Gras",
+                        "levels": "48-50",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Waumboll",
+                        "area": "Hohes Gras",
+                        "levels": "47-50",
+                        "rate": "70 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Lilminip",
+                        "area": "Hohes Gras",
+                        "levels": "47-50",
+                        "rate": "70 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Roselia",
+                        "area": "Hohes Gras",
+                        "levels": "53-55",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Waumboll",
+                        "area": "Hohes Gras",
+                        "levels": "52-55",
+                        "rate": "70 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Lilminip",
+                        "area": "Hohes Gras",
+                        "levels": "52-55",
+                        "rate": "70 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47-50",
+                        "rate": "80 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Roserade",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Dummisel",
+                        "area": "Raschelndes Gras",
+                        "levels": "49",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Elfun",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Dressella",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "W2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3625,7 +7057,56 @@ var overworldRegions = {
         "properties": {
             "name": "Siegesstraße Klippenbereich",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Strepoli",
+                        "area": "Hohes Gras",
+                        "levels": "47-50",
+                        "rate": "70 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Jiutesto",
+                        "area": "Hohes Gras",
+                        "levels": "48–50",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Strepoli",
+                        "area": "Dunkles Gras",
+                        "levels": "52-55",
+                        "rate": "70 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Jiutesto",
+                        "area": "Dunkles Gras",
+                        "levels": "53–55",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "47-50",
+                        "rate": "95 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Karadonis",
+                        "area": "Raschelndes Gras",
+                        "levels": "50",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3636,7 +7117,79 @@ var overworldRegions = {
             "properties": {
                 "name": "Vapydro City",
                 "world": "Overworld",
-                "Pokémon": {}
+                "Pokémon": {
+                    "Surfen": [
+                        {
+                            "name": "Quabbel",
+                            "area": "Surfen",
+                            "levels": "5–15",
+                            "rate": "100 %",
+                            "edition": "S2W2"
+                        }
+                    ],
+                    "Superangel": [
+                        {
+                            "name": "Finneon",
+                            "area": "Superangel",
+                            "levels": "40–70",
+                            "rate": "65 %",
+                            "edition": "S2W2"
+                        },
+                        {
+                            "name": "Krabby",
+                            "area": "Superangel",
+                            "levels": "40–60",
+                            "rate": "30 %",
+                            "edition": "S2W2"
+                        },
+                        {
+                            "name": "Baldorfish",
+                            "area": "Superangel",
+                            "levels": "50–70",
+                            "rate": "5 %",
+                            "edition": "S2W2"
+                        }
+                    ],
+                    "Surfen  Pokémon-Schatten": [
+                        {
+                            "name": "Mamolida",
+                            "area": "Surfen  Pokémon-Schatten",
+                            "levels": "5–15",
+                            "rate": "95 %",
+                            "edition": "S2W2"
+                        },
+                        {
+                            "name": "Apoquallyp",
+                            "area": "Surfen  Pokémon-Schatten",
+                            "levels": "5–15",
+                            "rate": "5 %",
+                            "edition": "S2W2"
+                        }
+                    ],
+                    "Pokémon-Schatten": [
+                        {
+                            "name": "Krabby",
+                            "area": "Pokémon-Schatten",
+                            "levels": "40–60",
+                            "rate": "60 %",
+                            "edition": "S2W2"
+                        },
+                        {
+                            "name": "Lumineon",
+                            "area": "Pokémon-Schatten",
+                            "levels": "40–60",
+                            "rate": "30 %",
+                            "edition": "S2W2"
+                        },
+                        {
+                            "name": "Kingler",
+                            "area": "Pokémon-Schatten",
+                            "levels": "50–70",
+                            "rate": "10 %",
+                            "edition": "S2W2"
+                        }
+                    ]
+                }
             },
             "geometry": {
                 "type": "Polygon",
@@ -3647,7 +7200,213 @@ var overworldRegions = {
         "properties": {
             "name": "Vapydro-Werke",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras (Außen)": [
+                    {
+                        "name": "Nagelotz",
+                        "area": "Hohes Gras (Außen)",
+                        "levels": "10–13",
+                        "rate": "35 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Dusselgurr",
+                        "area": "Hohes Gras (Außen)",
+                        "levels": "10–13",
+                        "rate": "35 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Elekid",
+                        "area": "Hohes Gras (Außen)",
+                        "levels": "10–12",
+                        "rate": "15 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Magby",
+                        "area": "Hohes Gras (Außen)",
+                        "levels": "10–12",
+                        "rate": "15 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Magnetilo",
+                        "area": "Hohes Gras (Außen)",
+                        "levels": "10–11",
+                        "rate": "15 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Hohes Gras (Innen)": [
+                    {
+                        "name": "Fukano",
+                        "area": "Hohes Gras (Innen)",
+                        "levels": "11–13",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Magnetilo",
+                        "area": "Hohes Gras (Innen)",
+                        "levels": "10–12",
+                        "rate": "25 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Smogon",
+                        "area": "Hohes Gras (Innen)",
+                        "levels": "10–13",
+                        "rate": "15 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Elekid",
+                        "area": "Hohes Gras (Innen)",
+                        "levels": "10–12",
+                        "rate": "25 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Magby",
+                        "area": "Hohes Gras (Innen)",
+                        "levels": "10–12",
+                        "rate": "25 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Nagelotz",
+                        "area": "Hohes Gras (Innen)",
+                        "levels": "10–13",
+                        "rate": "15 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Dunkles Gras (Innen)": [
+                    {
+                        "name": "Fukano",
+                        "area": "Dunkles Gras (Innen)",
+                        "levels": "12–14",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Magnetilo",
+                        "area": "Dunkles Gras (Innen)",
+                        "levels": "11–13",
+                        "rate": "25 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Smogon",
+                        "area": "Dunkles Gras (Innen)",
+                        "levels": "11–14",
+                        "rate": "15 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Elekid",
+                        "area": "Dunkles Gras (Innen)",
+                        "levels": "11–13",
+                        "rate": "25 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Magby",
+                        "area": "Dunkles Gras (Innen)",
+                        "levels": "11–13",
+                        "rate": "25 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Nagelotz",
+                        "area": "Dunkles Gras (Innen)",
+                        "levels": "11–14",
+                        "rate": "15 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "10–13",
+                        "rate": "100 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Quabbel",
+                        "area": "Surfen",
+                        "levels": "5–15",
+                        "rate": "100 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Finneon",
+                        "area": "Superangel",
+                        "levels": "40–70",
+                        "rate": "65 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Krabby",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Baldorfish",
+                        "area": "Superangel",
+                        "levels": "50–70",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Mamolida",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "95 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Apoquallyp",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Krabby",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "60 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Lumineon",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Kingler",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3669,7 +7428,243 @@ var overworldRegions = {
         "properties": {
             "name": "Route 20",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Strawickl",
+                        "area": "Hohes Gras",
+                        "levels": "2–4",
+                        "rate": "35 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Nagelotz",
+                        "area": "Hohes Gras",
+                        "levels": "2–3",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Felilou",
+                        "area": "Hohes Gras",
+                        "levels": "2–4",
+                        "rate": "15 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Dusselgurr",
+                        "area": "Hohes Gras",
+                        "levels": "2–4",
+                        "rate": [
+                            "25 %",
+                            "5 %",
+                            "25 %"
+                        ],
+                        "edition": "25 %"
+                    },
+                    {
+                        "name": "Sonnkern",
+                        "area": "Hohes Gras",
+                        "levels": "2–4",
+                        "rate": [
+                            "5 %",
+                            "25 %",
+                            "5 %"
+                        ],
+                        "edition": "5 %"
+                    }
+                ],
+                "Dunkles Gras": [
+                    {
+                        "name": "Nagelotz",
+                        "area": "Dunkles Gras",
+                        "levels": "10",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Toxiped",
+                        "area": "Dunkles Gras",
+                        "levels": "10",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Strawickl",
+                        "area": "Dunkles Gras",
+                        "levels": "10–11",
+                        "rate": "15 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Felilou",
+                        "area": "Dunkles Gras",
+                        "levels": "10–11",
+                        "rate": "15 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Dusselgurr",
+                        "area": "Dunkles Gras",
+                        "levels": "9–10",
+                        "rate": [
+                            "25 %",
+                            "5 %",
+                            "25 %"
+                        ],
+                        "edition": "25 %"
+                    },
+                    {
+                        "name": "Sonnkern",
+                        "area": "Dunkles Gras",
+                        "levels": "9–11",
+                        "rate": [
+                            "5 %",
+                            "25 %",
+                            "5 %"
+                        ],
+                        "edition": "5 %"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "2–4",
+                        "rate": "90 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Dummisel",
+                        "area": "Raschelndes Gras",
+                        "levels": "3",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Azurill",
+                        "area": "Surfen",
+                        "levels": "5–15",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "7–15",
+                        "rate": "70 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "7–15",
+                        "rate": "70 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Quapsel",
+                        "area": "Superangel",
+                        "levels": "40–70",
+                        "rate": "70 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Marill",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Azumarill",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "65 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "65 %",
+                        "edition": "S2"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Quaputzi",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–70",
+                        "rate": "65 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Quaxo",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Schwarm": [
+                    {
+                        "name": "Mogelbaum",
+                        "area": "Schwarm",
+                        "levels": "40–55",
+                        "rate": "40 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Pantimos",
+                        "area": "Schwarm",
+                        "levels": "40–55",
+                        "rate": "40 %",
+                        "edition": "W2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3680,7 +7675,181 @@ var overworldRegions = {
         "properties": {
             "name": "Dausing-Hof",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Yorkleff",
+                        "area": "Hohes Gras",
+                        "levels": "4–7",
+                        "rate": "40 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Azurill",
+                        "area": "Hohes Gras",
+                        "levels": "5",
+                        "rate": "20 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Enton",
+                        "area": "Hohes Gras",
+                        "levels": "5",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Voltilamm",
+                        "area": "Hohes Gras",
+                        "levels": "5",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Nagelotz",
+                        "area": "Hohes Gras",
+                        "levels": "5",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Riolu",
+                        "area": "Hohes Gras",
+                        "levels": "5–7",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Dusselgurr",
+                        "area": "Hohes Gras",
+                        "levels": "7",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Ohrdoch",
+                        "area": "Raschelndes Gras",
+                        "levels": "4–7",
+                        "rate": "90 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Dummisel",
+                        "area": "Raschelndes Gras",
+                        "levels": "5",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "5–15",
+                        "rate": "70 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "5–15",
+                        "rate": "70 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Azurill",
+                        "area": "Surfen",
+                        "levels": "5–15",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Quapsel",
+                        "area": "Superangel",
+                        "levels": "40–70",
+                        "rate": "70 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "65 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "65 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Marill",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "30 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Azumarill",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Quaputzi",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–70",
+                        "rate": "65 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Quaxo",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3691,7 +7860,24 @@ var overworldRegions = {
         "properties": {
             "name": "Dausing",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "schillernd, von  Magno im Haus von Lauro": [
+                    {
+                        "name": "Dratini",
+                        "area": "schillernd, von  Magno im Haus von Lauro",
+                        "levels": "1",
+                        "rate": "Einmalig",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Kaumalat",
+                        "area": "schillernd, von  Magno im Haus von Lauro",
+                        "levels": "1",
+                        "rate": "Einmalig",
+                        "edition": "S2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3702,7 +7888,118 @@ var overworldRegions = {
         "properties": {
             "name": "Route 19",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Nagelotz",
+                        "area": "Hohes Gras",
+                        "levels": "2–4",
+                        "rate": "50 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Felilou",
+                        "area": "Hohes Gras",
+                        "levels": "2–4",
+                        "rate": "50 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Raschelndes Gras": [
+                    {
+                        "name": "Nagelotz",
+                        "area": "Raschelndes Gras",
+                        "levels": "2–4",
+                        "rate": "100 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "5–15",
+                        "rate": "100 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "5–15",
+                        "rate": "100 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Quapsel",
+                        "area": "Superangel",
+                        "levels": "40–70",
+                        "rate": "70 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "100 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "100 %",
+                        "edition": "S2"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Quaputzi",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–70",
+                        "rate": "65 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Quaxo",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "5 %",
+                        "edition": "S2W2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",
@@ -3713,7 +8010,116 @@ var overworldRegions = {
         "properties": {
             "name": "Eventura City",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Aussichtsplattform,von Bell": [
+                    {
+                        "name": "Serpifeu",
+                        "area": "Aussichtsplattform,von Bell",
+                        "levels": "5",
+                        "rate": "Einmalig (Wahl)",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Floink",
+                        "area": "Aussichtsplattform,von Bell",
+                        "levels": "5",
+                        "rate": "Einmalig (Wahl)",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Ottaro",
+                        "area": "Aussichtsplattform,von Bell",
+                        "levels": "5",
+                        "rate": "Einmalig (Wahl)",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen",
+                        "levels": "5–15",
+                        "rate": "100 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen",
+                        "levels": "5–15",
+                        "rate": "100 %",
+                        "edition": "W2"
+                    }
+                ],
+                "Superangel": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Goldini",
+                        "area": "Superangel",
+                        "levels": "40–60",
+                        "rate": "70 %",
+                        "edition": "S2W2"
+                    }
+                ],
+                "Surfen  Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "100 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Surfen  Pokémon-Schatten",
+                        "levels": "5–15",
+                        "rate": "100 %",
+                        "edition": "S2"
+                    }
+                ],
+                "Pokémon-Schatten": [
+                    {
+                        "name": "Barschuft (Rotlinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "W2"
+                    },
+                    {
+                        "name": "Barschuft (Blaulinige Form)",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "30 %",
+                        "edition": "S2"
+                    },
+                    {
+                        "name": "Goldini",
+                        "area": "Pokémon-Schatten",
+                        "levels": "40–60",
+                        "rate": "60 %",
+                        "edition": "S2W2"
+                    },
+                    {
+                        "name": "Golking",
+                        "area": "Pokémon-Schatten",
+                        "levels": "50–70",
+                        "rate": "10 %",
+                        "edition": "S2W2"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",

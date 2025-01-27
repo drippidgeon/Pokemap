@@ -92,11 +92,13 @@ body,
   display:none
 }
 .info {
-  padding:6px 8px;
-  font:14px/16px Arial,Helvetica,sans-serif;
-  background:rgba(255,255,255,.9);
-  box-shadow:0 0 15px rgba(0,0,0,.2);
-  border-radius:5px
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: rgba(255, 255, 255, .9);
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  max-height: 400px; /* Adjust the height as needed */
+  overflow-y: auto;
 }
 .info-header {
   display:flex;
@@ -143,4 +145,17 @@ body,
 }
 .time2 {
   background-color: #C3B1E1;
+}
+
+.yeartime0 {
+  background-color: lightgreen;
+}
+.yeartime1 {
+  background-color: #f6d7b0;
+}
+.yeartime2 {
+  background-color: #f05133;
+}
+.yeartime3 {
+  background-color: lightskyblue;
 }

@@ -9,7 +9,7 @@ html, body, #map {
     position: absolute;
     cursor: pointer;
     bottom: 77vh;
-    left: 79vh;
+    left: 43%;
     z-index: 1000;
     width: 30vh;
     height: auto;

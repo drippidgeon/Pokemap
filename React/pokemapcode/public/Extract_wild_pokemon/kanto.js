@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
-const overworldRegions = require('../Kanto_Route_View/overworldRegions1.js');
+const overworldRegions = require('../Kanto_Route_View/overworldRegions_prev.js');
 
 const proxyUrl = 'https://api.allorigins.win/get?url=';
 const targetUrl = 'https://www.pokewiki.de/Route_1_(Kanto)';
@@ -177,8 +177,8 @@ function changeDatatoJSONFormat(data) {
   
     data = changeDatatoJSONFormat(data);
   
-    // Datei-Pfad für overworldRegions1.js
-    const filePath = path.join(__dirname, '../Kanto_Route_View/overworldRegions1.js');
+    // Datei-Pfad für overworldRegions_prev.js
+    const filePath = path.join(__dirname, '../Kanto_Route_View/overworldRegions_prev.js');
   
     // Originaldaten einlesen
     let overworldData = require(filePath);

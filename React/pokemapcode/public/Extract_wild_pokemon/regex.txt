@@ -1,0 +1,1 @@
+let updatedData = data.replace(/getCordfromLoc\((-?\d+\.?\d*),\s*(-?\d+\.?\d*)\)/g, `[\n  $1,\n  $2\n]`);

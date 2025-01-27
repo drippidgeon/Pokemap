@@ -35,6 +35,24 @@ function setNight() {
     mapTime = 2;
     info.update(oldtarget.feature.properties);
 }
+
+function setSpring() {
+    mapTime = 0;
+    info.update(oldtarget.feature.properties);
+}
+function setSummer() {
+    mapTime = 1;
+    info.update(oldtarget.feature.properties);
+}
+function setAutumn() {
+    mapTime = 2;
+    info.update(oldtarget.feature.properties);
+}
+function setWinter() {
+    mapTime = 3;
+    info.update(oldtarget.feature.properties);
+}
+
 var content = document.getElementById('controls');
 var swch = 0;
 function changeMenu() {
