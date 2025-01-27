@@ -57,19 +57,25 @@
             highlightLayer = e.target;
 
             if (e.target.feature.geometry.type === 'LineString' || e.target.feature.geometry.type === 'MultiLineString') {
-              highlightLayer.setStyle({
-                color: '#ffff00',
-              });
-            } else {
-              highlightLayer.setStyle({
-                fillColor: '#ffff00',
-                fillOpacity: 1
-              });
+                highlightLayer.setStyle({
+                    color: '#ffff00',
+                });
             }
+
             highlightLayer.openPopup();
 
+            let place;
+
+            if(highlightLayer.feature.properties.Name){
+                place = highlightLayer.feature.properties.Name;
+            }else if(highlightLayer.feature.properties.id){
+                place = highlightLayer.feature.properties.id;
+            }else{
+                place = "Unknown";
+            }
+
             highlightLayer.on("click", function (e) {
-                window.location.href = '../Einall_routes.html';
+                window.location.href = `../Einall_routes.html?place=${place}`;
             });
         }
 

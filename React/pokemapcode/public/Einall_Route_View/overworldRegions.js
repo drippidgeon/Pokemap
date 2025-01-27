@@ -1223,7 +1223,7 @@ var overworldRegions = {
     }, {
         "type": "Feature",
         "properties": {
-            "name": "Ewigenwald Zentralbereich",
+            "name": "Ewigenwald",
             "world": "Overworld",
             "Pokémon": {
                 "Hohes Gras": [
@@ -3240,7 +3240,7 @@ var overworldRegions = {
     },  {
         "type": "Feature",
         "properties": {
-            "name": "Dragonspiral Tower Außen",
+            "name": "Drachenstiege",
             "world": "Overworld",
             "Pokémon": {
                 "Hohes Gras": [
@@ -4296,7 +4296,7 @@ var overworldRegions = {
     },   {
         "type": "Feature",
         "properties": {
-            "name": "Route 13 Nord",
+            "name": "Route 13",
             "world": "Overworld",
             "Pokémon": {
                 "Hohes Gras": [
@@ -6338,7 +6338,7 @@ var overworldRegions = {
     },  {
         "type": "Feature",
         "properties": {
-            "name": "Krater",
+            "name": "Riesengrotte",
             "world": "Overworld",
             "Pokémon": {
                 "Hohes Gras": [

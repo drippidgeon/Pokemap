@@ -4867,7 +4867,6 @@ var overworldRegions = {
             "coordinates": [[getCordfromLoc(-221.625, 190.625), getCordfromLoc(-249.125, 190.625), getCordfromLoc(-249.125, 223.9375), getCordfromLoc(-221.625, 223.9375), getCordfromLoc(-221.625, 190.625)]]
         }
     },
-
-
 ]
 }
+

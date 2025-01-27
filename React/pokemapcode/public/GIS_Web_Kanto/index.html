@@ -43,25 +43,33 @@
         }
 
         var highlightLayer;
+
         function highlightFeature(e) {
             highlightLayer = e.target;
 
             if (e.target.feature.geometry.type === 'LineString' || e.target.feature.geometry.type === 'MultiLineString') {
-              highlightLayer.setStyle({
-                color: '#ffff00',
-              });
-            } else {
-              highlightLayer.setStyle({
-                fillColor: '#ffff00',
-                fillOpacity: 1
-              });
+                highlightLayer.setStyle({
+                    color: '#ffff00',
+                });
             }
+
             highlightLayer.openPopup();
 
+            let place;
+
+            if(highlightLayer.feature.properties.Name){
+                place = highlightLayer.feature.properties.Name;
+            }else if(highlightLayer.feature.properties.id){
+                place = highlightLayer.feature.properties.id;
+            }else{
+                place = "Unknown";
+            }
+
             highlightLayer.on("click", function (e) {
-                window.location.href = '../Kanto_routes.html';
+                window.location.href = `../Johto_routes.html?place=${place}`;
             });
         }
+
         var imageUrl = 'images/Kanto.png';
         var imageBounds = [[-51.20509090909216, -1.015636363640223], [1.85599999999873, 103.08436363635975]];
 

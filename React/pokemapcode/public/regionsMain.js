@@ -19,6 +19,47 @@ var map = L.map('map', {
     markerZoomAnimation: true,
     zoomControl: false
 });
+
+function getPolygonCenter(coords) {
+    let sumX = 0, sumY = 0;
+    coords.forEach(coord => {
+        sumX += coord[0];
+        sumY += coord[1];
+    });
+
+    const centerX = sumX / coords.length;
+    const centerY = sumY / coords.length;
+
+    return [centerX, centerY];
+}
+
+
+const urlParams = new URLSearchParams(window.location.search);
+const place = urlParams.get('place');
+
+
+if (place) {
+    for (let i = 0; i < overworldRegions.features.length; i++) {
+        if (overworldRegions.features[i].properties.name === place) {
+            console.log('Match found:', overworldRegions.features[i].properties.name);
+            let originalCoords = overworldRegions.features[i].geometry.coordinates[0];
+
+            let center = getPolygonCenter(originalCoords);
+            map.setView([center[1], center[0]], 5);
+            setTimeout(() => {
+                map.flyTo([center[1], center[0]], 5, {
+                    duration: 2,        // Animation duration in seconds
+                    easeLinearity: 0.25  // Smooth transition effect
+                });
+            }, 1000);  // Delay flyTo for a smoother experience after load
+
+        }else{
+            console.log('No match found:', place);
+        }
+    }
+
+}
+
 new L.Control.Zoom({
     position: 'bottomright'
 }).addTo(map);
@@ -67,9 +108,7 @@ map.on('click', function (e) {
     lat = Math.round(lat * 16) / 16;
     lng  = Math.round(lng * 16) / 16;
     console.log('Tile Location: ' + lat + ', ' + lng);
-    console.log(
-    'Map Location: ' + Math.floor(lat * tileSize) + ', ' + Math.floor(lng * tileSize)
-    );
+    console.log('Map Location: ' + Math.floor(lat * tileSize) + ', ' + Math.floor(lng * tileSize));
 });
 
 loadMap("Overworld");
@@ -83,7 +122,7 @@ function loadMap(mapName, returnLoc = undefined) {
     // clear the pokemon info box
     info.update();
     // set viewport options
-    selectedMap = maps[mapName];
+    let selectedMap = maps[mapName];
     map.options.minZoom = selectedMap.minZoom;
     map.options.maxZoom = selectedMap.maxZoom;
     map.options.maxBounds = L.latLngBounds(L.latLng(selectedMap.bounds[0] - outOfBoundsInt, 0 - outOfBoundsInt), L.latLng(0 + outOfBoundsInt, selectedMap.bounds[1] + outOfBoundsInt));

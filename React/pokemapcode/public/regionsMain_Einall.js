@@ -19,6 +19,46 @@ var map = L.map('map', {
     markerZoomAnimation: true,
     zoomControl: false
 });
+
+function getPolygonCenter(coords) {
+    let sumX = 0, sumY = 0;
+    coords.forEach(coord => {
+        sumX += coord[0];
+        sumY += coord[1];
+    });
+
+    const centerX = sumX / coords.length;
+    const centerY = sumY / coords.length;
+
+    return [centerX, centerY];
+}
+
+
+const urlParams = new URLSearchParams(window.location.search);
+const place = urlParams.get('place');
+
+if (place) {
+    for (let i = 0; i < overworldRegions.features.length; i++) {
+        if (overworldRegions.features[i].properties.name === place) {
+            console.log('Match found:', overworldRegions.features[i].properties.name);
+            let originalCoords = overworldRegions.features[i].geometry.coordinates[0];
+
+            let center = getPolygonCenter(originalCoords);
+            map.setView([center[1], center[0]], 5);
+            setTimeout(() => {
+                map.flyTo([center[1], center[0]], 5, {
+                    duration: 2,        // Animation duration in seconds
+                    easeLinearity: 0.25  // Smooth transition effect
+                });
+            }, 1000);  // Delay flyTo for a smoother experience after load
+
+        }else{
+        console.log('No match found:', place);
+    }
+    }
+
+}
+
 new L.Control.Zoom({
     position: 'bottomright'
 }).addTo(map);
