@@ -159,3 +159,17 @@ body,
 .yeartime3 {
   background-color: lightskyblue;
 }
+
+#resetView {
+  position: absolute;
+  font-family: "Pokemon Solid";
+  color: #3563a9;
+  font-size: 2vh;
+  cursor: pointer;
+  bottom: 0.1vh;
+  left: 69%;
+  z-index: 1000;
+  height: auto;
+  background: #fbcf21;
+  border: 4px black solid;
+}

@@ -14,3 +14,17 @@ html, body, #map {
     width: 30vh;
     height: auto;
 }
+
+#complete_view {
+    position: absolute;
+    font-family: "Pokemon Solid";
+    color: #3563a9;
+    font-size: 2.2vh;
+    cursor: pointer;
+    bottom: 0.1vh;
+    left: 76%;
+    z-index: 1000;
+    height: auto;
+    background: #fbcf21;
+    border: 4px black solid;
+}
