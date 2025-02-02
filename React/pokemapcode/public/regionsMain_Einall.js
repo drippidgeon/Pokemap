@@ -47,10 +47,10 @@ if (place) {
             map.setView([center[1], center[0]], 5);
             setTimeout(() => {
                 map.flyTo([center[1], center[0]], 5, {
-                    duration: 2,        // Animation duration in seconds
-                    easeLinearity: 0.25  // Smooth transition effect
+                    duration: 2,
+                    easeLinearity: 0.25
                 });
-            }, 1000);  // Delay flyTo for a smoother experience after load
+            }, 1000);
 
         }else{
         console.log('No match found:', place);

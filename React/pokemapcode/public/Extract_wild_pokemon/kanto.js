@@ -60,7 +60,6 @@ const fetchPokemonData = async () => {
                 edition: edition,
               });
 
-              // Update lastLevel
               lastLevel = level;
 
             } else {
@@ -80,7 +79,6 @@ const fetchPokemonData = async () => {
                   edition: edition,
                 });
 
-                // Update lastLevel
                 lastLevel = level;
               }
             }
