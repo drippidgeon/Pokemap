@@ -5,7 +5,7 @@ const path = require('path');
 const overworldRegions = require('../Kanto_Route_View/overworldRegions_prev.js');
 
 const proxyUrl = 'https://api.allorigins.win/get?url=';
-const targetUrl = 'https://www.pokewiki.de/Route_1_(Kanto)';
+const targetUrl = 'https://www.pokewiki.de/Route_23_(Kanto)';
 let routeName = targetUrl.split('/').pop();
 routeName = routeName.replace(/_/g, ' ');
 const routeNumber = routeName.match(/\d+/) ? routeName.match(/\d+/)[0] : null;
@@ -19,7 +19,7 @@ const fetchPokemonData = async () => {
     const html = response.data.contents;
     const $ = cheerio.load(html);
 
-    const startSpan = $('span#Pokémon_Rote_Edition_und_Blaue_Edition_und_Pokémon_Special_Pikachu_Edition');
+    const startSpan = $('span#Pokémon_Feuerrote_Edition_und_Blattgrüne_Edition');
     let nextElement = startSpan.parent();
 
     const extractedData = [];
