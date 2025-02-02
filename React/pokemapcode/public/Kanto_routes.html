@@ -1,1 +1,45 @@
-<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<head>
+    <meta charset="utf-8">
+    <title>Kanto</title>
+    <meta name="description" content="An Interactive Map for Pokémon Platinum, featuring Item &amp; Berry Locations">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin=""
+    />
+    <script
+            src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""
+    ></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<div id="page-content">
+    <div id="map" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0"></div>
+    <div id="controlscon">
+        <img id="menu-access" src="./assets/menu_icon.svg" alt="Popout Menu" onclick="changeMenu()">
+        <div id="controls">
+            <button onclick="disableItems()">Items</button>
+            <button onclick="disableHiddenItems()">Hidden Items</button>
+            <button onclick="disableBerryItems()">Berries</button>
+            <button onclick="disableTMItems()">TMs</button>
+        </div>
+    </div>
+</div>
+
+<script src="./functions.js"></script>
+<script src="./Kanto_Route_View/overworldRegions.js"></script>
+<script src="./Kanto_Route_View/interiorRegions.js"></script>
+<script src="./Kanto_Route_View/maps.js"></script>
+<script src="./markers.js"></script>
+<script src="./Kanto_Route_View/overworldMarkers.js"></script>
+<script src="./Kanto_Route_View/interiorMarkers.js"></script>
+<script src="./regionsMain.js"></script>
+
+
+
+</body>
