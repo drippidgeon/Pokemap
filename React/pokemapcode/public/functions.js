@@ -71,4 +71,8 @@ function getCordfromLoc(lat, lng) {
     var lngf = ((lng + 0.5) * tileSize + (tileSize / 2));
     return [lngf, latf];
 }
+
+function resetView(){
+    window.location.href = window.location.href.split('?')[0]
+}
   

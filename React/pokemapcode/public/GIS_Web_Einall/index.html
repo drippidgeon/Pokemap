@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
         <link rel="stylesheet" href="css/qgis2web.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
         <style>
         html, body, #map {
             width: 100%;
@@ -27,6 +28,8 @@
         </div>
 
         <img id="icon" src="../assets/Pokemap_blank_cut_out.png" alt="Icon" onclick="onclickIcon()">
+
+        <button id="complete_view" onclick="completeViewButton()">Show complete route map</button>
 
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script>
@@ -50,6 +53,10 @@
 
         function onclickIcon() {
             window.location.href = '../index.html';
+        }
+
+        function completeViewButton() {
+            window.location.href = '../Einall_routes.html';
         }
 
         var highlightLayer;
