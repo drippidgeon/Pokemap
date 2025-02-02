@@ -1,4 +1,4 @@
-module.exports = {
+let overworldRegions = {
   "type": "FeatureCollection",
   "features": [
     {

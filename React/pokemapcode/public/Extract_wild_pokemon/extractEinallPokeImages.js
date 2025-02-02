@@ -80,12 +80,6 @@ console.log(pokemonData);
         }
     });
 
-    /*for (const locations of Object.values(pokemonData)) {
-        for (const pokemonEntry of locations) {
-            allPokemon.add(pokemonEntry.name.split(' ')[1]);
-        }
-    }*/
-
     console.log(`Starte Download für ${allPokemon.size} Pokémon...`);
 
     // Parallel heruntergeladen werden
