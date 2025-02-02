@@ -448,7 +448,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -456,7 +456,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel": [
@@ -474,7 +474,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "95 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -482,7 +482,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "95 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -492,7 +492,7 @@ let overworldRegions = {
               "levels": "5–20",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -500,7 +500,7 @@ let overworldRegions = {
               "levels": "5–20",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -526,7 +526,7 @@ let overworldRegions = {
               "levels": "35–70",
               "rate": "35 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -534,7 +534,7 @@ let overworldRegions = {
               "levels": "35–70",
               "rate": "35 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ]
         }
@@ -820,7 +820,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -828,7 +828,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel": [
@@ -846,7 +846,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -854,7 +854,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -864,7 +864,7 @@ let overworldRegions = {
               "levels": "5–20",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -872,7 +872,7 @@ let overworldRegions = {
               "levels": "5–20",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -898,7 +898,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -906,7 +906,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ]
         }
@@ -1248,7 +1248,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -1256,7 +1256,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen": [
@@ -1266,7 +1266,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -1274,7 +1274,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -1300,7 +1300,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -1308,7 +1308,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -1318,7 +1318,7 @@ let overworldRegions = {
               "levels": "5–20",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -1326,7 +1326,7 @@ let overworldRegions = {
               "levels": "5–20",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ]
         }
@@ -1877,7 +1877,7 @@ let overworldRegions = {
               "levels": "5–19",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -1885,7 +1885,7 @@ let overworldRegions = {
               "levels": "5–19",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel": [
@@ -1903,7 +1903,7 @@ let overworldRegions = {
               "levels": "37–55",
               "rate": "50 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -1911,7 +1911,7 @@ let overworldRegions = {
               "levels": "37–55",
               "rate": "50 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -1921,7 +1921,7 @@ let overworldRegions = {
               "levels": "9–20",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -1929,7 +1929,7 @@ let overworldRegions = {
               "levels": "9–20",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel  Pokémon-Schatten": [
@@ -1939,7 +1939,7 @@ let overworldRegions = {
               "levels": "55",
               "rate": "20 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -1947,7 +1947,7 @@ let overworldRegions = {
               "levels": "55",
               "rate": "20 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Goldini",
@@ -2503,7 +2503,7 @@ let overworldRegions = {
               "levels": "50",
               "rate": "Wiederholbar",
               "edition": "S2W2",
-              "image": "/assets/pokemon_images/Schalellos%20(Westliches%20Meer).png"
+              "image": "/assets/pokemon_images/Schalellos.png"
             }
           ],
           "Tausch (mit Markus)": [
@@ -2545,7 +2545,7 @@ let overworldRegions = {
               "levels": "50",
               "rate": "Wiederholbar",
               "edition": "S2W2",
-              "image": "/assets/pokemon_images/Schalellos%20(%C3%96stliches%20Meer).png"
+              "image": "/assets/pokemon_images/Schalellos.png"
             }
           ],
           "Tausch (mit Sabine oder Markus)": [
@@ -2879,7 +2879,7 @@ let overworldRegions = {
               "levels": "25",
               "rate": "Einmalig",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -2887,7 +2887,7 @@ let overworldRegions = {
               "levels": "25",
               "rate": "Einmalig",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen (beide Formen fangbar)": [
@@ -3222,7 +3222,7 @@ let overworldRegions = {
               "levels": "10–25",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -3230,7 +3230,7 @@ let overworldRegions = {
               "levels": "10–25",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel": [
@@ -3248,7 +3248,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -3256,7 +3256,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Quaputzi",
@@ -3274,7 +3274,7 @@ let overworldRegions = {
               "levels": "10–30",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -3282,7 +3282,7 @@ let overworldRegions = {
               "levels": "10–30",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -3300,7 +3300,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -3308,7 +3308,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Quaxo",
@@ -4429,7 +4429,7 @@ let overworldRegions = {
               "levels": "15–35",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -4437,7 +4437,7 @@ let overworldRegions = {
               "levels": "15–35",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel": [
@@ -4455,7 +4455,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -4463,7 +4463,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Dragonir",
@@ -4481,7 +4481,7 @@ let overworldRegions = {
               "levels": "15–40",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -4489,7 +4489,7 @@ let overworldRegions = {
               "levels": "15–40",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -4507,7 +4507,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -4515,7 +4515,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Dragonir",
@@ -5239,7 +5239,7 @@ let overworldRegions = {
               "levels": "25–55",
               "rate": "70 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -5247,7 +5247,7 @@ let overworldRegions = {
               "levels": "25–55",
               "rate": "70 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -5273,7 +5273,7 @@ let overworldRegions = {
               "levels": "25–60",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -5281,7 +5281,7 @@ let overworldRegions = {
               "levels": "25–60",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel": [
@@ -5299,7 +5299,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -5307,7 +5307,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -5333,7 +5333,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -5341,7 +5341,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ]
         }
@@ -5513,7 +5513,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -5521,7 +5521,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen": [
@@ -5531,7 +5531,7 @@ let overworldRegions = {
               "levels": "25–55",
               "rate": "100 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -5539,7 +5539,7 @@ let overworldRegions = {
               "levels": "25–55",
               "rate": "100 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -5565,7 +5565,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -5573,7 +5573,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -5583,7 +5583,7 @@ let overworldRegions = {
               "levels": "25–70",
               "rate": "95 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -5591,7 +5591,7 @@ let overworldRegions = {
               "levels": "25–70",
               "rate": "95 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Lapras",
@@ -6908,7 +6908,7 @@ let overworldRegions = {
               "levels": "25–55",
               "rate": "70 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -6916,7 +6916,7 @@ let overworldRegions = {
               "levels": "25–55",
               "rate": "70 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel": [
@@ -6934,7 +6934,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -6942,7 +6942,7 @@ let overworldRegions = {
               "levels": "35–55",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -6968,7 +6968,7 @@ let overworldRegions = {
               "levels": "25–55",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -6976,7 +6976,7 @@ let overworldRegions = {
               "levels": "25–55",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -7002,7 +7002,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "W",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -7010,7 +7010,7 @@ let overworldRegions = {
               "levels": "35–60",
               "rate": "30 %",
               "edition": "S",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Schwarm": [
@@ -7885,7 +7885,7 @@ let overworldRegions = {
               "levels": "30–45",
               "rate": "5 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -7893,7 +7893,7 @@ let overworldRegions = {
               "levels": "30–45",
               "rate": "5 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Quabbel",
@@ -7927,7 +7927,7 @@ let overworldRegions = {
               "levels": "35–45",
               "rate": "5 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -7935,7 +7935,7 @@ let overworldRegions = {
               "levels": "35–45",
               "rate": "5 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Apoquallyp",
@@ -8209,7 +8209,7 @@ let overworldRegions = {
               "levels": "15–40",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -8217,7 +8217,7 @@ let overworldRegions = {
               "levels": "15–40",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Marill",
@@ -8243,7 +8243,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "70 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -8251,7 +8251,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "70 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -8261,7 +8261,7 @@ let overworldRegions = {
               "levels": "15–40",
               "rate": "35 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -8269,7 +8269,7 @@ let overworldRegions = {
               "levels": "15–40",
               "rate": "35 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Marill",
@@ -8311,7 +8311,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -8319,7 +8319,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Schwarm": [
@@ -8937,7 +8937,7 @@ let overworldRegions = {
               "levels": "40–55",
               "rate": "70 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -8945,7 +8945,7 @@ let overworldRegions = {
               "levels": "40–55",
               "rate": "70 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Bamelin",
@@ -8971,7 +8971,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -8979,7 +8979,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -8989,7 +8989,7 @@ let overworldRegions = {
               "levels": "40–55",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -8997,7 +8997,7 @@ let overworldRegions = {
               "levels": "40–55",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Bamelin",
@@ -9039,7 +9039,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -9047,7 +9047,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ]
         }
@@ -9228,7 +9228,7 @@ let overworldRegions = {
               "levels": "35–50",
               "rate": "70 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -9236,7 +9236,7 @@ let overworldRegions = {
               "levels": "35–50",
               "rate": "70 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Bamelin",
@@ -9262,7 +9262,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -9270,7 +9270,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -9280,7 +9280,7 @@ let overworldRegions = {
               "levels": "35–50",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -9288,7 +9288,7 @@ let overworldRegions = {
               "levels": "35–50",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Bamelin",
@@ -9330,7 +9330,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -9338,7 +9338,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ]
         }
@@ -10157,7 +10157,7 @@ let overworldRegions = {
               "levels": "7–15",
               "rate": "70 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10165,7 +10165,7 @@ let overworldRegions = {
               "levels": "7–15",
               "rate": "70 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel": [
@@ -10175,7 +10175,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10183,7 +10183,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Quapsel",
@@ -10217,7 +10217,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "65 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10225,7 +10225,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "65 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -10235,7 +10235,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10243,7 +10243,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Quaputzi",
@@ -10399,7 +10399,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "70 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10407,7 +10407,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "70 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Azurill",
@@ -10433,7 +10433,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10441,7 +10441,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Surfen  Pokémon-Schatten": [
@@ -10451,7 +10451,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "65 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10459,7 +10459,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "65 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Marill",
@@ -10493,7 +10493,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10501,7 +10501,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Quaxo",
@@ -10637,7 +10637,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10645,7 +10645,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel": [
@@ -10655,7 +10655,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10663,7 +10663,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Quapsel",
@@ -10681,7 +10681,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10689,7 +10689,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -10699,7 +10699,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10707,7 +10707,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Quaputzi",
@@ -10795,7 +10795,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10803,7 +10803,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Superangel": [
@@ -10813,7 +10813,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10821,7 +10821,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Goldini",
@@ -10839,7 +10839,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10847,7 +10847,7 @@ let overworldRegions = {
               "levels": "5–15",
               "rate": "100 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             }
           ],
           "Pokémon-Schatten": [
@@ -10857,7 +10857,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "W2",
-              "image": "/assets/pokemon_images/Barschuft%20(Rotlinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Barschuft (Blaulinige Form)",
@@ -10865,7 +10865,7 @@ let overworldRegions = {
               "levels": "40–60",
               "rate": "30 %",
               "edition": "S2",
-              "image": "/assets/pokemon_images/Barschuft%20(Blaulinige%20Form).png"
+              "image": "/assets/pokemon_images/Barschuft.png"
             },
             {
               "name": "Goldini",
@@ -10917,7 +10917,7 @@ let overworldRegions = {
     {
       "type": "Feature",
       "properties": {
-        "name": "Reversal Mountain",
+        "name": "Janusberg",
         "world": "Overworld",
         "Pokémon": {}
       },
@@ -10952,7 +10952,7 @@ let overworldRegions = {
     {
       "type": "Feature",
       "properties": {
-        "name": "Lentimas Town",
+        "name": "Monsentiero",
         "world": "Overworld",
         "Pokémon": {}
       },

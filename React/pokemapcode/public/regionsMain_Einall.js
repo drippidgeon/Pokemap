@@ -176,7 +176,7 @@ function pkmnListOutput(str, arr, title, perc) {
 function outpkmn(props) {
     const pokemonData = props.Pokémon;
     var str = '<div id="pkmn-list">';
-    str += '<div class="pkmn-list-column">Name</div><div class="pkmn-list-column">Method</div><div class="pkmn-list-column">Levels</div><div class="pkmn-list-column">Rate</div>';
+    str += '<div class="pkmn-list-column">Name</div> <div class="pkmn-list-column">Image</div> <div class="pkmn-list-column">Method</div><div class="pkmn-list-column">Levels</div><div class="pkmn-list-column">Rate</div>';
 
     if (!pokemonData || Object.keys(pokemonData).length === 0) {
         return '<div class="pkmn-nodata">No Data Available</div>';
@@ -205,6 +205,9 @@ function outpkmn(props) {
 
             str += `<div class="pkmn-list-column">
                 <a href="https://www.pokewiki.de/${cleanedName}" target="_blank">${attribute.name}</a>
+            </div> 
+            <div class="pkmn-list-column">
+                <img src="${attribute.image}" alt="${attribute.name}" class="pokemon-image">
             </div>
                     <div class="pkmn-list-column">${attribute.area}</div>`
             var levelsdiv = document.createElement('div')

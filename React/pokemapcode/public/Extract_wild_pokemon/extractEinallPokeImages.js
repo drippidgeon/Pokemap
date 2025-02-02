@@ -114,7 +114,7 @@ async function updateDatabase() {
         for (const [pokemonName, pokemonAttributes] of Object.entries(locations)) {
             for (const attribute of pokemonAttributes) {
                 // Jedes Pokémon erhält ein neues `image`-Feld
-                attribute.image = `/assets/pokemon_images/${encodeURIComponent(attribute.name)}.png`;
+                attribute.image = `/assets/pokemon_images/${encodeURIComponent(attribute.name.split(" ")[0])}.png`;
             }
         }
     }
