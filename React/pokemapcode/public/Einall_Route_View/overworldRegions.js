@@ -1,4 +1,4 @@
-let overworldRegions = {
+overworldRegions = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -10926,63 +10926,72 @@ let overworldRegions = {
               "area": "Hohes Gras",
               "levels": "31, 33",
               "rate": "30 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Pionskora.png"
             },
             {
               "name": "Spoink",
               "area": "Hohes Gras",
               "levels": "31",
               "rate": "20 %",
-              "edition": "S2"
+              "edition": "S2",
+              "image": "/assets/pokemon_images/Spoink.png"
             },
             {
               "name": "Camaub",
               "area": "Hohes Gras",
               "levels": "31",
               "rate": "20 %",
-              "edition": "W2"
+              "edition": "W2",
+              "image": "/assets/pokemon_images/Camaub.png"
             },
             {
               "name": "Drifzepeli",
               "area": "Hohes Gras",
               "levels": "32–33",
               "rate": "20 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Drifzepeli.png"
             },
             {
               "name": "Knacklion",
               "area": "Hohes Gras",
               "levels": "32, 34",
               "rate": "15 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Knacklion.png"
             },
             {
               "name": "Groink",
               "area": "Hohes Gras",
               "levels": "33",
               "rate": "10 %",
-              "edition": "S2"
+              "edition": "S2",
+              "image": "/assets/pokemon_images/Groink.png"
             },
             {
               "name": "Camerupt",
               "area": "Hohes Gras",
               "levels": "33",
               "rate": "10 %",
-              "edition": "W2"
+              "edition": "W2",
+              "image": "/assets/pokemon_images/Camerupt.png"
             },
             {
               "name": "Panzaeron",
               "area": "Hohes Gras",
               "levels": "34",
               "rate": "5 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Panzaeron.png"
             },
             {
               "name": "Heatran",
               "area": "Hohes Gras",
               "levels": "68",
               "rate": "Einmalig",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Heatran.png"
             }
           ],
           "Dunkles Gras": [
@@ -10991,42 +11000,48 @@ let overworldRegions = {
               "area": "Dunkles Gras",
               "levels": "35, 37",
               "rate": "30 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Pionskora.png"
             },
             {
               "name": "Groink",
               "area": "Dunkles Gras",
               "levels": "35, 37",
               "rate": "30 %",
-              "edition": "S2"
+              "edition": "S2",
+              "image": "/assets/pokemon_images/Groink.png"
             },
             {
               "name": "Camerupt",
               "area": "Dunkles Gras",
               "levels": "35, 37",
               "rate": "30 %",
-              "edition": "W2"
+              "edition": "W2",
+              "image": "/assets/pokemon_images/Camerupt.png"
             },
             {
               "name": "Drifzepeli",
               "area": "Dunkles Gras",
               "levels": "36–37",
               "rate": "20 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Drifzepeli.png"
             },
             {
               "name": "Panzaeron",
               "area": "Dunkles Gras",
               "levels": "36, 38",
               "rate": "15 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Panzaeron.png"
             },
             {
               "name": "Vibrava",
               "area": "Dunkles Gras",
               "levels": "38",
               "rate": "5 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Vibrava.png"
             }
           ],
           "Raschelndes Gras": [
@@ -11035,7 +11050,8 @@ let overworldRegions = {
               "area": "Raschelndes Gras",
               "levels": "31–34",
               "rate": "100 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Ohrdoch.png"
             }
           ],
           "Schwarm": [
@@ -11044,7 +11060,8 @@ let overworldRegions = {
               "area": "Schwarm",
               "levels": "40–55",
               "rate": "40 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Noktuska.png"
             }
           ],
           "Höhle": [
@@ -11053,49 +11070,56 @@ let overworldRegions = {
               "area": "Höhle",
               "levels": "32, 34–35",
               "rate": "35 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Fleknoil.png"
             },
             {
               "name": "Sedimantur",
               "area": "Höhle",
               "levels": "32, 34–35",
               "rate": "25 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Sedimantur.png"
             },
             {
               "name": "Spoink",
               "area": "Höhle",
               "levels": "31",
               "rate": "20 %",
-              "edition": "S2"
+              "edition": "S2",
+              "image": "/assets/pokemon_images/Spoink.png"
             },
             {
               "name": "Camaub",
               "area": "Höhle",
               "levels": "31",
               "rate": "20 %",
-              "edition": "W2"
+              "edition": "W2",
+              "image": "/assets/pokemon_images/Camaub.png"
             },
             {
               "name": "Pionskora",
               "area": "Höhle",
               "levels": "33, 35",
               "rate": "15 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Pionskora.png"
             },
             {
               "name": "Groink",
               "area": "Höhle",
               "levels": "35",
               "rate": "5 %",
-              "edition": "S2"
+              "edition": "S2",
+              "image": "/assets/pokemon_images/Groink.png"
             },
             {
               "name": "Camerupt",
               "area": "Höhle",
               "levels": "35",
               "rate": "5 %",
-              "edition": "W2"
+              "edition": "W2",
+              "image": "/assets/pokemon_images/Camerupt.png"
             }
           ],
           "Staubwolke": [
@@ -11104,7 +11128,8 @@ let overworldRegions = {
               "area": "Staubwolke",
               "levels": "32–35",
               "rate": "100 %",
-              "edition": "S2W2"
+              "edition": "S2W2",
+              "image": "/assets/pokemon_images/Stalobor.png"
             }
           ]
         }

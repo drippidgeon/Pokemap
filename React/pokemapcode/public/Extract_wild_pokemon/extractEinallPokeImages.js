@@ -71,12 +71,14 @@ async function downloadAllImages() {
     let pokemonData = require(filePath);
 console.log(pokemonData);
     pokemonData.features.forEach((feature) => {
-          data =  feature.properties.Pokémon;
-        for (const [pokemonName, pokemonAttributes] of Object.entries(data)) {
-            for (const attribute of pokemonAttributes) {
-                allPokemon.add(attribute.name.split(" ")[0]);
-            }
+        if(feature.properties.name === "Janusberg") {
+            data = feature.properties.Pokémon;
+            for (const [pokemonName, pokemonAttributes] of Object.entries(data)) {
+                for (const attribute of pokemonAttributes) {
+                    allPokemon.add(attribute.name.split(" ")[0]);
+                }
 
+            }
         }
     });
 
@@ -108,13 +110,15 @@ let pokemonData = require(filePath); // Dies enthält die Pokémon-Daten
 async function updateDatabase() {
     // Durch alle Regionen in den Pokémon-Daten iterieren
     for (const feature of pokemonData.features) {
-        const locations = feature.properties.Pokémon;
+        if (feature.properties.name === "Janusberg") {
+            const locations = feature.properties.Pokémon;
 
-        // Durch alle Pokémon-Einträge in jeder Region iterieren
-        for (const [pokemonName, pokemonAttributes] of Object.entries(locations)) {
-            for (const attribute of pokemonAttributes) {
-                // Jedes Pokémon erhält ein neues `image`-Feld
-                attribute.image = `/assets/pokemon_images/${encodeURIComponent(attribute.name.split(" ")[0])}.png`;
+            // Durch alle Pokémon-Einträge in jeder Region iterieren
+            for (const [pokemonName, pokemonAttributes] of Object.entries(locations)) {
+                for (const attribute of pokemonAttributes) {
+                    // Jedes Pokémon erhält ein neues `image`-Feld
+                    attribute.image = `/assets/pokemon_images/${encodeURIComponent(attribute.name.split(" ")[0])}.png`;
+                }
             }
         }
     }
