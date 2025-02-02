@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
 const { fileURLToPath } = require('url');
-const filePath =   path.join( __dirname,'./../Einall_Route_View/overworldRegions.js');
+const filePath =   path.join( __dirname,'./../Johto_Route_View/overworldRegions.js');
 //const { getCordfromLoc } = require('./../functions');
 
 
@@ -71,7 +71,7 @@ async function downloadAllImages() {
     let pokemonData = require(filePath);
 console.log(pokemonData);
     pokemonData.features.forEach((feature) => {
-        if(feature.properties.name === "Janusberg") {
+       // if(pokemonData.features.name === Janusberg) {
             data = feature.properties.Pokémon;
             for (const [pokemonName, pokemonAttributes] of Object.entries(data)) {
                 for (const attribute of pokemonAttributes) {
@@ -79,7 +79,7 @@ console.log(pokemonData);
                 }
 
             }
-        }
+       // }
     });
 
     console.log(`Starte Download für ${allPokemon.size} Pokémon...`);
@@ -102,7 +102,7 @@ console.log(pokemonData);
 downloadAllImages();
 
 // Angenommener Dateipfad zu deiner Pokémon-Datenbank
-const databasePath = path.join(__dirname, '../Einall_Route_View/overworldRegions.js');
+//const databasePath = path.join(__dirname, '../Einall_Route_View/overworldRegions.js');
 
 // Beispielhafte Datei, die die Pokémon-Daten enthält
 let pokemonData = require(filePath); // Dies enthält die Pokémon-Daten
@@ -110,7 +110,7 @@ let pokemonData = require(filePath); // Dies enthält die Pokémon-Daten
 async function updateDatabase() {
     // Durch alle Regionen in den Pokémon-Daten iterieren
     for (const feature of pokemonData.features) {
-        if (feature.properties.name === "Janusberg") {
+        //if (feature.properties.name === "Janusberg") {
             const locations = feature.properties.Pokémon;
 
             // Durch alle Pokémon-Einträge in jeder Region iterieren
@@ -120,11 +120,11 @@ async function updateDatabase() {
                     attribute.image = `/assets/pokemon_images/${encodeURIComponent(attribute.name.split(" ")[0])}.png`;
                 }
             }
-        }
+        //}
     }
 
     // Die aktualisierten Daten zurück in die Datei schreiben
-    fs.writeFileSync(databasePath, `module.exports = ${JSON.stringify(pokemonData, null, 2)};`);
+    fs.writeFileSync(filePath, `module.exports = ${JSON.stringify(pokemonData, null, 2)};`);
     console.log('Datenbank erfolgreich aktualisiert!');
 }
 
