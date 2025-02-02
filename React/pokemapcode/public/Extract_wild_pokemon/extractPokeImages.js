@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
 const { fileURLToPath } = require('url');
-const filePath =   path.join( __dirname,'./../Johto_Route_View/overworldRegions.js');
+const filePath =   path.join( __dirname,'./../Kanto_Route_View/overworldRegions.js');
 //const { getCordfromLoc } = require('./../functions');
 
 

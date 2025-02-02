@@ -1,4 +1,4 @@
-overworldRegions = {
+let overworldRegions = {
   "type": "FeatureCollection",
   "features": [
     {
