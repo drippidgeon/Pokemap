@@ -4866,6 +4866,28 @@ var overworldRegions = {
             "type": "Polygon",
             "coordinates": [[getCordfromLoc(-221.625, 190.625), getCordfromLoc(-249.125, 190.625), getCordfromLoc(-249.125, 223.9375), getCordfromLoc(-221.625, 223.9375), getCordfromLoc(-221.625, 190.625)]]
         }
+    },  {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 48",
+            "world": "Overworld",
+            "Pokémon": {}
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-309.5, -1.0), getCordfromLoc(-343.8125, -1.0), getCordfromLoc(-343.8125, 54.625), getCordfromLoc(-309.5, 54.625), getCordfromLoc(-309.5, -1.0)]]
+        }
+    },  {
+        "type": "Feature",
+        "properties": {
+            "name": "Safari-Zone",
+            "world": "Overworld",
+            "Pokémon": {}
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-280.6875, -1.0), getCordfromLoc(-309.625, -1.0), getCordfromLoc(-309.625, 49.5625), getCordfromLoc(-280.6875, 49.5625), getCordfromLoc(-280.6875, -1.0)]]
+        }
     },
 ]
 }

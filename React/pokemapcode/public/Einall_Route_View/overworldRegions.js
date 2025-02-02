@@ -8125,6 +8125,34 @@ var overworldRegions = {
             "type": "Polygon",
             "coordinates":[[getCordfromLoc(-345.5, 157.25), getCordfromLoc(-380.78125, 157.25), getCordfromLoc(-380.78125, 185.125), getCordfromLoc(-345.5, 185.125), getCordfromLoc(-345.5, 157.25)]]
         }
+    },  {
+        "type": "Feature",
+        "properties": {
+            "name": "Reversal Mountain",
+            "world": "Overworld",
+            "Pokémon": {
+
+            }
+
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates":[[getCordfromLoc(-158.15625, 630.3125), getCordfromLoc(-173.5, 630.3125), getCordfromLoc(-173.5, 660.0625), getCordfromLoc(-158.15625, 660.0625), getCordfromLoc(-158.15625, 630.3125)]]
+        }
+    },  {
+        "type": "Feature",
+        "properties": {
+            "name": "Lentimas Town",
+            "world": "Overworld",
+            "Pokémon": {
+
+            }
+
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates":[[getCordfromLoc(-152.375, 604.125), getCordfromLoc(-177.09375, 604.125), getCordfromLoc(-177.09375, 630.28125), getCordfromLoc(-152.375, 630.28125), getCordfromLoc(-152.375, 604.125)]]
+        }
     },
     ]
 }

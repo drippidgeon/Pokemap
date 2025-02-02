@@ -1,6 +1,6 @@
 var maps = {
     "Overworld": {
-        "shortname": "johto-v.3",
+        "shortname": "johto-v.4",
         "zoom": 2,
         "minZoom": 2,
         "maxZoom": 6,
