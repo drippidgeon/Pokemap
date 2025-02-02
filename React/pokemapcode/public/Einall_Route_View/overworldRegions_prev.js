@@ -1,4 +1,3 @@
-
 module.exports = {
   "type": "FeatureCollection",
   "features": [
@@ -10063,6 +10062,373 @@ module.exports = {
               "area": "Pokémon-Schatten",
               "levels": "50–70",
               "rate": "10 %",
+              "edition": "S2W2"
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -345.5,
+              157.25
+            ],
+            [
+              -380.78125,
+              157.25
+            ],
+            [
+              -380.78125,
+              185.125
+            ],
+            [
+              -345.5,
+              185.125
+            ],
+            [
+              -345.5,
+              157.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monsentiero",
+        "world": "Overworld",
+        "Pokémon": {
+          "Aussichtsplattform,von Bell": [
+            {
+              "name": "Serpifeu",
+              "area": "Aussichtsplattform,von Bell",
+              "levels": "5",
+              "rate": "Einmalig (Wahl)",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Floink",
+              "area": "Aussichtsplattform,von Bell",
+              "levels": "5",
+              "rate": "Einmalig (Wahl)",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Ottaro",
+              "area": "Aussichtsplattform,von Bell",
+              "levels": "5",
+              "rate": "Einmalig (Wahl)",
+              "edition": "S2W2"
+            }
+          ],
+          "Surfen": [
+            {
+              "name": "Barschuft (Rotlinige Form)",
+              "area": "Surfen",
+              "levels": "5–15",
+              "rate": "100 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Barschuft (Blaulinige Form)",
+              "area": "Surfen",
+              "levels": "5–15",
+              "rate": "100 %",
+              "edition": "W2"
+            }
+          ],
+          "Superangel": [
+            {
+              "name": "Barschuft (Rotlinige Form)",
+              "area": "Superangel",
+              "levels": "40–60",
+              "rate": "30 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Barschuft (Blaulinige Form)",
+              "area": "Superangel",
+              "levels": "40–60",
+              "rate": "30 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Goldini",
+              "area": "Superangel",
+              "levels": "40–60",
+              "rate": "70 %",
+              "edition": "S2W2"
+            }
+          ],
+          "Surfen  Pokémon-Schatten": [
+            {
+              "name": "Barschuft (Rotlinige Form)",
+              "area": "Surfen  Pokémon-Schatten",
+              "levels": "5–15",
+              "rate": "100 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Barschuft (Blaulinige Form)",
+              "area": "Surfen  Pokémon-Schatten",
+              "levels": "5–15",
+              "rate": "100 %",
+              "edition": "S2"
+            }
+          ],
+          "Pokémon-Schatten": [
+            {
+              "name": "Barschuft (Rotlinige Form)",
+              "area": "Pokémon-Schatten",
+              "levels": "40–60",
+              "rate": "30 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Barschuft (Blaulinige Form)",
+              "area": "Pokémon-Schatten",
+              "levels": "40–60",
+              "rate": "30 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Goldini",
+              "area": "Pokémon-Schatten",
+              "levels": "40–60",
+              "rate": "60 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Golking",
+              "area": "Pokémon-Schatten",
+              "levels": "50–70",
+              "rate": "10 %",
+              "edition": "S2W2"
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -345.5,
+              157.25
+            ],
+            [
+              -380.78125,
+              157.25
+            ],
+            [
+              -380.78125,
+              185.125
+            ],
+            [
+              -345.5,
+              185.125
+            ],
+            [
+              -345.5,
+              157.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Janusberg",
+        "world": "Overworld",
+        "Pokémon": {
+          "Hohes Gras": [
+            {
+              "name": "Pionskora",
+              "area": "Hohes Gras",
+              "levels": "31, 33",
+              "rate": "30 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Spoink",
+              "area": "Hohes Gras",
+              "levels": "31",
+              "rate": "20 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Camaub",
+              "area": "Hohes Gras",
+              "levels": "31",
+              "rate": "20 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Drifzepeli",
+              "area": "Hohes Gras",
+              "levels": "32–33",
+              "rate": "20 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Knacklion",
+              "area": "Hohes Gras",
+              "levels": "32, 34",
+              "rate": "15 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Groink",
+              "area": "Hohes Gras",
+              "levels": "33",
+              "rate": "10 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Camerupt",
+              "area": "Hohes Gras",
+              "levels": "33",
+              "rate": "10 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Panzaeron",
+              "area": "Hohes Gras",
+              "levels": "34",
+              "rate": "5 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Heatran",
+              "area": "Hohes Gras",
+              "levels": "68",
+              "rate": "Einmalig",
+              "edition": "S2W2"
+            }
+          ],
+          "Dunkles Gras": [
+            {
+              "name": "Pionskora",
+              "area": "Dunkles Gras",
+              "levels": "35, 37",
+              "rate": "30 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Groink",
+              "area": "Dunkles Gras",
+              "levels": "35, 37",
+              "rate": "30 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Camerupt",
+              "area": "Dunkles Gras",
+              "levels": "35, 37",
+              "rate": "30 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Drifzepeli",
+              "area": "Dunkles Gras",
+              "levels": "36–37",
+              "rate": "20 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Panzaeron",
+              "area": "Dunkles Gras",
+              "levels": "36, 38",
+              "rate": "15 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Vibrava",
+              "area": "Dunkles Gras",
+              "levels": "38",
+              "rate": "5 %",
+              "edition": "S2W2"
+            }
+          ],
+          "Raschelndes Gras": [
+            {
+              "name": "Ohrdoch",
+              "area": "Raschelndes Gras",
+              "levels": "31–34",
+              "rate": "100 %",
+              "edition": "S2W2"
+            }
+          ],
+          "Schwarm": [
+            {
+              "name": "Noktuska",
+              "area": "Schwarm",
+              "levels": "40–55",
+              "rate": "40 %",
+              "edition": "S2W2"
+            }
+          ],
+          "Höhle": [
+            {
+              "name": "Fleknoil",
+              "area": "Höhle",
+              "levels": "32, 34–35",
+              "rate": "35 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Sedimantur",
+              "area": "Höhle",
+              "levels": "32, 34–35",
+              "rate": "25 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Spoink",
+              "area": "Höhle",
+              "levels": "31",
+              "rate": "20 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Camaub",
+              "area": "Höhle",
+              "levels": "31",
+              "rate": "20 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Pionskora",
+              "area": "Höhle",
+              "levels": "33, 35",
+              "rate": "15 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Groink",
+              "area": "Höhle",
+              "levels": "35",
+              "rate": "5 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Camerupt",
+              "area": "Höhle",
+              "levels": "35",
+              "rate": "5 %",
+              "edition": "W2"
+            }
+          ],
+          "Staubwolke": [
+            {
+              "name": "Stalobor",
+              "area": "Staubwolke",
+              "levels": "32–35",
+              "rate": "100 %",
               "edition": "S2W2"
             }
           ]

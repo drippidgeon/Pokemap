@@ -5,7 +5,7 @@ const path = require('path');
 const overworldRegions = require('../Einall_Route_View/overworldRegions_prev.js');
 
 const proxyUrl = 'https://api.allorigins.win/get?url=';
-const targetUrl = 'https://www.pokewiki.de/Eventura_City';
+const targetUrl = 'https://www.pokewiki.de/Janusberg';
 let routeName = targetUrl.split('/').pop();
 routeName = routeName.replace(/_/g, ' ');
 const routeNumber = routeName.match(/\d+/) ? routeName.match(/\d+/)[0] : null;

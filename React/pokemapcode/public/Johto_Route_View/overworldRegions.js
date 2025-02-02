@@ -4871,7 +4871,158 @@ var overworldRegions = {
         "properties": {
             "name": "Route 48",
             "world": "Overworld",
-            "Pokémon": {}
+            "Pokémon": {
+                "Hohes Gras": [
+                    {
+                        "name": "Ibitak",
+                        "area": "Hohes Gras",
+                        "levels": "21",
+                        "rate": "10 %",
+                        "edition": "HGSS"
+                    },
+                    {
+                        "name": "Vulpix",
+                        "area": "Hohes Gras",
+                        "levels": "21–22, 25",
+                        "rate": [
+                            "9 %",
+                            "9 %",
+                            "29 %"
+                        ],
+                        "edition": "SS"
+                    },
+                    {
+                        "name": "Duflor",
+                        "area": "Hohes Gras",
+                        "levels": "22, 24",
+                        "rate": "20 %",
+                        "edition": "HGSS"
+                    },
+                    {
+                        "name": "Digda",
+                        "area": "Hohes Gras",
+                        "levels": "20",
+                        "rate": "4 %",
+                        "edition": "HGSS"
+                    },
+                    {
+                        "name": "Fukano",
+                        "area": "Hohes Gras",
+                        "levels": "21–22, 25",
+                        "rate": [
+                            "9 %",
+                            "9 %",
+                            "29 %"
+                        ],
+                        "edition": "HG"
+                    },
+                    {
+                        "name": "Porenta",
+                        "area": "Hohes Gras",
+                        "levels": "25",
+                        "rate": [
+                            "20 %",
+                            "20 %",
+                            "—"
+                        ],
+                        "edition": "HG"
+                    },
+                    {
+                        "name": "Porenta",
+                        "area": "Hohes Gras",
+                        "levels": "24",
+                        "rate": [
+                            "20 %",
+                            "20 %",
+                            "—"
+                        ],
+                        "edition": "SS"
+                    },
+                    {
+                        "name": "Tauros",
+                        "area": "Hohes Gras",
+                        "levels": "20, 24",
+                        "rate": "21 %",
+                        "edition": "HGSS"
+                    },
+                    {
+                        "name": "Hoppspross",
+                        "area": "Hohes Gras",
+                        "levels": "20, 22",
+                        "rate": "11 %",
+                        "edition": "HGSS"
+                    },
+                    {
+                        "name": "Girafarig",
+                        "area": "Hohes Gras",
+                        "levels": "20",
+                        "rate": "5 %",
+                        "edition": "HGSS"
+                    }
+                ],
+                "Hoenn-Sound": [
+                    {
+                        "name": "Plusle",
+                        "area": "Hoenn-Sound",
+                        "levels": "20–21",
+                        "rate": "20 %",
+                        "edition": "HGSS"
+                    },
+                    {
+                        "name": "Minun",
+                        "area": "Hoenn-Sound",
+                        "levels": "22, 24",
+                        "rate": "20 %",
+                        "edition": "HGSS"
+                    }
+                ],
+                "Sinnoh-Sound": [
+                    {
+                        "name": "Sheinux",
+                        "area": "Sinnoh-Sound",
+                        "levels": "20–22, 24",
+                        "rate": "40 %",
+                        "edition": "HGSS"
+                    }
+                ],
+                "Kopfnuss-Bäume": [
+                    {
+                        "name": "Owei",
+                        "area": "Kopfnuss-Bäume",
+                        "levels": "variiert nach Baum",
+                        "rate": "variiert nach Baum",
+                        "edition": "HGSS"
+                    },
+                    {
+                        "name": "Hoothoot",
+                        "area": "Kopfnuss-Bäume",
+                        "levels": "variiert nach Baum",
+                        "rate": "variiert nach Baum",
+                        "edition": "HGSS"
+                    },
+                    {
+                        "name": "Ledyba",
+                        "area": "Kopfnuss-Bäume",
+                        "levels": "variiert nach Baum",
+                        "rate": "variiert nach Baum",
+                        "edition": "SS"
+                    },
+                    {
+                        "name": "Webarak",
+                        "area": "Kopfnuss-Bäume",
+                        "levels": "variiert nach Baum",
+                        "rate": "variiert nach Baum",
+                        "edition": "HG"
+                    },
+                    {
+                        "name": "Tannza",
+                        "area": "Kopfnuss-Bäume",
+                        "levels": "variiert nach Baum",
+                        "rate": "variiert nach Baum",
+                        "edition": "HGSS"
+                    }
+                ]
+            }
         },
         "geometry": {
             "type": "Polygon",

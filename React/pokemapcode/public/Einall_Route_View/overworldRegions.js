@@ -10919,7 +10919,195 @@ let overworldRegions = {
       "properties": {
         "name": "Janusberg",
         "world": "Overworld",
-        "Pokémon": {}
+        "Pokémon": {
+          "Hohes Gras": [
+            {
+              "name": "Pionskora",
+              "area": "Hohes Gras",
+              "levels": "31, 33",
+              "rate": "30 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Spoink",
+              "area": "Hohes Gras",
+              "levels": "31",
+              "rate": "20 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Camaub",
+              "area": "Hohes Gras",
+              "levels": "31",
+              "rate": "20 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Drifzepeli",
+              "area": "Hohes Gras",
+              "levels": "32–33",
+              "rate": "20 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Knacklion",
+              "area": "Hohes Gras",
+              "levels": "32, 34",
+              "rate": "15 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Groink",
+              "area": "Hohes Gras",
+              "levels": "33",
+              "rate": "10 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Camerupt",
+              "area": "Hohes Gras",
+              "levels": "33",
+              "rate": "10 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Panzaeron",
+              "area": "Hohes Gras",
+              "levels": "34",
+              "rate": "5 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Heatran",
+              "area": "Hohes Gras",
+              "levels": "68",
+              "rate": "Einmalig",
+              "edition": "S2W2"
+            }
+          ],
+          "Dunkles Gras": [
+            {
+              "name": "Pionskora",
+              "area": "Dunkles Gras",
+              "levels": "35, 37",
+              "rate": "30 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Groink",
+              "area": "Dunkles Gras",
+              "levels": "35, 37",
+              "rate": "30 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Camerupt",
+              "area": "Dunkles Gras",
+              "levels": "35, 37",
+              "rate": "30 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Drifzepeli",
+              "area": "Dunkles Gras",
+              "levels": "36–37",
+              "rate": "20 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Panzaeron",
+              "area": "Dunkles Gras",
+              "levels": "36, 38",
+              "rate": "15 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Vibrava",
+              "area": "Dunkles Gras",
+              "levels": "38",
+              "rate": "5 %",
+              "edition": "S2W2"
+            }
+          ],
+          "Raschelndes Gras": [
+            {
+              "name": "Ohrdoch",
+              "area": "Raschelndes Gras",
+              "levels": "31–34",
+              "rate": "100 %",
+              "edition": "S2W2"
+            }
+          ],
+          "Schwarm": [
+            {
+              "name": "Noktuska",
+              "area": "Schwarm",
+              "levels": "40–55",
+              "rate": "40 %",
+              "edition": "S2W2"
+            }
+          ],
+          "Höhle": [
+            {
+              "name": "Fleknoil",
+              "area": "Höhle",
+              "levels": "32, 34–35",
+              "rate": "35 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Sedimantur",
+              "area": "Höhle",
+              "levels": "32, 34–35",
+              "rate": "25 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Spoink",
+              "area": "Höhle",
+              "levels": "31",
+              "rate": "20 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Camaub",
+              "area": "Höhle",
+              "levels": "31",
+              "rate": "20 %",
+              "edition": "W2"
+            },
+            {
+              "name": "Pionskora",
+              "area": "Höhle",
+              "levels": "33, 35",
+              "rate": "15 %",
+              "edition": "S2W2"
+            },
+            {
+              "name": "Groink",
+              "area": "Höhle",
+              "levels": "35",
+              "rate": "5 %",
+              "edition": "S2"
+            },
+            {
+              "name": "Camerupt",
+              "area": "Höhle",
+              "levels": "35",
+              "rate": "5 %",
+              "edition": "W2"
+            }
+          ],
+          "Staubwolke": [
+            {
+              "name": "Stalobor",
+              "area": "Staubwolke",
+              "levels": "32–35",
+              "rate": "100 %",
+              "edition": "S2W2"
+            }
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",

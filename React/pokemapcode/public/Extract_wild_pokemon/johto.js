@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const proxyUrl = 'https://api.allorigins.win/get?url=';
-const targetUrl = 'https://www.pokewiki.de/See_des_Zorns';
+const targetUrl = 'https://www.pokewiki.de/Route_48_(Johto)';
 let routeName = targetUrl.split('/').pop();
 routeName = routeName.replace(/_/g, ' ');
 const routeNumber = routeName.match(/\d+/) ? routeName.match(/\d+/)[0] : null;
