@@ -202,7 +202,9 @@ function outpkmn(props) {
                 useMapTimeRate = true;
             }
             
-            str += `<div class="pkmn-list-column">${attribute.name}</div>
+            str += `<div class="pkmn-list-column">
+                <a href="https://www.pokewiki.de/${attribute.name}" target="_blank">${attribute.name}</a>
+            </div>
                     <div class="pkmn-list-column">${attribute.area}</div>`
             var levelsdiv = document.createElement('div')
             levelsdiv.className = useMapTimeLevels ? `pkmn-list-column yeartime${mapTime}` : "pkmn-list-column"
