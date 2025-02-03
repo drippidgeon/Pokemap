@@ -136,7 +136,7 @@ function loadMap(mapName, returnLoc = undefined) {
     var tileLayer = L.tileLayer('tilesets/' + selectedMap.shortname + '/{z}/{y}/{x}.png', {
         tms: false,
         reuseTiles: true,
-        attribution: 'Original by <a target="_blank" href="https://pkmnmap.com">Jaxson Keenes</a> | Gen 4 Update by <a target="_blank" href="https://github.com/ICEREG1992/pkmnmap4">William Sullivan</a><br>Maps from <a target="_blank" href="https://bulbapedia.bulbagarden.net/wiki/Category:Platinum_locations">Bulbapedia</a> | Item locations from <a target="_blank" href="https://youtube.com/playlist?list=PLDHidtsnukfIVS-VhbJRuxHVfKgmPduIE&si=agUfWjlSWxbYmLkX">Techno Trainer</a>',
+        attribution: 'Original by <a target="_blank" href="https://github.com/drippidgeon/Pokemap">Pokemap Team</a> | <br>Maps from <a target="_blank" href="https://bulbapedia.bulbagarden.net/wiki/Category:Platinum_locations">Bulbapedia</a> | Item locations from <a target="_blank" href="https://youtube.com/playlist?list=PLDHidtsnukfIVS-VhbJRuxHVfKgmPduIE&si=agUfWjlSWxbYmLkX">Techno Trainer</a>',
         bounds: L.latLngBounds(L.latLng(selectedMap.bounds[0], 0), L.latLng(0, selectedMap.bounds[1])),
         tileSize: 256
     });
@@ -248,8 +248,25 @@ function updateFeature(e) {
     oldtarget = e.target;
 }
 
+
 function onEachFeature(feature, layer) {
     layer.on({
-        click: updateFeature,
-    });
+        // needs to be active in order to click on regions!!!!
+       //click: updateFeature,
+
+   });
+
 }
+
+// Add marker Script, REMOVE after all markers are set!
+
+// Import of the marker handling script
+const markerHandler = document.createElement("script");
+markerHandler.src = "./Extract_wild_pokemon/add_marker/addMarkerScript.js";
+document.head.appendChild(markerHandler);
+
+
+// Map click event listener
+map.on('click', function(e) {
+    openMarkerPopup(e.latlng.lat, e.latlng.lng);
+});
