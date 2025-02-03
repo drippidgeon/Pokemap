@@ -265,7 +265,6 @@ const markerHandler = document.createElement("script");
 markerHandler.src = "./Extract_wild_pokemon/add_marker/addMarkerScript.js";
 document.head.appendChild(markerHandler);
 
-
 // Map click event listener
 map.on('click', function(e) {
     openMarkerPopup(e.latlng.lat, e.latlng.lng);
