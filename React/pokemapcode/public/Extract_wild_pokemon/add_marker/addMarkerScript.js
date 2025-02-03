@@ -1,4 +1,4 @@
-let savePath = "../Johto_Route_View/overworldMarkers.js"
+let savePath = "../Kanto_Route_View/overworldMarkers.js"
 
 
 // Function to create the popup form
