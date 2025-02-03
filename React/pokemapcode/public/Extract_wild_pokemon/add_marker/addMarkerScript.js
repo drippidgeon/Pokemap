@@ -1,4 +1,4 @@
-let savePath = "../Kanto_Route_View/overworldMarkers.js"
+let savePath = "../Einall_Route_View/overworldMarkers.js"
 
 
 // Function to create the popup form
@@ -41,17 +41,17 @@ function openMarkerPopup(lat, lng) {
 function addMarker(lat, lng, description, iconType) {
     L.marker([lat, lng], { icon: window[iconType] }).addTo(map)
         .bindPopup(description);
-    var newLat = (lat / 0.25) + 1;
-    var newLng = lng / 0.25;
-    newLat = Math.round(newLat * 16) / 16;
-    newLng  = Math.round(newLng * 16) / 16;
+    var newLat = (lat / 0.249990234375) +1;
+    var newLng = lng / 0.249990234375;
+    newLat = newLat * 16 / 16;
+    newLng  = newLng * 16 / 16;
 
     saveMarkerToFile(newLat, newLng, description, iconType);
 }
 
 // Function to save the new marker to overworldMarkers.js
 function saveMarkerToFile(lat, lng, description, iconType) {
-    let newMarker = `markerSet(${lat.toFixed(2)}, ${lng.toFixed(2)}, "${description}", ${iconType}, currentMap);\n`;
+    let newMarker = `markerSet(${lat.toFixed(3)}, ${lng.toFixed(3)}, "${description}", ${iconType}, currentMap);\n`;
 
     fetch(savePath, { method: 'GET' })
         .then(response => response.text())

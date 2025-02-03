@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
     // Datei speichern (Achtung: Pfad muss stimmen!)
-    $filePath = "./Kanto_Route_View/overworldMarkers.js";
+    $filePath = "./Einall_Route_View/overworldMarkers.js";
     if (file_put_contents($filePath, $data)) {
         echo "Erfolgreich gespeichert!";
     } else {
