@@ -13,5 +13,11 @@ markerSet(-124.81, 446.00, "Felstunnel", entranceIcon, currentMap);
 markerSet(-272.31, 371.81, "Digda-Höhle", entranceIcon, currentMap);
 markerSet(-162.81, 130.94, "Digda-Höhle", entranceIcon, currentMap);
 markerSet(-191.06, 456.00, "Pokémon-Turm", entranceIcon, currentMap);
-markerSet(-109.69, 58.94, "Siegesstraße ", entranceIcon, currentMap);
-markerSet(-109.56, 71.88, "Siegesstraße ", entranceIcon, currentMap);
+markerSet(-109.69, 58.94, "Siegesstraße", entranceIcon, currentMap);
+markerSet(-109.56, 71.88, "Siegesstraße", entranceIcon, currentMap);
+markerSet(-145.88, 444.94, "Kraftwerk", entranceIcon, currentMap);
+//   markerSet(-198.25, 341.00, "Silph-Co", entranceIcon, currentMap);  not implemented yet (idk if it ever will be)
+///////// Interiormarkers:
+
+
+

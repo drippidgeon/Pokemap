@@ -76,11 +76,16 @@ function markerSet(lat, lng, description, iconImage, world, returnLoc) {
 }
 
 function onClickEvent(e) {
-    console.log(e);
-    if (e.target.iconImage.options.className === "entrance") {
+    console.log("Clicked Entrance:", e.target.name);
+    console.log("Expected Tileset:", e.target.name);
+    console.log("Return Location:", e.target.returnLoc);
+
+    if (e.target.iconImage.options.className == "entrance") {
         if (e.target.returnLoc) {
+            console.log("Switching to Map:", e.target.name);
             loadMap(e.target.name, e.target.returnLoc);
         } else {
+            console.log("Switching to Map without Return Location");
             loadMap(e.target.name);
         }
     }
