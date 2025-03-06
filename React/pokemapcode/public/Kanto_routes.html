@@ -28,6 +28,7 @@
             <button onclick="disableHiddenItems()">Hidden Items</button>
             <button onclick="disableBerryItems()">Berries</button>
             <button onclick="disableTMItems()">TMs</button>
+            <button onclick="disableTrainer()">Trainer</button>
         </div>
     </div>
 </div>
@@ -36,7 +37,7 @@
     <button id="resetView" onclick="resetView()">Reset View</button>
 </div>
 
-
+<script src="/React/pokemapcode/public/Extract_wild_pokemon/add_marker/addMarkerScript.js"></script>
 <script src="./functions.js"></script>
 <script src="./Kanto_Route_View/overworldRegions.js"></script>
 <script src="./Kanto_Route_View/interiorRegions.js"></script>
@@ -45,6 +46,32 @@
 <script src="./Kanto_Route_View/overworldMarkers.js"></script>
 <script src="./Kanto_Route_View/interiorMarkers.js"></script>
 <script src="./regionsMain.js"></script>
+<script src="./Extract_wild_pokemon/add_marker/addMarkerScript.js"></script>
+<script>function loadTrainers() {
+    if (typeof addTrainerMarker === "function") {
+        fetch('./Kanto_Route_View/trainers.json')
+            .then(response => response.json())
+            .then(data => {
+                if (data.trainers && Array.isArray(data.trainers)) {
+                    data.trainers.forEach(trainer => {
+                        addTrainerMarker(
+                            parseFloat(trainer.lat), 
+                            parseFloat(trainer.lng), 
+                            trainer.name, 
+                            trainer.pokemon, 
+                            trainer.iconType
+                        );
+                    });
+                } 
+            })
+    } else {
+        setTimeout(loadTrainers, 500); // Erneuter Versuch nach 500ms
+    }
+}
+
+setTimeout(loadTrainers, 500);
+</script>
+
 
 
 

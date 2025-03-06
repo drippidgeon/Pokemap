@@ -1,0 +1,16 @@
+{
+    "trainers": [
+        {
+            "lat": "-78.64",
+            "lng": "31.25",
+            "name": "Trainer",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        }
+    ]
+}

@@ -23,6 +23,12 @@ var entranceIcon = L.divIcon({
     iconSize: null,
     popupAnchor: [0, -10]
 });
+var trainerIcon = L.divIcon({
+    className: 'trainerIcon',
+    iconSize: null,
+    popupAnchor: [0, -10]
+});
+
 var currentMap = "Overworld";
 var tileSize = .25;
 function markerSet(lat, lng, description, iconImage, world, returnLoc) {
@@ -69,6 +75,12 @@ function markerSet(lat, lng, description, iconImage, world, returnLoc) {
             }
             maps[world].entranceLayer.addLayer(marker);
             break;
+        case trainerIcon:
+            if (null == maps[world].trainerLayer) {
+              maps[world].trainerLayer = L.layerGroup();
+            }
+            maps[world].trainerLayer.addLayer(marker);
+           break;
         default:
             console.warn("Unknown item type specified: " + iconImage)
     }
@@ -79,6 +91,21 @@ function onClickEvent(e) {
     console.log("Clicked Entrance:", e.target.name);
     console.log("Expected Tileset:", e.target.name);
     console.log("Return Location:", e.target.returnLoc);
+    console.log("Clicked Marker:", e.target.name);
+
+    if (e.target.iconImage.options.className == "trainerIcon") {
+        if (e.target.trainerData) {
+            let trainer = e.target.trainerData;
+            let popupContent = `<b>${trainer.name}</b><br>Pokémon: <ul>`;
+            trainer.pokemon.forEach(poke => {
+                popupContent += `<li>${poke.name} (Level ${poke.level})</li>`;
+            });
+            popupContent += "</ul>";
+            e.target.bindPopup(popupContent).openPopup();
+        } else {
+            e.target.bindPopup("Trainer-Daten nicht verfügbar.").openPopup();
+        }
+    }
 
     if (e.target.iconImage.options.className == "entrance") {
         if (e.target.returnLoc) {
