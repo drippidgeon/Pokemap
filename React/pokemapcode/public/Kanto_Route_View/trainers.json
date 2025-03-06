@@ -1,13 +1,297 @@
 {
     "trainers": [
         {
-            "lat": "-78.64",
-            "lng": "31.25",
-            "name": "Trainer",
+            "lat": "-32.20",
+            "lng": "29.25",
+            "name": "Rocko",
             "pokemon": [
                 {
+                    "name": "Kleinstein",
+                    "level": 12
+                },
+                {
+                    "name": "Onix",
+                    "level": 12
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-28.66",
+            "lng": "87.27",
+            "name": "Misty",
+            "pokemon": [
+                {
+                    "name": "Sterndu",
+                    "level": 18
+                },{
+                    "name": "Starmie",
+                    "level": 21
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-44.50",
+            "lng": "88.41",
+            "name": "Sabrina",
+            "pokemon": [
+                {
+                    "name": "Kadabra",
+                    "level": 38
+                },                 {
+                    "name": "Pantimos",
+                    "level": 37
+                },                 {
+                    "name": "Omot",
+                    "level": 38
+                },                 {
+                    "name": "Simsala",
+                    "level": 43
+                }
+                
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-50.81",
+            "lng": "61.72",
+            "name": "Erika",
+            "pokemon": [
+                {
+                    "name": "Sarzenia",
+                    "level": 29
+                },                {
+                    "name": "Tangela",
+                    "level": 24
+                },                {
+                    "name": "Giflor",
+                    "level": 29
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-69.59",
+            "lng": "82.88",
+            "name": "Major Bob",
+            "pokemon": [
+                {
+                    "name": "Voltobal",
+                    "level": 21
+                },{
                     "name": "Pikachu",
-                    "level": 25
+                    "level": 18
+                },{
+                    "name": "Pikachu",
+                    "level": 24
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-96.28",
+            "lng": "63.75",
+            "name": "Koga",
+            "pokemon": [
+                {
+                    "name": "Smogon",
+                    "level": 37
+                },                {
+                    "name": "Smogon",
+                    "level": 37
+                },                {
+                    "name": "Sleimok",
+                    "level": 39
+                },                {
+                    "name": "Smogmog",
+                    "level": 43
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-108.43",
+            "lng": "33.49",
+            "name": "Pyro",
+            "pokemon": [
+                {
+                    "name": "Fukano",
+                    "level": 42
+                },{
+                    "name": "Ponita",
+                    "level": 40
+                },                {
+                    "name": "Gallopa",
+                    "level": 42
+                },                {
+                    "name": "Arkani",
+                    "level": 47
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-59.89",
+            "lng": "34.45",
+            "name": "Giovanni",
+            "pokemon": [
+                {
+                    "name": "Rihorn",
+                    "level": 45
+                },                {
+                    "name": "Digdri",
+                    "level": 42
+                },                {
+                    "name": "Nidoqueen",
+                    "level": 44
+                },                {
+                    "name": "Nidoking",
+                    "level": 45
+                },                {
+                    "name": "Rihorn",
+                    "level": 50
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-16.28",
+            "lng": "15.06",
+            "name": "Lorelei",
+            "pokemon": [
+                {
+                    "name": "Jugong",
+                    "level": 52
+                },                {
+                    "name": "Austos",
+                    "level": 51
+                },                {
+                    "name": "Lahmus",
+                    "level": 52
+                },                {
+                    "name": "Rossana",
+                    "level": 54
+                },                {
+                    "name": "Lapras",
+                    "level": 54
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-16.33",
+            "lng": "15.84",
+            "name": "Bruno",
+            "pokemon": [
+                {
+                    "name": "Onix",
+                    "level": 51
+                },                {
+                    "name": "Nockchan",
+                    "level": 53
+                },                {
+                    "name": "Kicklee",
+                    "level": 53
+                },                {
+                    "name": "Onix",
+                    "level": 54
+                },                {
+                    "name": "Machomei",
+                    "level": 56
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-16.33",
+            "lng": "16.66",
+            "name": "Agathe",
+            "pokemon": [
+                {
+                    "name": "Gengar",
+                    "level": 54
+                },                {
+                    "name": "Golbat",
+                    "level": 54
+                },                {
+                    "name": "Alpollo",
+                    "level": 53
+                },                {
+                    "name": "Arbok",
+                    "level": 56
+                },                {
+                    "name": "Gengar",
+                    "level": 58
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-16.38",
+            "lng": "17.41",
+            "name": "Siegfried",
+            "pokemon": [
+                {
+                    "name": "Garados",
+                    "level": 56
+                },                {
+                    "name": "Dragonir",
+                    "level": 54
+                },                {
+                    "name": "Dragonir",
+                    "level": 54
+                },                {
+                    "name": "Aerodactyl",
+                    "level": 58
+                },                {
+                    "name": "Dragoran",
+                    "level": 60
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-15.61",
+            "lng": "16.20",
+            "name": "Champion (Rivale)",
+            "pokemon": [
+                {
+                    "name": "Tauboss",
+                    "level": 59
+                },                {
+                    "name": "Rizeros",
+                    "level": 59
+                },                {
+                    "name": "Simsala",
+                    "level": 57
+                },                {
+                    "name": "Kokowei (wenn Bisasam als Starter)",
+                    "level": 59
+                },                {
+                    "name": "Garados (wenn Bisasam als Starter)",
+                    "level": 61
+                },                {
+                    "name": "Glurak (wenn Bisasam als Starter)",
+                    "level": 63
+                },{
+                    "name": "Arkani (wenn Glumanda als Starter)",
+                    "level": 59
+                },{
+                    "name": "Kokowei (wenn Glumanda als Starter)",
+                    "level": 61
+                },{
+                    "name": "Turtok (wenn Glumanda als Starter)",
+                    "level": 63
+                },{
+                    "name": "Garados (wenn Schiggy als Starter)",
+                    "level": 59
+                },{
+                    "name": "Arkani (wenn Schiggy als Starter)",
+                    "level": 61
+                },{
+                    "name": "Bisaflor (wenn Schiggy als Starter)",
+                    "level": 63
                 }
             ],
             "iconType": "trainerIcon"

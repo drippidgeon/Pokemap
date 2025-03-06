@@ -82,7 +82,6 @@ markerSet(-124.63, 447.88, "Super Potion", hiddenIcon, currentMap);
 markerSet(-299.56, 120.00, "Potion", itemIcon, currentMap);
 markerSet(-359.25, 264.63, "Antidote", hiddenIcon, currentMap);
 markerSet(-369.25, 348.50, "Super Potion", itemIcon, currentMap);
-markerSet(-213.38, 312.38, "Antidote", itemIcon, currentMap);
 markerSet(-105.13, 335.25, "Powder Jar", hiddenIcon, currentMap);
 markerSet(-164.88, 348.69, "Antidote", hiddenIcon, currentMap);
 markerSet(-164.69, 349.63, "Super Potion", hiddenIcon, currentMap);

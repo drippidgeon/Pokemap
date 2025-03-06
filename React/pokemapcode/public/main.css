@@ -82,7 +82,7 @@ body,
 }
 .trainerIcon {
   width:20px;
-  height:20px;
+  height:25px;
   margin:-10px;
   background-image: url("./assets/trainer.png");
   background-size:100% 100%;
