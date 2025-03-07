@@ -34,7 +34,7 @@ var beschwörungshöhleRegions = {
       }
     ]
 };
-
+//needs to be fixed -as there is only one tile set visble rn
 var drachenstiegeRegions = {
     'type': 'FeatureCollection',
     'features': [
@@ -48,8 +48,73 @@ var drachenstiegeRegions = {
         'geometry': {
           'type': 'Polygon',
           'coordinates': [],
+        },
+        'type': 'Feature',
+        'properties': {
+          'name': 'Drachenstiege-2',
+          'world': 'Overworld',
+          'Pokémon': {},
+        },
+        'geometry': {
+          'type': 'Polygon',
+          'coordinates': [],
+        },
+
+        'type': 'Feature',
+        'properties': {
+          'name': 'Drachenstiege-3',
+          'world': 'Overworld',
+          'Pokémon': {},
+        },
+        'geometry': {
+          'type': 'Polygon',
+          'coordinates': [],
+        },
+        'type': 'Feature',
+        'properties': {
+          'name': 'Drachenstiege-4',
+          'world': 'Overworld',
+          'Pokémon': {},
+        },
+        'geometry': {
+          'type': 'Polygon',
+          'coordinates': [],
+        },
+     
+        'type': 'Feature',
+        'properties': {
+          'name': 'Drachenstiege-5',
+          'world': 'Overworld',
+          'Pokémon': {},
+        },
+        'geometry': {
+          'type': 'Polygon',
+          'coordinates': [],
+        },
+        'type': 'Feature',
+        'properties': {
+          'name': 'Drachenstiege-6',
+          'world': 'Overworld',
+          'Pokémon': {},
+        },
+        'geometry': {
+          'type': 'Polygon',
+          'coordinates': [],
+        },
+        'type': 'Feature',
+        'properties': {
+          'name': 'Drachenstiege-7',
+          'world': 'Overworld',
+          'Pokémon': {},
+        },
+        'geometry': {
+          'type': 'Polygon',
+          'coordinates': [],
         }
+     
       }
+
+
     ]
 };
 
@@ -344,3 +409,89 @@ var unterwasserruineRegions = {
       }
     ]
 };
+var wendelbergRegions = {
+  'type': 'FeatureCollection',
+  'features': [
+    {
+      'type': 'Feature',
+      'properties': {
+        'name': 'Wendelberg',
+        'world': 'Overworld',
+        'Pokémon': {},
+      },
+      'geometry': {
+        'type': 'Polygon',
+        'coordinates': [],
+      }
+    }
+  ]
+};
+var alterfluchtwegRegions = {
+  'type': 'FeatureCollection',
+  'features': [
+    {
+      'type': 'Feature',
+      'properties': {
+        'name': 'Alter Fluchtweg',
+        'world': 'Overworld',
+        'Pokémon': {},
+      },
+      'geometry': {
+        'type': 'Polygon',
+        'coordinates': [],
+      }
+    }
+  ]
+};
+var pkmnworldtournamentRegions = {
+  'type': 'FeatureCollection',
+  'features': [
+    {
+      'type': 'Feature',
+      'properties': {
+        'name': 'Pokémon World Tournament',
+        'world': 'Overworld',
+        'Pokémon': {},
+      },
+      'geometry': {
+        'type': 'Polygon',
+        'coordinates': [],
+      }
+    }
+  ]
+};
+var siegesstrasseinnenbereichRegions = {
+  'type': 'FeatureCollection',
+  'features': [
+    {
+      'type': 'Feature',
+      'properties': {
+        'name': 'Siegesstraße-Innenbereich',
+        'world': 'Overworld',
+        'Pokémon': {},
+      },
+      'geometry': {
+        'type': 'Polygon',
+        'coordinates': [],
+      }
+    }
+  ]
+};
+var turmdeshimmelsRegions = {
+  'type': 'FeatureCollection',
+  'features': [
+    {
+      'type': 'Feature',
+      'properties': {
+        'name': 'Turm des Himmels',
+        'world': 'Overworld',
+        'Pokémon': {},
+      },
+      'geometry': {
+        'type': 'Polygon',
+        'coordinates': [],
+      }
+    }
+  ]
+};
+

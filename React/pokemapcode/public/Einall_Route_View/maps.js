@@ -10,7 +10,7 @@ var maps = {
     },
 
 "Alter Palast": { 
-        "shortname": "alter-palast", 
+        "shortname": "alter palast", 
         "zoom": 2, 
         "minZoom": 2,
         "maxZoom": 4,
@@ -19,7 +19,7 @@ var maps = {
         "nowrap": true 
     },
     "Beschwörungshöhle": { 
-        "shortname": "beschwoerungshoehle", 
+        "shortname": "beschwörungshöhle", 
         "zoom": 2, 
         "minZoom": 2,
         "maxZoom": 4,
@@ -27,6 +27,7 @@ var maps = {
         "vector": beschwörungshöhleRegions,
         "nowrap": true 
     },
+    // needs to be fixed again - not displaying each floor correctly********************************
     "Drachenstiege": { 
         "shortname": "drachenstiege", 
         "zoom": 2, 
@@ -36,8 +37,63 @@ var maps = {
         "vector": drachenstiegeRegions,
         "nowrap": true 
     },
+    "Drachenstiege-2": { 
+        "shortname": "drachenstiege", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": drachenstiegeRegions,
+        "nowrap": true 
+    },
+    "Drachenstiege-3": { 
+        "shortname": "drachenstiege", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": drachenstiegeRegions,
+        "nowrap": true 
+    },
+    "Drachenstiege-4": { 
+        "shortname": "drachenstiege", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": drachenstiegeRegions,
+        "nowrap": true 
+    },
+    "Drachenstiege-5": { 
+        "shortname": "drachenstiege", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": drachenstiegeRegions,
+        "nowrap": true 
+    },
+    "Drachenstiege-6": { 
+        "shortname": "drachenstiege", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": drachenstiegeRegions,
+        "nowrap": true 
+    },
+    "Drachenstiege-7": { 
+        "shortname": "drachenstiege", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": drachenstiegeRegions,
+        "nowrap": true 
+    },
+    //till here *************************************************************
     "Elektrolithöhle": { 
-        "shortname": "elektrolithoehle", 
+        "shortname": "elektrolithöhle", 
         "zoom": 2, 
         "minZoom": 2,
         "maxZoom": 4,
@@ -46,7 +102,7 @@ var maps = {
         "nowrap": true 
     },
     "Feld der Besinnung": { 
-        "shortname": "feld-der-besinnung", 
+        "shortname": "feld der besinnung", 
         "zoom": 2, 
         "minZoom": 2,
         "maxZoom": 4,
@@ -64,7 +120,7 @@ var maps = {
         "nowrap": true 
     },
     "Hain der Täuschung": { 
-        "shortname": "hain-der-taeuschung", 
+        "shortname": "hain der täuschung", 
         "zoom": 2, 
         "minZoom": 2,
         "maxZoom": 4,
@@ -82,7 +138,7 @@ var maps = {
         "nowrap": true 
     },
     "Panaero-Höhle": { 
-        "shortname": "panaero-hoehle", 
+        "shortname": "panaero-höhle", 
         "zoom": 2, 
         "minZoom": 2,
         "maxZoom": 4,
@@ -91,7 +147,7 @@ var maps = {
         "nowrap": true 
     },
     "Riesengrotte-Höhle": { 
-        "shortname": "riesengrotte-hoehle", 
+        "shortname": "riesengrotte", 
         "zoom": 2, 
         "minZoom": 2,
         "maxZoom": 4,
@@ -100,7 +156,7 @@ var maps = {
         "nowrap": true 
     },
     "Riesengrotte-Tiefster-Teil": { 
-        "shortname": "riesengrotte-tiefster-teil", 
+        "shortname": "riesengrotte tiefster teil", 
         "zoom": 2, 
         "minZoom": 2,
         "maxZoom": 4,
@@ -179,7 +235,51 @@ var maps = {
         "bounds": [-128, 128],
         "vector": unterwasserruineRegions,
         "nowrap": true 
-    }
-
+    },
+    "Wendelberg": {
+        "shortname": "wendelberg", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": wendelbergRegions,
+        "nowrap": true
+    },
+    "Alter Fluchtweg": {
+        "shortname": "alter fluchtweg", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": alterfluchtwegRegions,
+        "nowrap": true
+    },
+    "Pokémon World Tournament": {
+        "shortname": "pkmnworldtournament", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": pkmnworldtournamentRegions,
+        "nowrap": true
+    },
+    "Siegesstraße-Innenbereich": {
+        "shortname": "siegesstraße-Innenbereich", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": siegesstrasseinnenbereichRegions,
+        "nowrap": true
+    },
+    "Turm des Himmels": {
+        "shortname": "turm des himmels", 
+        "zoom": 2, 
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": turmdeshimmelsRegions,
+        "nowrap": true
+    },
 }
 

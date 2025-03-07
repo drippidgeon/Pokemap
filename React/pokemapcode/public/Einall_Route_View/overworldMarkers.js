@@ -30,3 +30,14 @@ markerSet(-251.979, 450.549, "Alter Palast", entranceIcon, currentMap);
 markerSet(-382.765, 859.659, "Traumbrache-Keller", entranceIcon, currentMap);
 markerSet(-65.659, 344.763, "Drachenstiege", entranceIcon, currentMap);
 markerSet(-189.289, 648.275, "Schrein der Ernte", entranceIcon, currentMap);
+markerSet(-57.784, 649.744, "Riesengrotte-Tiefster-Teil", entranceIcon, currentMap);
+
+
+//////////////////////////////////////   TODO ** Tilesets etc
+markerSet(-121.880, 287.761, "Wendelberg", entranceIcon, currentMap);
+markerSet(-107.004, 318.075, "Wendelberg", entranceIcon, currentMap);
+markerSet(-117.286, 339.388, "Wendelberg", entranceIcon, currentMap);
+markerSet(-246.510, 320.669, "Pokémon World Tournament", entranceIcon, currentMap);
+markerSet(-251.104, 303.262, "Alter Fluchtweg", entranceIcon, currentMap);
+markerSet(-6.813, 466.143, "Siegesstraße-Innenbereich", entranceIcon, currentMap);markerSet(-137.599, 268.667, "Turm des Himmels", entranceIcon, currentMap);
+///////// Interior Markers
