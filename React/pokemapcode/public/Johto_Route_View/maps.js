@@ -8,405 +8,265 @@ var maps = {
         "vector": overworldRegions,
         "nowrap": true
     },
-    "Verity Cavern": {
-        "shortname": 'veritycavern',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": verityCavernRegions
-    },
-    "Oreburgh Gate": {
-        "shortname": 'oreburghgate',
+    "Dunkelhöhle": {
+        "shortname": "dunkelhöhle",
         "zoom": 3,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": oreburghGateRegions
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": dunkelhöhleRegions,
+        "nowrap": true
     },
-    "Oreburgh Mine": {
-        "shortname": 'oreburghmine',
+    "Knofensa-Turm": {
+        "shortname": "knofensa-turm",
         "zoom": 3,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": oreburghMineRegions
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": knofensaturmRegions,
+        "nowrap": true
     },
-    "Ravaged Path": {
-        "shortname": 'ravagedpath',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-256, 128],
-        "vector": ravagedPathRegions
-    },
-    "Floaroma Meadow": {
-        "shortname": 'floaromameadow',
+    " Alph-Ruinen": {
+        "shortname": "alph-ruinen",
         "zoom": 3,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": floaromaMeadowRegions
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": alphruinenRegions,
+        "nowrap": true
     },
-    "Valley Windworks": {
-        "shortname": 'valleywindworks',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 2,
-        "bounds": [-128, 256],
-        "vector": valleyWindworksRegions
+    "Pokéathlon": {
+        "shortname": "pokéathlon",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": pokeathlonRegions,
+        "nowrap": true
     },
-    "Eterna Forest": {
-        "shortname": 'eternaforest',
+    "Flegmon-Brunnen": {
+        "shortname": "flegmon-brunnen",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": flegmonbrunnenRegions,
+        "nowrap": true
+    },
+    "Steineichenwald": {
+        "shortname": "steineichenwald",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": steinechenwaldRegions,
+        "nowrap": true
+    },
+    "Einheitstunnel": {
+        "shortname": "einheitstunnel",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": einheitstunnelRegions,
+        "nowrap": true
+    },
+    "Turmruine": {
+        "shortname": "turmruine",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": turmruineRegions,
+        "nowrap": true
+    },
+    "Kampfzone-Johto": {
+        "shortname": "kampfzone-johto",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": kampfzonejohtoRegions,
+        "nowrap": true
+    },
+    "Rocket-Versteck (Johto)": {
+        "shortname": "rocket-versteck (johto)",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": johtorocketRegions,
+        "nowrap": true
+    },
+    "Drachenhöhle": {
+        "shortname": "drachenhöhle",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": drachenhöhleRegions,
+        "nowrap": true
+    },
+    "Eispfad": {
+        "shortname": "eispfad",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": eispfadRegions,
+        "nowrap": true
+    },
+    "Glockenklangpfad": {
+        "shortname": "glockenklangpfad",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": glockenklangpfadRegions,
+        "nowrap": true
+    },
+    "Glockenturm": {
+        "shortname": "glockenturm",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": glockenturmRegions,
+        "nowrap": true
+    },
+    "Kesselberg": {
+        "shortname": "kesselberg",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": kesselbergRegions,
+        "nowrap": true
+    },
+    "Dukatia-Passage": {
+        "shortname": "dukatia-passage",
         "zoom": 3,
         "minZoom": 2,
         "maxZoom": 5,
-        "bounds": [-128, 128],
-        "vector": eternaForestRegions
+        "bounds":  [-128, 256],
+        "vector": dukatiopassageRegions,
+        "nowrap": true
     },
-    "Old Chateau": {
-        "shortname": 'oldchateau',
-        "zoom": 3,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": oldChateauRegions
-    },
-    "Team Galactic Eterna Building": {
-        "shortname": 'teamgalacticeternabuilding',
-        "zoom": 1,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-256, 128],
-        "vector": teamGalacticEternaBuildingRegions
-    },
-    "Wayward Cave": {
-        "shortname": 'waywardcave',
-        "zoom": 2,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 256],
-        "vector": waywardCaveRegions
-    },
-    "Wayward Cave Secret": {
-        "shortname": 'waywardcavesecret',
-        "zoom": 3,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": waywardCaveSecretRegions
-    },
-    "Amity Square": {
-        "shortname": 'amitysquare',
-        "zoom": 2,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": amitySquareRegions
-    },
-    "Lost Tower": { // TODO: add more zoom levels so this map makes sense
-        "shortname": 'losttower',
-        "zoom": 1,
-        "minZoom": 1,
-        "maxZoom": 2,
-        "bounds": [-512, 128],
-        "vector": lostTowerRegions
-    },
-    "Solaceon Ruins": { // TODO: add more zoom levels so this map makes sense
-        "shortname": 'solaceonruins',
-        "zoom": 2,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-256, 128],
-        "vector": solaceonRuinsRegions
-    },
-    "Solaceon Ruins Upper": { // TODO: add more zoom levels so this map makes sense
-        "shortname": 'solaceonruinsupper',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 2,
-        "bounds": [-128, 128],
-        "vector": solaceonRuinsUpperRegions
-    },
-    "Maniac Tunnel": { // TODO: add more zoom levels so this map makes sense
-        "shortname": 'maniactunnel',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 2,
-        "bounds": [-128, 1048],
-        "vector": maniacTunnelRegions
-    },
-    "Celestic Ruins": { // TODO: add more zoom levels so this map makes sense
-        "shortname": 'celesticruins',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": celesticRuinsRegions
-    },
-    "Great Marsh": { // TODO: add more zoom levels so this map makes sense
-        "shortname": 'greatmarsh',
+    "Dukatia City-Kaufhaus": {
+        "shortname": "dukatia city-kaufhaus",
         "zoom": 3,
         "minZoom": 2,
         "maxZoom": 5,
-        "bounds": [-128, 128],
-        "vector": greatMarshRegions
+        "bounds":  [-128, 256],
+        "vector": dukatiakaufhausRegions,
+        "nowrap": true
     },
-    "Lake Valor": { // TODO: add more zoom levels so this map makes sense
-        "shortname": 'lakevalor',
-        "zoom": 3,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": lakeValorRegions
-    },
-    "Valor Cavern": { // TODO: add more zoom levels so this map makes sense
-        "shortname": 'valorcavern',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": valorCavernRegions
-    },
-    "Lake Valor Dry": { // TODO: add more zoom levels so this map makes sense
-        "shortname": 'lakevalordry',
-        "zoom": 3,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": lakeValorDryRegions
-    },
-    "Pokémon Mansion": {
-        "shortname": 'pokemonmansion',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 256],
-        "vector": pokemonMansionRegions
-    },
-    "Trophy Garden": {
-        "shortname": 'trophygarden',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": trophyGardenRegions
-    },
-    "Lake Acuity": {
-        "shortname": 'lakeacuity',
-        "zoom": 3,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": lakeAcuityRegions
-    },
-    "Acuity Cavern": {
-        "shortname": 'acuitycavern',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": acuityCavernRegions
-    },
-    "Snowpoint Temple": {
-        "shortname": 'snowpointtemple',
-        "zoom": 1,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-512, 128],
-        "vector": snowpointTempleRegions
-    },
-    "Sendoff Spring": {
-        "shortname": 'sendoffspring',
-        "zoom": 3,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": sendoffSpringRegions
-    },
-    "Turnback Cave": {
-        "shortname": 'turnbackcave',
-        "zoom": 2,
-        "minZoom": 2,
-        "maxZoom": 5,
-        "bounds": [-256, 128],
-        "vector": turnbackCaveRegions
-    },
-    "Stark Mountain": {
-        "shortname": 'starkmountain',
-        "zoom": 2,
-        "minZoom": 2,
-        "maxZoom": 5,
-        "bounds": [-128, 128],
-        "vector": starkMountainRegions
-    },
-    "Fuego Ironworks": {
-        "shortname": 'fuegoironworks',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 256],
-        "vector": fuegoIronworksRegions
-    },
-    "Battle Frontier": {
-        "shortname": 'battlefrontier',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 4,
-        "bounds": [-128, 256],
-        "vector": battleFrontierRegions
-    },
-    "Rock Peak Ruins": {
-        "shortname": 'rockpeakruins',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": rockPeakRuinsRegions
-    },
-    "Victory Road": {
-        "shortname": 'victoryroad',
-        "zoom": 2,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 512],
-        "vector": victoryRoadRegions
-    },
-    "Victory Road Secret": {
-        "shortname": 'victoryroadsecret',
-        "zoom": 2,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 512],
-        "vector": victoryRoadSecretRegions
-    },
-    "Pokémon League": {
-        "shortname": 'pokemonleague',
-        "zoom": 2,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-512, 128],
-        "vector": pokemonLeagueRegions
-    },
-    "Mount Coronet South": {
-        "shortname": 'mountcoronetsouth',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-512, 128],
-        "vector": mountCoronetSouthRegions
-    },
-    "Mount Coronet Peak": {
-        "shortname": 'mountcoronetpeak',
-        "zoom": 3,
-        "minZoom": 2,
-        "maxZoom": 4,
-        "bounds": [-128, 128],
-        "vector": mountCoronetPeakRegions
-    },
-    "Mount Coronet Center": {
-        "shortname": 'mountcoronetcenter',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 256],
-        "vector": mountCoronetCenterRegions
-    },
-    "Mount Coronet Tunnel": {
-        "shortname": 'mountcoronettunnel',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-256, 128],
-        "vector": mountCoronetTunnelRegions
-    },
-    "Spear Pillar": {
-        "shortname": 'spearpillar',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-256, 128],
-        "vector": spearPillarRegions
-    },
-    "Mount Coronet North": {
-        "shortname": 'mountcoronetnorth',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 4,
-        "bounds": [-512, 128],
-        "vector": mountCoronetNorthRegions
-    },
-    "Flower Paradise": {
-        "shortname": 'flowerparadise',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 4,
-        "bounds": [-512, 128],
-        "vector": flowerParadiseRegions
-    },
-    "Iron Island": {
-        "shortname": 'ironisland',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": ironIslandRegions
-    },
-    "Iron Island Interior": {
-        "shortname": 'ironislandinterior',
-        "zoom": 2,
-        "minZoom": 2,
-        "maxZoom": 5,
-        "bounds": [-128, 128],
-        "vector": ironIslandInteriorRegions
-    },
-    "Fullmoon Island": {
-        "shortname": 'fullmoonisland',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": fullmoonIslandRegions
-    },
-    "Fullmoon Island Interior": {
-        "shortname": 'fullmoonislandinterior',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": fullmoonIslandInteriorRegions
-    },
-    "Newmoon Island": {
-        "shortname": 'newmoonisland',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": newmoonIslandRegions
-    },
-    "Newmoon Island Interior": {
-        "shortname": 'newmoonislandinterior',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 128],
-        "vector": newmoonIslandInteriorRegions
-    },
-    "Team Galactic HQ": {
-        "shortname": 'teamgalactichq',
+    "Dukatia City-Radioturm": {
+        "shortname": "dukatia city-radioturm",
         "zoom": 3,
         "minZoom": 2,
         "maxZoom": 5,
-        "bounds": [-128, 128],
-        "vector": teamGalacticHQRegions
+        "bounds":  [-128, 256],
+        "vector": dukatiaradioRegions,
+        "nowrap": true
     },
-    "Team Galactic HQ Warehouse": {
-        "shortname": 'teamgalactichqwarehouse',
-        "zoom": 2,
-        "minZoom": 1,
-        "maxZoom": 3,
-        "bounds": [-128, 512],
-        "vector": teamGalacticHQWarehouseRegions
+    "Dukatia City-Spielhalle": {
+        "shortname": "dukatia city-spielhalle",
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": dukatiaspieloRegions,
+        "nowrap": true
     },
-    
+    "Leuchtturm": {
+        "shortname": "leuchtturm",
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": leuchtturmRegions,
+        "nowrap": true
+    },
+    "Strudelinseln": {
+        "shortname": "strudelinseln",
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": strudelinselnRegions,
+        "nowrap": true
+    },
+    "Kuhmuh-Farm": {
+        "shortname": "kuhmuh-farm",
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": kuhmufarmRegions,
+        "nowrap": true
+    },
+    "Kuhmuh-Farm-Stall": {
+        "shortname": "kuhmuh-farm-stall",
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": kuhmuhstallRegions,
+        "nowrap": true
+    },
+    "Gloables Terminal": {
+        "shortname": "globales terminal",
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": globalesterminalRegions,
+        "nowrap": true
+    },
+    "Tohjo-Fälle": {
+        "shortname": "tohjo-fälle",
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": tohjoRegions,
+        "nowrap": true
+    },
+    "Felsklippentor": {
+        "shortname": "felsklippentor",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": felsklippentorRegions,
+        "nowrap": true
+    },
+    "Felsschlundhöhle": {
+        "shortname": "felsschlundhöhle",
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": felsklippenhöhleRegions,
+        "nowrap": true
+    },
+    "Felsenherzturm": {
+        "shortname": "felsenherzturm",
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": felsenherzRegions,
+        "nowrap": true
+    },
+    "Johto Safari-Zone": {
+        "shortname": "johto safari-zone",
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds":  [-128, 256],
+        "vector": johtosafariRegions,
+        "nowrap": true
+    },
 }
