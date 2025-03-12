@@ -1,0 +1,20 @@
+{
+    "trainers": [
+        {
+            "lat": "-90.32",
+            "lng": "41.82",
+            "name": "Cheren",
+            "pokemon": [
+                {
+                    "name": "Nagelotz",
+                    "level": 11
+                },
+                {
+                    "name": "Yorkleff",
+                    "level": 13
+                }
+            ],
+            "iconType": "trainerIcon"
+        }
+    ]
+}
