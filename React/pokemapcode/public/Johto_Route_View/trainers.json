@@ -1,0 +1,160 @@
+{
+    "trainers": [
+        {
+            "lat": "-61.84",
+            "lng": "126.75",
+            "name": "Falk",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-113.14",
+            "lng": "103.95",
+            "name": "Kai",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-80.38",
+            "lng": "92.13",
+            "name": "Bianka",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-86.45",
+            "lng": "31.45",
+            "name": "Hartwig",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-57.09",
+            "lng": "61.86",
+            "name": "Jasmin",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-43.59",
+            "lng": "95.28",
+            "name": "Jens",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-43.31",
+            "lng": "141.25",
+            "name": "Norbert",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-35.38",
+            "lng": "184.50",
+            "name": "Sandra",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-96.41",
+            "lng": "256.58",
+            "name": "Willi",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-97.16",
+            "lng": "256.64",
+            "name": "Koga",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-97.91",
+            "lng": "256.64",
+            "name": "Bruno",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-98.92",
+            "lng": "256.66",
+            "name": "Melanie",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-97.58",
+            "lng": "258.22",
+            "name": "Siegfried (Champ)",
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        }
+    ]
+}

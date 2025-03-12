@@ -1,5 +1,4 @@
-let savePath = "../Johto_Route_View/overworldMarkers.js"
-
+let savePath = "../Kanto_Route_View/overworldMarkers.js"
 
 // Function to create the popup form
 function openMarkerPopup(lat, lng) {
@@ -14,7 +13,14 @@ function openMarkerPopup(lat, lng) {
                 <option value="itemIcon">Item</option>
                 <option value="berryIcon">Berry</option>
                 <option value="entranceIcon">Entrance</option>
+                <option value="trainerIcon">Trainer</option> <!-- NEU -->
             </select>
+            <div id="trainerFields" style="display: none;"> <!-- NEU -->
+                <label>Trainer Name:</label>
+                <input type="text" id="trainerName" placeholder="Trainer Name" />
+                <label>Pokémon:</label>
+                <textarea id="trainerPokemon" placeholder='Format: [{"name": "Pikachu", "level": 25}]'></textarea>
+            </div>
             <button id="addMarkerBtn">Add Marker</button>
         </div>
     `;
@@ -25,11 +31,31 @@ function openMarkerPopup(lat, lng) {
         .openOn(map);
 
     setTimeout(() => {
+        document.getElementById('markerIcon').addEventListener('change', function() {
+            if (this.value === "trainerIcon") {
+                document.getElementById('trainerFields').style.display = "block";
+            } else {
+                document.getElementById('trainerFields').style.display = "none";
+            }
+        });
+
         document.getElementById('addMarkerBtn').addEventListener('click', function() {
             const description = document.getElementById('markerDescription').value;
             const iconType = document.getElementById('markerIcon').value;
+            const trainerName = document.getElementById('trainerName')?.value || "";
+            const trainerPokemon = document.getElementById('trainerPokemon')?.value || "[]";
+
             if (description.trim() !== "") {
-                addMarker(lat, lng, description, iconType);
+                if (iconType === "trainerIcon") {
+                    try {
+                        const pokemonList = JSON.parse(trainerPokemon);
+                        addTrainerMarker(lat, lng, trainerName, pokemonList);
+                    } catch (error) {
+                        alert("Fehler: Pokémon-Daten sind nicht im korrekten JSON-Format!");
+                    }
+                } else {
+                    addMarker(lat, lng, description, iconType);
+                }
             } else {
                 alert("Please enter a description!");
             }
@@ -48,6 +74,29 @@ function addMarker(lat, lng, description, iconType) {
 
     saveMarkerToFile(newLat, newLng, description, iconType);
 }
+
+function addTrainerMarker(lat, lng, trainerName, pokemonList, iconType = "trainerIcon") {
+    let popupContent = `<b>${trainerName}</b><br>Pokémon: <ul>`;
+    pokemonList.forEach(poke => {
+        popupContent += `<li>${poke.name} (Level ${poke.level})</li>`;
+    });
+    popupContent += "</ul>";
+
+    let marker = L.marker([lat, lng], { icon: window[iconType] }).addTo(map)
+        .bindPopup(popupContent);
+
+        if (!maps[currentMap]) {
+            maps[currentMap] = {};
+        }
+        if (!maps[currentMap].trainerLayer) {
+            maps[currentMap].trainerLayer = L.layerGroup().addTo(map);
+        }
+        maps[currentMap].trainerLayer.addLayer(marker);
+
+    saveTrainerToFile(lat, lng, trainerName, pokemonList, iconType);
+}
+
+
 
 // Function to save the new marker to overworldMarkers.js
 function saveMarkerToFile(lat, lng, description, iconType) {
@@ -75,3 +124,32 @@ function saveToFile(content) {
         .then(data => console.log("Marker saved:", data))
         .catch(error => console.error("Error saving file:", error));
 }
+
+function saveTrainerToFile(lat, lng, trainerName, pokemonList, iconType) {
+    let newTrainer = {
+        lat: parseFloat(lat).toFixed(2),
+        lng: parseFloat(lng).toFixed(2),
+        name: trainerName,
+        pokemon: pokemonList,
+        iconType: iconType
+    };
+
+
+    fetch("http://localhost:8000/saveTrainer.php", {
+        method: 'POST',
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(newTrainer),
+    })
+    .then(response => response.text()) // Erst als Text lesen
+    .then(text => {
+        return text ? JSON.parse(text) : { error: "Leere Antwort vom Server" };
+    })
+    .then(data => {
+        if (data.success) {
+            loadTrainers();
+        }
+    })
+}
+
+
+
