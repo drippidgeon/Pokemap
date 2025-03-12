@@ -23,6 +23,12 @@ function disableTMItems() {
         elements[i].classList.toggle('hidden');
     }
 }
+function disableTrainer() {
+    var elements = document.getElementsByClassName('trainerIcon');
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].classList.toggle('hidden');
+    }
+}
 function setMorning() {
     mapTime = 0;
     info.update(oldtarget.feature.properties);
