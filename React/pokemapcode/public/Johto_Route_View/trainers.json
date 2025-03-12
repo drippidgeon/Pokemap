@@ -6,8 +6,11 @@
             "name": "Falk",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Taubsi",
+                    "level": 9
+                },                {
+                    "name": "Tauboga",
+                    "level": 13
                 }
             ],
             "iconType": "trainerIcon"
@@ -18,8 +21,14 @@
             "name": "Kai",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Safcorn",
+                    "level": 15
+                },                 {
+                    "name": "Kokuna",
+                    "level": 15
+                },                {
+                    "name": "Sichlor",
+                    "level": 17
                 }
             ],
             "iconType": "trainerIcon"
@@ -30,8 +39,11 @@
             "name": "Bianka",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Piepi",
+                    "level": 17
+                },                {
+                    "name": "Miltank",
+                    "level": 19
                 }
             ],
             "iconType": "trainerIcon"
@@ -42,8 +54,11 @@
             "name": "Hartwig",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Rasaff",
+                    "level": 29
+                },                 {
+                    "name": "Quappo",
+                    "level": 31
                 }
             ],
             "iconType": "trainerIcon"
@@ -54,8 +69,14 @@
             "name": "Jasmin",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Magnetilo",
+                    "level":30
+                },                {
+                    "name": "Magnetilo",
+                    "level": 30
+                },                {
+                    "name": "Stahlos",
+                    "level": 35
                 }
             ],
             "iconType": "trainerIcon"
@@ -66,7 +87,16 @@
             "name": "Jens",
             "pokemon": [
                 {
-                    "name": "Pikachu",
+                    "name": "Nebulak",
+                    "level": 21
+                },                 {
+                    "name": "Alpollo",
+                    "level": 21
+                },                {
+                    "name": "Alpollo",
+                    "level": 23
+                },                {
+                    "name": "Gengar",
                     "level": 25
                 }
             ],
@@ -78,8 +108,15 @@
             "name": "Norbert",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Jurob",
+                    "level": 30
+                
+                },                 {
+                    "name": "Jugong",
+                    "level": 32
+                },                {
+                    "name": "Keifel",
+                    "level": 34
                 }
             ],
             "iconType": "trainerIcon"
@@ -90,8 +127,17 @@
             "name": "Sandra",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Dragonir",
+                    "level": 38
+                },                 {
+                    "name": "Dragonir",
+                    "level": 38
+                },                {
+                    "name": "Garados",
+                    "level": 38
+                },                {
+                    "name": "Seedraking",
+                    "level": 41
                 }
             ],
             "iconType": "trainerIcon"
@@ -102,8 +148,20 @@
             "name": "Willi",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Xatu",
+                    "level": 40
+                },                 {
+                    "name": "Kokowei",
+                    "level": 41
+                },                {
+                    "name": "Lahmus",
+                    "level": 41
+                },                {
+                    "name": "Rossana",
+                    "level": 41
+                },                {
+                    "name": "Xatu",
+                    "level": 42
                 }
             ],
             "iconType": "trainerIcon"
@@ -114,8 +172,20 @@
             "name": "Koga",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Ariados",
+                    "level": 40
+                },                 {
+                    "name": "Forstellka",
+                    "level": 43
+                },                {
+                    "name": "Sleimok",
+                    "level": 42
+                },                {
+                    "name": "Omot",
+                    "level": 41
+                },                {
+                    "name": "Ilksbat",
+                    "level": 44
                 }
             ],
             "iconType": "trainerIcon"
@@ -126,8 +196,20 @@
             "name": "Bruno",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Kapoera",
+                    "level": 42
+                },                {
+                    "name": "Nockchan",
+                    "level": 42
+                },                {
+                    "name": "Kicklee",
+                    "level": 42
+                },                {
+                    "name": "Onix",
+                    "level": 43
+                },                {
+                    "name": "Machomei",
+                    "level": 46
                 }
             ],
             "iconType": "trainerIcon"
@@ -138,8 +220,20 @@
             "name": "Melanie",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Nachtara",
+                    "level": 42
+                },                {
+                    "name": "Giflor",
+                    "level": 42
+                },                {
+                    "name": "Kramurx",
+                    "level": 44
+                },                {
+                    "name": "Gengar",
+                    "level": 45
+                },                {
+                    "name": "Hundemon",
+                    "level": 47
                 }
             ],
             "iconType": "trainerIcon"
@@ -150,8 +244,23 @@
             "name": "Siegfried (Champ)",
             "pokemon": [
                 {
-                    "name": "Pikachu",
-                    "level": 25
+                    "name": "Garados",
+                    "level": 44
+                },                {
+                    "name": "Dragoran",
+                    "level": 47
+                },                {
+                    "name": "Dragoran",
+                    "level": 47
+                },                {
+                    "name": "Glurak",
+                    "level": 46
+                },                {
+                    "name": "Aerodactyl",
+                    "level": 46
+                },                {
+                    "name": "Dragoran",
+                    "level": 50
                 }
             ],
             "iconType": "trainerIcon"
