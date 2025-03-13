@@ -31,7 +31,7 @@ var maps = {
         "zoom": 3,
         "minZoom": 3,
         "maxZoom": 5,
-        "bounds":  [-128, 256],
+        "bounds":  [-128, 128],
         "vector": alphruinenRegions,
         "nowrap": true
     },
@@ -40,8 +40,17 @@ var maps = {
         "zoom": 3,
         "minZoom": 3,
         "maxZoom": 5,
-        "bounds":  [-128, 256],
+        "bounds":  [-128, 128],
         "vector": pokeathlonRegions,
+        "nowrap": true
+    },
+    "Nationalpark": {
+        "shortname": "nationalpark",
+        "zoom": 3,
+        "minZoom": 3,
+        "maxZoom": 5,
+        "bounds":  [-128, 128],
+        "vector": nationalparkRegions,
         "nowrap": true
     },
     "Flegmon-Brunnen": {
