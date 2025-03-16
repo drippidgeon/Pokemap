@@ -1,5 +1,4 @@
 var currentMap = "Overworld";
-// Entrances
 
 
 markerSet(-371.077, 677.370, "Feld der Besinnung", entranceIcon, currentMap);
@@ -39,5 +38,6 @@ markerSet(-107.004, 318.075, "Wendelberg", entranceIcon, currentMap);
 markerSet(-117.286, 339.388, "Wendelberg", entranceIcon, currentMap);
 markerSet(-246.510, 320.669, "Pokémon World Tournament", entranceIcon, currentMap);
 markerSet(-251.104, 303.262, "Alter Fluchtweg", entranceIcon, currentMap);
-markerSet(-6.813, 466.143, "Siegesstraße-Innenbereich", entranceIcon, currentMap);markerSet(-137.599, 268.667, "Turm des Himmels", entranceIcon, currentMap);
+markerSet(-6.813, 466.143, "Siegesstraße-Innenbereich", entranceIcon, currentMap);
+markerSet(-137.599, 268.667, "Turm des Himmels", entranceIcon, currentMap);
 ///////// Interior Markers
