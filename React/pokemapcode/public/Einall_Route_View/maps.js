@@ -255,7 +255,7 @@ var maps = {
         "nowrap": true
     },
     "Pokémon World Tournament": {
-        "shortname": "pkmnworldtournament", 
+        "shortname": "pokémon world tournament", 
         "zoom": 2, 
         "minZoom": 2,
         "maxZoom": 4,
