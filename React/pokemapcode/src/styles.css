@@ -59,7 +59,7 @@
   }
 
   body {
-    background-image: url('./hintergrund.jpg');
+    background-image: url('../public/assets/hintergrund_main_page.jpg');
     background-size: cover;  /* Skaliert das Bild, sodass es den ganzen Bildschirm ausfüllt */
     background-position: center; /* Zentriert das Bild */
     background-repeat: no-repeat; /* Verhindert Wiederholung des Bildes */

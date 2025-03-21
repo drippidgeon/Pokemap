@@ -11,12 +11,7 @@ function disableHiddenItems() {
         elements[i].classList.toggle('hidden');
     }
 }
-function disableBerryItems() {
-    var elements = document.getElementsByClassName('berryIcon');
-    for (var i = 0, length = elements.length; i < length; i++) {
-        elements[i].classList.toggle('hidden');
-    }
-}
+
 function disableTMItems() {
     var elements = document.getElementsByClassName('tmIcon');
     for (var i = 0, length = elements.length; i < length; i++) {
