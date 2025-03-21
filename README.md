@@ -1,5 +1,5 @@
 # Generelle Informationen
-Projekt der Universität zu Köln im Rahmen des Seminars "Modellierung und digitale Karten im Am2 von Carina Mai, Lisa Krings, David Tischer, Lukas Kubicki und Niklas Halft.
+Projekt der Universität zu Köln im Rahmen des Seminars "Modellierung und digitale Karten im Am2 von Niklas Halft, Lisa Krings, Lukas Kubicki, Carina Mai und David Tischer.
 
 Erstellung der Tilesets basierend auf https://github.com/ICEREG1992/pkmnmap4.
 
@@ -25,8 +25,4 @@ npm run start
 
 3. Öffnen des Webservers im Browser
    
-Aufrufen der Webadresse `http://localhost:3000` im Browser.
-
-
-## Start durch Vercel ([Vercel](https://vercel.com))
 Aufrufen der Webadresse `http://localhost:3000` im Browser.
