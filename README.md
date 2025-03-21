@@ -3,7 +3,7 @@ Projekt der Universität zu Köln im Rahmen des Seminars "Modellierung und digit
 
 Erstellung der Tilesets basierend auf https://github.com/ICEREG1992/pkmnmap4.
 
-Pokemap ist ein Universitätsprojekt, in der die Regionen Kanto, Johto und Einall aus den Pokémon Spielen in einer 2D Karte dargestellt wurden.
+Pokémap ist ein Universitätsprojekt, in der die Regionen Kanto, Johto und Einall aus den Pokémon Spielen in einer 2D Karte dargestellt wurden.
 
 Dazu wurden die Pokémonspawnraten der einzelnen Routen sowie Items und Arenaleiter implementiert.
 
