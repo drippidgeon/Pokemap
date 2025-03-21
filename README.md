@@ -1,5 +1,5 @@
 # Generelle Informationen
-Projekt der Universität zu Köln im Rahmen des Seminars "Modellierung und digitale Karten im Am2 von Niklas Halft, Lisa Krings, Lukas Kubicki, Carina Mai und David Tischer.
+Projekt der Universität zu Köln im Rahmen des Seminars "Modellierung und digitale Karten im AM2 von Niklas Halft, Lisa Krings, Lukas Kubicki, Carina Mai und David Tischer.
 
 Erstellung der Tilesets basierend auf https://github.com/ICEREG1992/pkmnmap4.
 
