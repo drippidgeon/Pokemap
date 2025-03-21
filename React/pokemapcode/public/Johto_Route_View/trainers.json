@@ -1,0 +1,269 @@
+{
+    "trainers": [
+        {
+            "lat": "-61.84",
+            "lng": "126.75",
+            "name": "Falk",
+            "pokemon": [
+                {
+                    "name": "Taubsi",
+                    "level": 9
+                },                {
+                    "name": "Tauboga",
+                    "level": 13
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-113.14",
+            "lng": "103.95",
+            "name": "Kai",
+            "pokemon": [
+                {
+                    "name": "Safcorn",
+                    "level": 15
+                },                 {
+                    "name": "Kokuna",
+                    "level": 15
+                },                {
+                    "name": "Sichlor",
+                    "level": 17
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-80.38",
+            "lng": "92.13",
+            "name": "Bianka",
+            "pokemon": [
+                {
+                    "name": "Piepi",
+                    "level": 17
+                },                {
+                    "name": "Miltank",
+                    "level": 19
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-86.45",
+            "lng": "31.45",
+            "name": "Hartwig",
+            "pokemon": [
+                {
+                    "name": "Rasaff",
+                    "level": 29
+                },                 {
+                    "name": "Quappo",
+                    "level": 31
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-57.09",
+            "lng": "61.86",
+            "name": "Jasmin",
+            "pokemon": [
+                {
+                    "name": "Magnetilo",
+                    "level":30
+                },                {
+                    "name": "Magnetilo",
+                    "level": 30
+                },                {
+                    "name": "Stahlos",
+                    "level": 35
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-43.59",
+            "lng": "95.28",
+            "name": "Jens",
+            "pokemon": [
+                {
+                    "name": "Nebulak",
+                    "level": 21
+                },                 {
+                    "name": "Alpollo",
+                    "level": 21
+                },                {
+                    "name": "Alpollo",
+                    "level": 23
+                },                {
+                    "name": "Gengar",
+                    "level": 25
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-43.31",
+            "lng": "141.25",
+            "name": "Norbert",
+            "pokemon": [
+                {
+                    "name": "Jurob",
+                    "level": 30
+                
+                },                 {
+                    "name": "Jugong",
+                    "level": 32
+                },                {
+                    "name": "Keifel",
+                    "level": 34
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-35.38",
+            "lng": "184.50",
+            "name": "Sandra",
+            "pokemon": [
+                {
+                    "name": "Dragonir",
+                    "level": 38
+                },                 {
+                    "name": "Dragonir",
+                    "level": 38
+                },                {
+                    "name": "Garados",
+                    "level": 38
+                },                {
+                    "name": "Seedraking",
+                    "level": 41
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-96.41",
+            "lng": "256.58",
+            "name": "Willi",
+            "pokemon": [
+                {
+                    "name": "Xatu",
+                    "level": 40
+                },                 {
+                    "name": "Kokowei",
+                    "level": 41
+                },                {
+                    "name": "Lahmus",
+                    "level": 41
+                },                {
+                    "name": "Rossana",
+                    "level": 41
+                },                {
+                    "name": "Xatu",
+                    "level": 42
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-97.16",
+            "lng": "256.64",
+            "name": "Koga",
+            "pokemon": [
+                {
+                    "name": "Ariados",
+                    "level": 40
+                },                 {
+                    "name": "Forstellka",
+                    "level": 43
+                },                {
+                    "name": "Sleimok",
+                    "level": 42
+                },                {
+                    "name": "Omot",
+                    "level": 41
+                },                {
+                    "name": "Ilksbat",
+                    "level": 44
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-97.91",
+            "lng": "256.64",
+            "name": "Bruno",
+            "pokemon": [
+                {
+                    "name": "Kapoera",
+                    "level": 42
+                },                {
+                    "name": "Nockchan",
+                    "level": 42
+                },                {
+                    "name": "Kicklee",
+                    "level": 42
+                },                {
+                    "name": "Onix",
+                    "level": 43
+                },                {
+                    "name": "Machomei",
+                    "level": 46
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-98.92",
+            "lng": "256.66",
+            "name": "Melanie",
+            "pokemon": [
+                {
+                    "name": "Nachtara",
+                    "level": 42
+                },                {
+                    "name": "Giflor",
+                    "level": 42
+                },                {
+                    "name": "Kramurx",
+                    "level": 44
+                },                {
+                    "name": "Gengar",
+                    "level": 45
+                },                {
+                    "name": "Hundemon",
+                    "level": 47
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-97.58",
+            "lng": "258.22",
+            "name": "Siegfried (Champ)",
+            "pokemon": [
+                {
+                    "name": "Garados",
+                    "level": 44
+                },                {
+                    "name": "Dragoran",
+                    "level": 47
+                },                {
+                    "name": "Dragoran",
+                    "level": 47
+                },                {
+                    "name": "Glurak",
+                    "level": 46
+                },                {
+                    "name": "Aerodactyl",
+                    "level": 46
+                },                {
+                    "name": "Dragoran",
+                    "level": 50
+                }
+            ],
+            "iconType": "trainerIcon"
+        }
+    ]
+}
