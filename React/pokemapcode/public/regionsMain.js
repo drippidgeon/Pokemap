@@ -260,12 +260,11 @@ function onEachFeature(feature, layer) {
 
 // Add marker Script, REMOVE after all markers are set!
 
-// Import of the marker handling script
 /*const markerHandler = document.createElement("script");
 markerHandler.src = "./Extract_wild_pokemon/add_marker/addMarkerScript.js";
 document.head.appendChild(markerHandler);*/
 
 // Map click event listener
-map.on('click', function(e) {
+/*map.on('click', function(e) {
     openMarkerPopup(e.latlng.lat, e.latlng.lng);
-});
+});*/

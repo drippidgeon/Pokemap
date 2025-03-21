@@ -3,19 +3,16 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
 const { fileURLToPath } = require('url');
-const filePath =   path.join( __dirname,'./../Kanto_Route_View/overworldRegions.js');
+const filePath = path.join(__dirname, './../Kanto_Route_View/overworldRegions.js'); // Path to the data file
 //const { getCordfromLoc } = require('./../functions');
-
-
 
 const saveDir = path.join(__dirname, 'public/assets/pokemon_images');
 
-// Stelle sicher, dass der Ordner existiert
 if (!fs.existsSync(saveDir)) {
     fs.mkdirSync(saveDir, { recursive: true });
 }
 
-// Funktion zum Scrapen der Bild-URL
+// Scrape the image URL
 async function getPokemonImageUrl(pokemonName) {
     const url = `https://www.pokewiki.de/${encodeURIComponent(pokemonName)}`;
 
@@ -23,22 +20,21 @@ async function getPokemonImageUrl(pokemonName) {
         const { data } = await axios.get(url);
         const $ = cheerio.load(data);
 
-        // Finde das Hauptartwork (500px-Hauptartwork_xxx.png)
         const imageElement = $('img[src*="Hauptartwork_"]');
         if (imageElement.length === 0) {
-            console.log(`Kein Hauptartwork für ${pokemonName} gefunden.`);
+            console.log(`No main artwork found for ${pokemonName}.`);
             return null;
         }
 
         const imageUrl = `https://www.pokewiki.de${imageElement.attr('src')}`;
         return imageUrl.replace(/\/thumb/, '').split('/').slice(0, -1).join('/');
     } catch (error) {
-        console.error(`Fehler beim Scrapen von ${pokemonName}:`, error.message);
+        console.error(`Error scraping ${pokemonName}:`, error.message);
         return null;
     }
 }
 
-// Funktion zum Herunterladen eines Bildes
+// Function for downloading images
 async function downloadImage(pokemonName, imageUrl) {
     if (!imageUrl) return;
 
@@ -53,80 +49,63 @@ async function downloadImage(pokemonName, imageUrl) {
         response.data.pipe(fs.createWriteStream(savePath));
 
         return new Promise((resolve, reject) => {
-            response.data.on('end', () => resolve(`${pokemonName} gespeichert.`));
+            response.data.on('end', () => resolve(`${pokemonName} saved.`));
             response.data.on('error', (err) => reject(err));
         });
     } catch (error) {
-        console.error(`Fehler beim Herunterladen von ${pokemonName}:`, error.message);
+        console.error(`Error downloading ${pokemonName}:`, error.message);
     }
 }
 
-// Hauptfunktion zum Durchlaufen aller Pokémon
 async function downloadAllImages() {
     const allPokemon = new Set();
 
-
-
-    // Pokémon-Namen sammeln
     let pokemonData = require(filePath);
-console.log(pokemonData);
+    console.log(pokemonData);
     pokemonData.features.forEach((feature) => {
-       // if(pokemonData.features.name === Janusberg) {
-            data = feature.properties.Pokémon;
-            for (const [pokemonName, pokemonAttributes] of Object.entries(data)) {
-                for (const attribute of pokemonAttributes) {
-                    allPokemon.add(attribute.name.split(" ")[0]);
-                }
-
+        data = feature.properties.Pokémon;
+        for (const [pokemonName, pokemonAttributes] of Object.entries(data)) {
+            for (const attribute of pokemonAttributes) {
+                allPokemon.add(attribute.name.split(" ")[0]);
             }
-       // }
+        }
     });
 
-    console.log(`Starte Download für ${allPokemon.size} Pokémon...`);
+    console.log(`Starting download for ${allPokemon.size} Pokémon...`);
 
-    // Parallel heruntergeladen werden
     const downloadPromises = Array.from(allPokemon).map(async (pokemonName) => {
-        console.log(`Scrape ${pokemonName}...`);
+        console.log(`Scraping ${pokemonName}...`);
         const imageUrl = await getPokemonImageUrl(pokemonName);
 
         if (imageUrl) {
-            console.log(`Lade herunter: ${imageUrl}`);
+            console.log(`Downloading: ${imageUrl}`);
             await downloadImage(pokemonName, imageUrl);
         }
     });
 
-    await Promise.all(downloadPromises); // Warte, bis alle Downloads abgeschlossen sind
-    console.log('Download abgeschlossen.');
+    await Promise.all(downloadPromises);
+    console.log('Download completed.');
 }
 
 downloadAllImages();
 
-// Angenommener Dateipfad zu deiner Pokémon-Datenbank
-//const databasePath = path.join(__dirname, '../Einall_Route_View/overworldRegions.js');
+// const databasePath = path.join(__dirname, '../Einall_Route_View/overworldRegions.js');
 
-// Beispielhafte Datei, die die Pokémon-Daten enthält
-let pokemonData = require(filePath); // Dies enthält die Pokémon-Daten
+let pokemonData = require(filePath);
 
+// Update database with image paths
 async function updateDatabase() {
-    // Durch alle Regionen in den Pokémon-Daten iterieren
     for (const feature of pokemonData.features) {
-        //if (feature.properties.name === "Janusberg") {
-            const locations = feature.properties.Pokémon;
+        const locations = feature.properties.Pokémon;
 
-            // Durch alle Pokémon-Einträge in jeder Region iterieren
-            for (const [pokemonName, pokemonAttributes] of Object.entries(locations)) {
-                for (const attribute of pokemonAttributes) {
-                    // Jedes Pokémon erhält ein neues `image`-Feld
-                    attribute.image = `/assets/pokemon_images/${encodeURIComponent(attribute.name.split(" ")[0])}.png`;
-                }
+        for (const [pokemonName, pokemonAttributes] of Object.entries(locations)) {
+            for (const attribute of pokemonAttributes) {
+                attribute.image = `/assets/pokemon_images/${encodeURIComponent(attribute.name.split(" ")[0])}.png`;
             }
-        //}
+        }
     }
-
-    // Die aktualisierten Daten zurück in die Datei schreiben
     fs.writeFileSync(filePath, `module.exports = ${JSON.stringify(pokemonData, null, 2)};`);
-    console.log('Datenbank erfolgreich aktualisiert!');
+    console.log('Database successfully updated!');
 }
 
-// Aufruf der Funktion
 updateDatabase();

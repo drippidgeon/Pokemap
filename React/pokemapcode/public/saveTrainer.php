@@ -21,26 +21,26 @@ $rawData = file_get_contents("php://input");
 
 if (!$rawData) {
     http_response_code(400);
-    echo json_encode(["error" => "❌ Kein JSON empfangen!"]);
+    echo json_encode(["error" => "Kein JSON empfangen!"]);
     exit();
 }
 
 // Debug: Zeige die empfangenen Daten im Server-Log
-error_log("📥 Empfangene Daten: " . $rawData);
+error_log("Empfangene Daten: " . $rawData);
 
 // JSON-Parsing versuchen
 $newTrainer = json_decode($rawData, true);
 
 if (json_last_error() !== JSON_ERROR_NONE) {
     http_response_code(400);
-    echo json_encode(["error" => "❌ Fehlerhafte JSON-Daten: " . json_last_error_msg()]);
+    echo json_encode(["error" => "Fehlerhafte JSON-Daten: " . json_last_error_msg()]);
     exit();
 }
 
 // Prüfen, ob die minimalen Felder vorhanden sind
 if (!isset($newTrainer["lat"]) || !isset($newTrainer["lng"]) || !isset($newTrainer["name"]) || !isset($newTrainer["pokemon"])) {
     http_response_code(400);
-    echo json_encode(["error" => "❌ Ungültige Trainer-Daten erhalten!"]);
+    echo json_encode(["error" => "Ungültige Trainer-Daten erhalten!"]);
     exit();
 }
 
@@ -70,10 +70,10 @@ if (!$trainerExists) {
         echo json_encode(["success" => "Trainer erfolgreich gespeichert!"]);
     } else {
         http_response_code(500);
-        echo json_encode(["error" => "❌ Fehler beim Speichern der Trainer-Datei!"]);
+        echo json_encode(["error" => "Fehler beim Speichern der Trainer-Datei!"]);
     }
 } else {
-    echo json_encode(["message" => "⚠️ Trainer bereits vorhanden, wird nicht erneut gespeichert."]);
+    echo json_encode(["message" => "Trainer bereits vorhanden, wird nicht erneut gespeichert."]);
 }
 
 ?>
