@@ -181,7 +181,6 @@ markerSet(-155.81, 669.88, "Ultraball", itemIcon, currentMap);
 markerSet(-164.38, 676.88, "Elixier", hiddenIcon, currentMap);
 
 markerSet(-166.56, 726.38, "TM(Draco Meteor)", tmIcon, currentMap);
-markerSet(-189.13, 208.75, "Beleber", hiddenIcon, currentMap);
 
  
 markerSet(-385.88, 842.19, "TM(Sandsturm)", tmIcon, currentMap);
