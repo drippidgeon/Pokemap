@@ -142,7 +142,7 @@ function loadMap(mapName, returnLoc = undefined) {
     var tileLayer = L.tileLayer('tilesets/' + selectedMap.shortname + '/{z}/{y}/{x}.png', {
         tms: false,
         reuseTiles: true,
-        attribution: 'Original by <a target="_blank" href="https://pkmnmap.com">Jaxson Keenes</a> | Gen 4 Update by <a target="_blank" href="https://github.com/ICEREG1992/pkmnmap4">William Sullivan</a><br>Maps from <a target="_blank" href="https://bulbapedia.bulbagarden.net/wiki/Category:Platinum_locations">Bulbapedia</a> | Item locations from <a target="_blank" href="https://youtube.com/playlist?list=PLDHidtsnukfIVS-VhbJRuxHVfKgmPduIE&si=agUfWjlSWxbYmLkX">Techno Trainer</a>',
+        attribution: '<a target="_blank" href="https://github.com/drippidgeon/Pokemap">Pokemap Team</a> | <br>Maps from <a target="_blank" href="https://bulbapedia.bulbagarden.net/wiki/Main_Page">Bulbapedia</a> | Item locations from <a target="_blank" href="https://www.pokewiki.de/Hauptseite">PokeWiki</a>',
         bounds: L.latLngBounds(L.latLng(selectedMap.bounds[0], 0), L.latLng(0, selectedMap.bounds[1])),
         tileSize: 256
     });
