@@ -45,7 +45,7 @@ var maps = {
             "shortname": "kraftwerk", 
             "zoom": 3, 
             "minZoom":3,
-            "maxZoom":5,
+            "maxZoom":4,
             "bounds": [-128, 128],
             "vector": kraftwerkRegions,
             "nowrap": true 
