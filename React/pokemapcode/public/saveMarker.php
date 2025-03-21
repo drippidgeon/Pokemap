@@ -24,11 +24,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Datei speichern (Achtung: Pfad muss stimmen!)
     $filePath = "./Einall_Route_View/overworldMarkers.js";
-    if (file_put_contents($filePath, $data)) {
+    if (file_put_contents($filePath, $data, FILE_APPEND)) {
         echo "Erfolgreich gespeichert!";
     } else {
         http_response_code(500);
         echo "Fehler beim Speichern der Datei!";
     }
 }
+
 ?>

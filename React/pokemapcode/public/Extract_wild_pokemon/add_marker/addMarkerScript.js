@@ -102,13 +102,18 @@ function addTrainerMarker(lat, lng, trainerName, pokemonList, iconType = "traine
 function saveMarkerToFile(lat, lng, description, iconType) {
     let newMarker = `markerSet(${lat.toFixed(2)}, ${lng.toFixed(2)}, "${description}", ${iconType}, currentMap);\n`;
 
-    fetch(savePath, { method: 'GET' })
-        .then(response => response.text())
-        .then(text => {
-            let updatedContent = text + newMarker;
-            saveToFile(updatedContent);
-        })
-        .catch(err => console.error("Error reading file:", err));
+    fetch("http://localhost:8000/saveMarker.php", {
+        method: 'POST',
+        headers: {
+            "Content-Type": "text/plain",
+        },
+        body: newMarker,
+    })
+    .then(response => response.text())
+    .then(data => {
+        console.log("Marker gespeichert:", data);
+    })
+    .catch(error => console.error("Fehler beim Speichern:", error));
 }
 
 // Function to handle writing the marker data

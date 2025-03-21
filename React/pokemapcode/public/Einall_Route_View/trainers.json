@@ -15,6 +15,150 @@
                 }
             ],
             "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-99.30",
+            "lng": "181.38",
+            "name": "Cheren",
+            "pokemon": [],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-54.06",
+            "lng": "82.30",
+            "name": "Turner",
+            "pokemon": [
+                {
+                    "name": "Rokkaiman",
+                    "level": 31
+                },
+                {
+                    "name": "Stalobor",
+                    "level": 33
+                },
+                {
+                    "name": "Sandamer",
+                    "level": 31
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-91.53",
+            "lng": "122.00",
+            "name": "Artie",
+            "pokemon": [
+                {
+                    "name": "Folikon",
+                    "level": 22
+                },
+                {
+                    "name": "Matrifol",
+                    "level": 24
+                },
+                {
+                    "name": "Litomith",
+                    "level": 22
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-57.78",
+            "lng": "121.59",
+            "name": "Kamilla",
+            "pokemon": [
+                {
+                    "name": "Emolga",
+                    "level": 28
+                },
+                {
+                    "name": "Waaty",
+                    "level": 28
+                },
+                {
+                    "name": "Zebritz",
+                    "level": 30
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-38.81",
+            "lng": "62.75",
+            "name": "G\u00e9raldine",
+            "pokemon": [
+                {
+                    "name": "Fletiamo",
+                    "level": 37
+                },
+                {
+                    "name": "Panzaeron",
+                    "level": 37
+                },
+                {
+                    "name": "Swaroness",
+                    "level": 39
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-22.70",
+            "lng": "119.63",
+            "name": "Lysander",
+            "pokemon": [
+                {
+                    "name": "Libelldra",
+                    "level": 46
+                },
+                {
+                    "name": "Shardrago",
+                    "level": 46
+                },
+                {
+                    "name": "Maxax",
+                    "level": 48
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-26.26",
+            "lng": "177.30",
+            "name": "Benson",
+            "pokemon": [
+                {
+                    "name": "Waillord",
+                    "level": 49
+                },
+                {
+                    "name": "Karippas",
+                    "level": 49
+                },
+                {
+                    "name": "Apoquallyp",
+                    "level": 51
+                }
+            ],
+            "iconType": "trainerIcon"
+        },
+        {
+            "lat": "-82.85",
+            "lng": "65.25",
+            "name": "Mica",
+            "pokemon": [
+                {
+                    "name": "Smogon",
+                    "level": 16
+                },
+                {
+                    "name": "Rollum",
+                    "level": 18
+                }
+            
+            ],
+            "iconType": "trainerIcon"
         }
     ]
 }

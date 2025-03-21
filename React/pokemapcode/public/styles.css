@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.home-container {
+    text-align: center;
+    position: relative;
+  }
+
+  .home-container img {
+    margin-top: 20px; /* Wert anpassen, um das Bild weiter nach unten zu verschieben */
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Buttons nebeneinander zentrieren */
+    gap: 20px; /* Abstand zwischen den Buttons */
+    position: absolute;
+    bottom: 15vh; /* Position weiter unten */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffcc00;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ffaa00;
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    pointer-events: none;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  body {
+    background-image: url('./hintergrund.jpg');
+    background-size: cover;  /* Skaliert das Bild, sodass es den ganzen Bildschirm ausfüllt */
+    background-position: center; /* Zentriert das Bild */
+    background-repeat: no-repeat; /* Verhindert Wiederholung des Bildes */
+    height: 100vh; /* Volle Höhe */
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    
+  }
+  .map-button, .info-button {
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    background-color: #fbcf21; /* Gelb selbe wie Pokémon */
+    color: black; 
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;  /* Damit der Link wie ein Button aussieht */
+  display: inline-block;
+  transition: all 0.3s ease;
+  }
+  
+  .map-button:hover, .info-button:hover {
+    background-color: #ffd700; /* Helleres Gelb beim Hover */
+  }
+
+  .info-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .info-container h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: #3563a9;
+    margin-bottom: 15px;
+  }
+  
+  .info-container p {
+    max-width: 700px;
+    margin: 50px auto;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px
+  }
+  
+  .region-image {
+    display: block;
+    margin: 20px auto; /* Zentriert das Bild */
+    max-width: 80%; /* Bildgröße auf 80% des Containers begrenzen */
+    height: auto; /* Seitenverhältnis beibehalten */
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  }
